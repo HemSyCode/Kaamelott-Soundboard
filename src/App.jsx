@@ -1,15 +1,11 @@
-import useSound from 'use-sound';
 import './App.scss';
 import React, {Component} from "react";
 import sounds from './sounds/sounds.json';
-import ReactTooltip from 'react-tooltip';
 import SoundButton from './components/SoundButton'
 import SoundboardFilter from './components/SoundboardFilter'
 import SoundboardFilterResetButton from './components/SoundboardFilterResetButton'
 import CharactersBox from './components/CharactersBox'
 import EpisodesBox from './components/EpisodesBox'
-
-
 
 class Soundboard extends Component {
     constructor(props) {
@@ -23,14 +19,12 @@ class Soundboard extends Component {
             soundsCurrentPage: 1,
             soundsPerPage: 100
         }
-
         this.handleFilterValueChange = this.handleFilterValueChange.bind(this);
         this.handleFilterValueReset = this.handleFilterValueReset.bind(this);
         this.handleCharacterClick = this.handleCharacterClick.bind(this);
         this.handleEpisodeClick = this.handleEpisodeClick.bind(this);
         this.handleClick = this.handleClick.bind(this);
     }
-
 
     handleClick(event) {
         console.log('CLICK HANDLED')
@@ -62,7 +56,7 @@ class Soundboard extends Component {
         var lookup = {};
         var items = this.state.data;
         var result = [];
-        for (var item, i = 0; item = items[i++];) {
+        for (var item, i = 0; !!(item = items[i++]);) {
             var character = item.character;
 
             if (!(character in lookup)) {
@@ -79,7 +73,7 @@ class Soundboard extends Component {
         var lookup = {};
         var items = this.state.data;
         var result = [];
-        for (var item, i = 0; item = items[i++];) {
+        for (var item, i = 0; !!(item = items[i++]);) {
             var episode = item.episode;
 
             if (!(episode in lookup)) {
@@ -103,7 +97,7 @@ class Soundboard extends Component {
             soundsCurrentPage: 1,
             filterValue: value,
         });
-        // Delay the loadind, because setState is Async.
+        // Delay the loading, because setState is Async.
         setTimeout(() => {  this.handleItemsLimit(); }, 500);
     }
 
@@ -112,7 +106,7 @@ class Soundboard extends Component {
             soundsCurrentPage: 1,
             filterValue: '',
         });
-        // Delay the loadind, because setState is Async.
+        // Delay the loading, because setState is Async.
         setTimeout(() => {  this.handleItemsLimit(); }, 500);
     }
 
@@ -123,7 +117,7 @@ class Soundboard extends Component {
                 soundsCurrentPage: 1,
                 filterValue: character,
             });
-            // Delay the loadind, because setState is Async.
+            // Delay the loading, because setState is Async.
             setTimeout(() => {  this.handleItemsLimit(); }, 500);
         }
     }
@@ -135,7 +129,7 @@ class Soundboard extends Component {
                 soundsCurrentPage: 1,
                 filterValue: episode,
             });
-            // Delay the loadind, because setState is Async.
+            // Delay the loading, because setState is Async.
             setTimeout(() => {  this.handleItemsLimit(); }, 500);
         }
     }
@@ -168,7 +162,6 @@ class Soundboard extends Component {
 
         this.loadData();
 
-        // SOURCE: https://stackoverflow.com/a/40234427/17875258
         // Logic for displaying sounds
         const indexOfLastSound = soundsCurrentPage * soundsPerPage;
         const indexOfFirstSound = indexOfLastSound - soundsPerPage;
@@ -204,9 +197,8 @@ class Soundboard extends Component {
 
         return (
             <div id={'wrapper'}>
-                {/*<a className="ribbon" href="https://github.com/HemSyCode/kaamelott-soundboard" title="GitHub">GitHub</a>*/}
                 <header className="site-header">
-                    <span className={'author-link'}><a href={'http://hemsy.fr/'}>Sylvain HÉMON - Hemsy.fr</a></span>
+                    <span className={'author-link'}><a href={'http://hemsy.fr/'}>Sylvain HÉMON - HemSy.fr</a></span>
                     <h1>Kaamelott Soundboard</h1>
                 </header>
                 <main id={'main'} className={'site-main'} role={'main'}>
@@ -215,30 +207,18 @@ class Soundboard extends Component {
 
                     <div id="random" className={'btn-container'}>
                         <div>
-                            {/*<button id="random" className="btn">Aléatoire</button>*/}
                             <SoundboardFilterResetButton {...this.state} onFilterValueChange={this.handleFilterValueReset} />
                         </div>
                     </div>
-
-                    {/*<hr/>*/}
-                    {/*    <pre>{JSON.stringify(this.state.characters, null, "    ")}</pre>*/}
-                    {/*<hr/>*/}
-
-                    {/*<hr/>*/}
-                    {/*    <a href={'http://www.hemsy.fr/?notVisited'}>Hemsy.fr</a>*/}
-                    {/*<hr/>*/}
-
 
                     <div className={'list'}>
                         {
                             <>
                                 <CharactersBox characters={this.state.characters} filterValue={this.state.filterValue} onCharacterClick={this.handleCharacterClick} />
-                                <hr/>
                                 <EpisodesBox episodes={this.state.episodes} filterValue={this.state.filterValue} onEpisodeClick={this.handleEpisodeClick} />
                             </>
                         }
                     </div>
-
 
                     <div className="paginator-container">
                         <div className="header">
@@ -255,16 +235,11 @@ class Soundboard extends Component {
                     </div>
                 </main>
 
-
-                <footer>
-
-                </footer>
+                <footer></footer>
 
             </div>
         )
     }
 }
-
-
 
 export default Soundboard;
