@@ -1,0 +1,7 @@
+{
+  "name": "Kaamelott Soundboard",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
