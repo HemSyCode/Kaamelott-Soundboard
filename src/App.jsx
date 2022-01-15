@@ -6,6 +6,7 @@ import SoundboardFilter from './components/SoundboardFilter'
 import SoundboardFilterResetButton from './components/SoundboardFilterResetButton'
 import CharactersBox from './components/CharactersBox'
 import EpisodesBox from './components/EpisodesBox'
+import AnchorLink from './components/AnchorLink'
 
 class Soundboard extends Component {
     constructor(props) {
@@ -23,11 +24,10 @@ class Soundboard extends Component {
         this.handleFilterValueReset = this.handleFilterValueReset.bind(this);
         this.handleCharacterClick = this.handleCharacterClick.bind(this);
         this.handleEpisodeClick = this.handleEpisodeClick.bind(this);
-        this.handleClick = this.handleClick.bind(this);
+        this.handlePageNumberClick = this.handlePageNumberClick.bind(this);
     }
 
-    handleClick(event) {
-        console.log('CLICK HANDLED')
+    handlePageNumberClick(event) {
         this.setState({
             soundsCurrentPage: Number(event.target.id)
         });
@@ -174,13 +174,13 @@ class Soundboard extends Component {
         }
         const renderPageNumbers = pageNumbers.map(number => {
             return (
-                <div className={'btn btn-paginator' + (number === soundsCurrentPage ? ' active' : '')}
+                <AnchorLink href="#sounds" offset={() => 200} className={'btn btn-paginator' + (number === soundsCurrentPage ? ' active' : '')}
                     key={number}
                     id={number}
-                    onClick={this.handleClick}
+                    onClick={this.handlePageNumberClick}
                 >
                     {number}
-                </div>
+                </AnchorLink>
             );
         });
 
@@ -220,19 +220,40 @@ class Soundboard extends Component {
                         }
                     </div>
 
-                    <div className="paginator-container">
-                        <div className="header">
-                            <h3>Page :</h3>
-                        </div>
-                        <div className="content">
-                            {renderPageNumbers}
-                        </div>
-                    </div>
+                    {
+                        (pageNumbers.length >= 2)
+                            ?
+                                <div id="pages-top" className="paginator-container">
+                                    <div className="header">
+                                        <h3>Page :</h3>
+                                    </div>
+                                    <div className="content">
+                                        {renderPageNumbers}
+                                    </div>
+                                </div>
+                            :
+                                ''
+                    }
 
-                    <div className={'list btn-container'}>
+                    <div id="sounds" className={'list btn-container'}>
                         {(this.state.filteredSounds.length !== 0) ? ((this.state.filteredSounds.length === 1) ? <h6>1 résultat</h6> : <h6>{this.state.filteredSounds.length} résultats</h6>) : ''}
                         <ul>{ renderSounds }</ul>
                     </div>
+
+                    {
+                        (pageNumbers.length >= 2)
+                            ?
+                                <div id="pages-bottom" className="paginator-container">
+                                    <div className="header">
+                                        <h3>Page :</h3>
+                                    </div>
+                                    <div className="content">
+                                        {renderPageNumbers}
+                                    </div>
+                                </div>
+                            :
+                                ''
+                    }
                 </main>
 
                 <footer></footer>
