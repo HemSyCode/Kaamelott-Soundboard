@@ -13,7 +13,7 @@ const SoundButton = (props) => {
 
     const masterPlay = () => { if( isPlaying === true ) { stop(); setIsPlaying(false) } else { playSound(); } }
     const labelIcon = () => {
-        return isPlaying ? '' : 'playing';
+        return isPlaying ? 'playing' : '';
     }
 
     return (
