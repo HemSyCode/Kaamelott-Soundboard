@@ -12,9 +12,9 @@ class SoundboardFilterResetButton extends React.Component {
 
     render() {
         return (
-            <div>
+            <>
                 <button id="reset" className="btn" disabled="" onClick={this.handleFilterValueReset} >Réinitialiser</button>
-            </div>
+            </>
         );
     }
 }

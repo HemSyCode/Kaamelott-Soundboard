@@ -1,9 +1,9 @@
 import useSound from 'use-sound';
-import React from "react";
+import React, { useEffect } from 'react'
 import ReactTooltip from 'react-tooltip';
 
-const SoundButton = (data) => {
-    data = data.data
+const SoundButton = (props) => {
+    let data = props.data
     const [isPlaying, setIsPlaying] = React.useState(false);
     const [playSound, { stop }] = useSound(require('./../sounds/'+data.file), {
         id: () => data.file,

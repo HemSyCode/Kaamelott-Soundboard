@@ -7,6 +7,7 @@ import SoundboardFilterResetButton from './components/SoundboardFilterResetButto
 import CharactersBox from './components/CharactersBox'
 import EpisodesBox from './components/EpisodesBox'
 import AnchorLink from './components/AnchorLink'
+import RandomButton from "./components/RandomButton";
 
 class Soundboard extends Component {
     constructor(props) {
@@ -25,6 +26,7 @@ class Soundboard extends Component {
         this.handleCharacterClick = this.handleCharacterClick.bind(this);
         this.handleEpisodeClick = this.handleEpisodeClick.bind(this);
         this.handlePageNumberClick = this.handlePageNumberClick.bind(this);
+        this.handleRandomButtonClick = this.handleRandomButtonClick.bind(this);
     }
 
     handlePageNumberClick(event) {
@@ -105,6 +107,16 @@ class Soundboard extends Component {
         this.setState({
             soundsCurrentPage: 1,
             filterValue: '',
+        });
+        // Delay the loading, because setState is Async.
+        setTimeout(() => {  this.handleItemsLimit(); }, 500);
+    }
+
+    handleRandomButtonClick() {
+        let value = this.state.data[Math.floor(Math.random() * this.state.data.length)].title;
+        this.setState({
+            soundsCurrentPage: 1,
+            filterValue: value
         });
         // Delay the loading, because setState is Async.
         setTimeout(() => {  this.handleItemsLimit(); }, 500);
@@ -208,6 +220,7 @@ class Soundboard extends Component {
                     <div id="random" className={'btn-container'}>
                         <div>
                             <SoundboardFilterResetButton {...this.state} onFilterValueChange={this.handleFilterValueReset} />
+                            <RandomButton onRandomButtonClick={this.handleRandomButtonClick}/>
                         </div>
                     </div>
 
