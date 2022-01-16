@@ -17,9 +17,26 @@ const Soundboard = (props) => {
     const [soundsCurrentPage, setSoundsCurrentPage] = useState(1);
     const [soundsPerPage, setSoundsPerPage] = useState(100);
     const [filterValue, setFilterValue] = useState('');
+    const [isHashFirstLoaded, setIsHashFirstLoaded] = useState(false);
+    const [isHashLoaded, setIsHashLoaded] = useState(false);
+    const [hashValue, setHashValue] = useState('');
+
+    function htmlDecode(input) {
+        return decodeURI((input+"").normalize("NFD").replace(/\p{Diacritic}/gu, ""));
+    }
 
     useEffect(() => {
-        loadData()
+        if(isHashFirstLoaded === false && isHashLoaded === false) {
+            setIsHashFirstLoaded(true);
+            setIsHashLoaded(true);
+            setHashValue( htmlDecode(window.location.hash) );
+            setFilterValue( htmlDecode(window.location.hash.replace('#sound-', '')) );
+        }
+        loadData();
+        if( isHashLoaded === true && hashValue !== '') {
+            setIsHashLoaded(false);
+            setTimeout(() => {  handleItemsLimit( htmlDecode(window.location.hash.replace('#sound-', '')) ); }, 500);
+        }
     });
 
     const handlePageNumberClick = (e) => {
@@ -29,8 +46,13 @@ const Soundboard = (props) => {
     const loadData = () => {
         // Load JSON file.
         if ( data.length === 0 ) {
-            setData(sounds) //.slice(0).sort((a,b) => Object.values(a)[1] < Object.values(b)[1]),
-            setFilteredSounds(sounds) //.slice(0).sort((a,b) => Object.values(a)[1] < Object.values(b)[1]),
+            let newSounds = []
+            sounds.forEach( (singleDataObject, index ) => {
+                singleDataObject['index'] = ((index+1)+"").padStart(5, '0')
+                newSounds.push(singleDataObject)
+            })
+            setData(newSounds) //.slice(0).sort((a,b) => Object.values(a)[1] < Object.values(b)[1]),
+            setFilteredSounds(newSounds) //.slice(0).sort((a,b) => Object.values(a)[1] < Object.values(b)[1]),
         }
 
         // Load Characters.
@@ -84,6 +106,7 @@ const Soundboard = (props) => {
     const handleFilterValueReset = () => {
         setSoundsCurrentPage(1)
         setFilterValue('')
+        window.location.hash = ''
         handleItemsLimit('')
     }
 
@@ -100,6 +123,7 @@ const Soundboard = (props) => {
             setSoundsCurrentPage(1)
             setFilterValue(character)
             handleItemsLimit(character);
+            window.location.hash = htmlDecode('#sound-'+character)
         }
     }
 
@@ -109,12 +133,12 @@ const Soundboard = (props) => {
             setSoundsCurrentPage(1)
             setFilterValue(episode)
             handleItemsLimit(episode);
+            window.location.hash = htmlDecode('#sound-'+episode)
         }
     }
 
     const handleItemsLimit = (filterGivenValue) => {
         let prepareFilter = data
-        console.log('prepareFilter')
         let filteredSounds = []
 
         if( data.length === 0 )
@@ -122,6 +146,8 @@ const Soundboard = (props) => {
             filteredSounds = data;
         } else {
             prepareFilter.forEach( (singleDataObject, index ) => {
+                // Check 'index'
+                if (((singleDataObject.index)+"").includes(filterGivenValue)) { filteredSounds.push(singleDataObject); return; }
                 // Check 'character'
                 if ((Object.values(singleDataObject)[0]).toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(filterGivenValue.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, ""))) { filteredSounds.push(singleDataObject); return; }
                 // Check 'episode'
@@ -160,7 +186,7 @@ const Soundboard = (props) => {
         :
         currentSounds.map((item, i) => {
             return (
-                <li key={i} id={item.file}>
+                <li key={i} id={item.index}>
                     <SoundButton data={item} />
                 </li>
             )
