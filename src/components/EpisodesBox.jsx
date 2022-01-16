@@ -34,7 +34,7 @@ class EpisodesBox extends React.Component {
                                 :
                                 this.props.episodes.map((item, i) => {
                                     return (
-                                        <div key={i} className={'btn btn-episode' + (item === this.props.filterValue ? ' active' : '')} onClick={(e) => this.handleEpisodeClick(e, item)}>{item}</div>
+                                        <div key={i} className={'btn btn-episode' + (item === this.props.filterValue ? ' active' : '')} onClick={(e) => this.handleEpisodeClick(e, item[0]+", "+item[1]+" - "+item[2])}>{item[0]}, {item[1]} - {item[2]}</div>
                                     )
                                 })
                         }

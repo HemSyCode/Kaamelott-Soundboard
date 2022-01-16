@@ -70,12 +70,13 @@ const Soundboard = (props) => {
         var items = data;
         var result = [];
         for (var item, i = 0; !!(item = items[i++]);) {
-            var character = item.character;
-
-            if (!(character in lookup)) {
-                lookup[character] = 1;
-                result.push(character);
-            }
+            var characters = item.character;
+            characters.forEach( character => {
+                if (!(character in lookup)) {
+                    lookup[character] = 1;
+                    result.push(character);
+                }
+            })
         }
         setCharacters(result.sort())
     }
@@ -85,11 +86,11 @@ const Soundboard = (props) => {
         var items = data;
         var result = [];
         for (var item, i = 0; !!(item = items[i++]);) {
-            var episode = item.episode;
+            var episode = item.episodeName;
 
             if (!(episode in lookup)) {
                 lookup[episode] = 1;
-                result.push(episode);
+                result.push([item.season, item.episode, item.episodeName]);
             }
         }
         setEpisodes(result.sort())
@@ -149,11 +150,15 @@ const Soundboard = (props) => {
                 // Check 'index'
                 if (((singleDataObject.index)+"").includes(filterGivenValue)) { filteredSounds.push(singleDataObject); return; }
                 // Check 'character'
-                if ((Object.values(singleDataObject)[0]).toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(filterGivenValue.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, ""))) { filteredSounds.push(singleDataObject); return; }
+                (Object.values(singleDataObject)[0]).forEach( character => {
+                    if (character.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(filterGivenValue.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, ""))) { filteredSounds.push(singleDataObject); return; }
+                })
                 // Check 'episode'
-                if ((Object.values(singleDataObject)[1]).toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(filterGivenValue.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, ""))) { filteredSounds.push(singleDataObject); return; }
+                // string 'season' + 'episode'
+                let seasonEpisode = singleDataObject.season+", "+singleDataObject.episode+" - "+singleDataObject.episodeName
+                if ((seasonEpisode).toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(filterGivenValue.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, ""))) { filteredSounds.push(singleDataObject); return; }
                 // Check 'title'
-                if ((Object.values(singleDataObject)[3]).toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(filterGivenValue.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, ""))) { filteredSounds.push(singleDataObject); return; }
+                if ((Object.values(singleDataObject)[5]).toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(filterGivenValue.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, ""))) { filteredSounds.push(singleDataObject); return; }
             })
         }
         setFilteredSounds(filteredSounds)

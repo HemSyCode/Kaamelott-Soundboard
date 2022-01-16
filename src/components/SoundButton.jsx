@@ -14,17 +14,25 @@ const SoundButton = (props) => {
     const masterPlay = () => { if( isPlaying === true ) { stop(); setIsPlaying(false) } else { playSound(); window.location.hash = '#sound-'+(data.index+"").padStart(5, '0');} }
     const labelIcon = () => { return isPlaying ? 'playing' : ''; }
 
+    const characters = () => {
+        let charactersString = '';
+        data.character.forEach( elem => {
+            charactersString = charactersString+' — '+elem
+        })
+        return charactersString.slice(3)
+    }
+
     return (
         <div>
-            <a className={'btn btn-play '+ labelIcon()} role={'button'} onClick={() => masterPlay()} data-tip='' data-for={data.file}>
-                <small>{data.character}</small>
+            <a className={'btn btn-play '+ labelIcon()} role={'button'} onClick={() => masterPlay()} data-tip='' data-for={data.index}>
+                <small>{characters()}</small>
                 <br/>
                 <span className={'strong'}>{data.title.slice(0, 110)}</span>
             </a>
-            <ReactTooltip id={data.file} place="top" type="dark" effect="float" className={'react-tooltip-inner'}>
+            <ReactTooltip id={data.index} place="top" type="dark" effect="float" className={'react-tooltip-inner'}>
                 <div >
-                    {data.character}<br/>
-                    {data.episode}<br/>
+                    {characters()}<br/>
+                    {data.season}, {data.episode} — {data.episodeName}<br/>
                     {data.title}
                 </div>
             </ReactTooltip>
