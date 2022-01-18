@@ -22,6 +22,16 @@ const SoundButton = (props) => {
         return charactersString.slice(3)
     }
 
+    // SOURCE: https://stackoverflow.com/a/7467865/17875258
+    function nl2br (str, is_xhtml) {
+        var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br ' + '/>' : '<br>';
+        return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2');
+    }
+
+    function createMarkup(str) {
+        return {__html: nl2br(str, true)};
+    }
+
     return (
         <div>
             <a className={'btn btn-play '+ labelIcon()} role={'button'} onClick={() => masterPlay()} data-tip='' data-for={data.index}>
@@ -29,11 +39,12 @@ const SoundButton = (props) => {
                 <br/>
                 <span className={'strong'}>{data.title.slice(0, 110)}</span>
             </a>
-            <ReactTooltip id={data.index} place="top" type="dark" effect="float" className={'react-tooltip-inner'}>
-                <div >
-                    {characters()}<br/>
-                    {data.season}, {data.episode} — {data.episodeName}<br/>
-                    {data.title}
+            <ReactTooltip id={data.index} place="top" type="dark" effect="float" className={'react-tooltip-inner'} data-html={true}>
+                <div>
+                    <span style={{"font-weight": "bold"}}>{characters()}</span><br/>
+                    <span style={{"font-style": "italic"}}>{data.season}, {data.episode} — {data.episodeName}</span><br/>
+                    <br/>
+                    <div dangerouslySetInnerHTML={createMarkup(data.title)} />
                 </div>
             </ReactTooltip>
         </div>
