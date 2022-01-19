@@ -41,8 +41,8 @@ const SoundButton = (props) => {
             </a>
             <ReactTooltip id={data.index} place="top" type="dark" effect="float" className={'react-tooltip-inner'} data-html={true}>
                 <div>
-                    <span style={{"font-weight": "bold"}}>{characters()}</span><br/>
-                    <span style={{"font-style": "italic"}}>{data.season}, {data.episode} — {data.episodeName}</span><br/>
+                    <span style={{"fontWeight": "bold"}}>{characters()}</span><br/>
+                    <span style={{"fontStyle": "italic"}}>{data.season}, {data.episode} — {data.episodeName}</span><br/>
                     <br/>
                     <div dangerouslySetInnerHTML={createMarkup(data.title)} />
                 </div>

@@ -7,6 +7,23 @@ $base-bg-color: #3F3552;
 $border-dark: rgba($base-bg-color, 0.88);
 
 /**
+* INCLUDES
+* -----------------------------------------------------------------------------
+*/
+// flag-icon-css
+@import '~flag-icon-css/sass/flag-icons';
+
+// Bootstrap parts
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/dropdown";
+
+
+/**
 * GLOBAL
 * -----------------------------------------------------------------------------
 */
@@ -142,19 +159,50 @@ a {
 * -----------------------------------------------------------------------------
 */
 .site-header {
-  * {
-    text-align: center;
-    margin: 0.5em;
-  }
-  h1 {
-    font-size: 3em;
-  }
+  padding: 24px 0;
+}
+
+.header-container {
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-right: 20px;
   .author-link {
     text-align: left;
     font-size: 0.75em;
     text-decoration: none;
   }
+  .title {
+    font-size: 2.75em;
+    display: flex;
+    justify-content: center;
+  }
+  .home-page-local-lang {
+    //background-color: #FFFFFF;
+    z-index: 99;
+    background: transparentize(#FFFFFF, 0.75);
+    box-sizing: inherit;
+    width: fit-content;
+    float: right;
+    cursor: pointer;
+
+    a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.8em;
+    }
+    .dropdown-item {
+      &.active,
+      &:active {
+        background-color: #0F8AFD;
+      }
+      &.hover,
+      &:hover {
+        background-color: lighten(#0F8AFD, 15%);
+      }
+    }
+  }
 }
+
 
 /**
 * FOOTER
@@ -590,6 +638,19 @@ noscript p {
 }
 #error404 .video-wrapper {
   margin-bottom: 20px;
+}
+
+.locale-btn-container {
+  .btn {
+    background-color: #1c4842;
+    border-bottom-color: #1c4842;
+    margin: 15px;
+    &:hover,
+    &:focus {
+      background-color: lighten(#1c4842, 5%);
+      border-bottom-color: lighten(#1c4842, 5%);
+    }
+  }
 }
 
 

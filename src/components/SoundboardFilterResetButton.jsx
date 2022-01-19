@@ -1,4 +1,5 @@
 import React from "react";
+import {Trans} from "react-i18next";
 
 class SoundboardFilterResetButton extends React.Component {
     constructor(props) {
@@ -13,7 +14,7 @@ class SoundboardFilterResetButton extends React.Component {
     render() {
         return (
             <>
-                <button id="reset" className="btn" disabled="" onClick={this.handleFilterValueReset} >Réinitialiser</button>
+                <button id="reset" className="btn" disabled="" onClick={this.handleFilterValueReset} ><Trans>app_reset</Trans></button>
             </>
         );
     }

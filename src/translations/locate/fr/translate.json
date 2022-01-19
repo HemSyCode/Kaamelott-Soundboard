@@ -1,0 +1,13 @@
+{
+  "translations": {
+    "app_msg_yes": "Oui",
+    "app_msg_no": "Non",
+    "app_reset": "Réinitialiser",
+    "app_random": "Aléatoire",
+    "app_personnages": "Personnages :",
+    "app_episodes": "Épisodes :",
+    "app_page": "Page :",
+    "app_result": "résultats",
+    "app_results": "résultats"
+  }
+}

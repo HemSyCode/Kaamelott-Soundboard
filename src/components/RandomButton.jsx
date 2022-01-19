@@ -1,4 +1,5 @@
 import React from "react";
+import {Trans} from "react-i18next";
 
 class RandomButton extends React.Component {
     constructor(props) {
@@ -13,7 +14,7 @@ class RandomButton extends React.Component {
     render() {
         return (
             <>
-                <button id="random-btn" className="btn" onClick={this.handleRandomButtonClick}>Aléatoire</button>
+                <button id="random-btn" className="btn" onClick={this.handleRandomButtonClick}><Trans>app_random</Trans></button>
             </>
         );
     }

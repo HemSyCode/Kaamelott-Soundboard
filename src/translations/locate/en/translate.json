@@ -1,0 +1,13 @@
+{
+  "translations": {
+    "app_msg_yes": "Yes",
+    "app_msg_no": "No",
+    "app_reset": "Reset",
+    "app_random": "Random",
+    "app_personnages": "Personnages:",
+    "app_episodes": "Episode:",
+    "app_page": "Page:",
+    "app_result": "result",
+    "app_results": "results"
+  }
+}

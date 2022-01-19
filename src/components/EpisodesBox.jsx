@@ -1,4 +1,5 @@
 import React from "react";
+import {Trans} from "react-i18next";
 
 class EpisodesBox extends React.Component {
     constructor(props) {
@@ -25,7 +26,7 @@ class EpisodesBox extends React.Component {
             <div>
                 <div className={'episodes-container'}>
                     <div className="header" onClick={() => this.handleEpisodeContainerClick()}>
-                        <h3>Episodes :</h3>
+                        <h3><Trans>app_episodes</Trans></h3>
                     </div>
                     <div className={'content' + (this.state.isVisible ? ' visible' : ' hidden')}>
                         {

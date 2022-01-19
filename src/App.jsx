@@ -1,6 +1,7 @@
 import './App.scss';
 import React, {useState, useEffect} from "react";
 import sounds from './sounds/sounds.json';
+import { Trans } from 'react-i18next';
 import SoundButton from './components/SoundButton'
 import SoundboardFilter from './components/SoundboardFilter'
 import SoundboardFilterResetButton from './components/SoundboardFilterResetButton'
@@ -8,6 +9,7 @@ import CharactersBox from './components/CharactersBox'
 import EpisodesBox from './components/EpisodesBox'
 import AnchorLink from './components/AnchorLink'
 import RandomButton from "./components/RandomButton";
+import LocaleSelectorButton from "./components/LocaleSelectorButton";
 
 const Soundboard = (props) => {
     const [data, setData] = useState([]);
@@ -20,12 +22,23 @@ const Soundboard = (props) => {
     const [isHashFirstLoaded, setIsHashFirstLoaded] = useState(false);
     const [isHashLoaded, setIsHashLoaded] = useState(false);
     const [hashValue, setHashValue] = useState('');
+    const [empty, setEmpty] = useState(Math.floor(5.7));
 
     function htmlDecode(input) {
         return decodeURI((input+"").normalize("NFD").replace(/\p{Diacritic}/gu, ""));
     }
 
+    const rerender = () => {
+        // Force a render with a simulated state change
+        let value = Math.random()
+        console.log('rerender, value: '+value)
+        setEmpty(value);
+    }
+
     useEffect(() => {
+        // // CHANGE LANGUAGE BASED ON HTML LANG TAG.
+        // i18n.changeLanguage(document.documentElement.getAttribute('lang'));
+
         if(isHashFirstLoaded === false && isHashLoaded === false) {
             setIsHashFirstLoaded(true);
             setIsHashLoaded(true);
@@ -200,8 +213,23 @@ const Soundboard = (props) => {
     return (
         <div id={'wrapper'}>
             <header className="site-header">
-                <span className={'author-link'}><a href={'http://hemsy.fr/'}>Sylvain HÉMON - HemSy.fr</a></span>
-                <h1>Kaamelott Soundboard</h1>
+                <div className={"header-container"}>
+                    <div className="row">
+                        <div className="col-12 col-md-4">
+                            <span className={'author-link'}><a href={'http://hemsy.fr/'}>Sylvain HÉMON - HemSy.fr</a></span>
+                        </div>
+                        <div className="col-12 col-md-4">
+                            <span className={"title"}>Kaamelott Soundboard</span>
+                        </div>
+                        <div className="col-12 col-md-4">
+                            <div className="home-page-local-lang">
+                                <LocaleSelectorButton locale={'fr'} localeIcon={'fr'} localeName={'Français'} onLocaleSelectorButtonClick={() => {rerender()}}/>
+                                <LocaleSelectorButton locale={'en'} localeIcon={'gb'} localeName={'English'} onLocaleSelectorButtonClick={() => {rerender()}}/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </header>
             <main id={'main'} className={'site-main'} role={'main'}>
 
@@ -210,7 +238,7 @@ const Soundboard = (props) => {
                 <div id="random" className={'btn-container'}>
                     <div>
                         <SoundboardFilterResetButton onFilterValueChange={handleFilterValueReset} />
-                        <RandomButton onRandomButtonClick={handleRandomButtonClick}/>
+                        <RandomButton onRandomButtonClick={handleRandomButtonClick} />
                     </div>
                 </div>
 
@@ -228,7 +256,7 @@ const Soundboard = (props) => {
                         ?
                             <div id="pages-top" className="paginator-container">
                                 <div className="header">
-                                    <h3>Page :</h3>
+                                    <h3><Trans>app_page</Trans></h3>
                                 </div>
                                 <div className="content">
                                     {renderPageNumbers}
@@ -239,7 +267,7 @@ const Soundboard = (props) => {
                 }
 
                 <div id="sounds" className={'list btn-container'}>
-                    {(filteredSounds.length !== 0) ? ((filteredSounds.length === 1) ? <h6>1 résultat</h6> : <h6>{filteredSounds.length} résultats</h6>) : ''}
+                    {(filteredSounds.length !== 0) ? ((filteredSounds.length === 1) ? <h6>1 <Trans>app_result</Trans></h6> : <h6>{filteredSounds.length} <Trans>app_results</Trans></h6>) : ''}
                     <ul>{ renderSounds }</ul>
                 </div>
 
@@ -248,7 +276,7 @@ const Soundboard = (props) => {
                         ?
                             <div id="pages-bottom" className="paginator-container">
                                 <div className="header">
-                                    <h3>Page :</h3>
+                                    <h3><Trans>app_page</Trans></h3>
                                 </div>
                                 <div className="content">
                                     {renderPageNumbers}

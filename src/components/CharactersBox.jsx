@@ -1,4 +1,5 @@
 import React from "react";
+import {Trans} from "react-i18next";
 
 class CharactersBox extends React.Component {
     constructor(props) {
@@ -25,7 +26,7 @@ class CharactersBox extends React.Component {
             <div>
                 <div className={'characters-container'}>
                     <div className="header" onClick={() => this.handleCharacterContainerClick()}>
-                        <h3>Personnages :</h3>
+                        <h3><Trans>app_personnages</Trans></h3>
                     </div>
                     <div className={'content' + (this.state.isVisible ? ' visible' : ' hidden')}>
                         {
