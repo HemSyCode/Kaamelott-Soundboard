@@ -11,7 +11,7 @@ const SoundButton = (props) => {
         onend: () => setIsPlaying(false),
     });
 
-    const masterPlay = () => { if( isPlaying === true ) { stop(); setIsPlaying(false) } else { playSound(); window.location.hash = '#sound-'+(data.index+"").padStart(5, '0');} }
+    const masterPlay = () => { if( isPlaying === true ) { stop(); setIsPlaying(false) } else { playSound() } }
     const labelIcon = () => { return isPlaying ? 'playing' : ''; }
 
     const characters = () => {

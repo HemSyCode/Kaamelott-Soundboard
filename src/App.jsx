@@ -109,6 +109,7 @@ const Soundboard = (props) => {
         let value = e.target.value;
         setSoundsCurrentPage(1)
         setFilterValue(value)
+        window.location.replace(htmlDecode('#sound-'+value))
         handleFilterChange(value);
     }
 
