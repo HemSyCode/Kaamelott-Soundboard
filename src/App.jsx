@@ -22,23 +22,18 @@ const Soundboard = (props) => {
     const [isHashFirstLoaded, setIsHashFirstLoaded] = useState(false);
     const [isHashLoaded, setIsHashLoaded] = useState(false);
     const [hashValue, setHashValue] = useState('');
-    const [empty, setEmpty] = useState(Math.floor(5.7));
+    const [empty, setEmpty] = useState(Math.random());
 
     function htmlDecode(input) {
         return decodeURI((input+"").normalize("NFD").replace(/\p{Diacritic}/gu, ""));
     }
 
+    // Force a render with a simulated state change
     const rerender = () => {
-        // Force a render with a simulated state change
-        let value = Math.random()
-        console.log('rerender, value: '+value)
-        setEmpty(value);
+        setEmpty(Math.random());
     }
 
     useEffect(() => {
-        // // CHANGE LANGUAGE BASED ON HTML LANG TAG.
-        // i18n.changeLanguage(document.documentElement.getAttribute('lang'));
-
         if(isHashFirstLoaded === false && isHashLoaded === false) {
             setIsHashFirstLoaded(true);
             setIsHashLoaded(true);
@@ -48,7 +43,7 @@ const Soundboard = (props) => {
         loadData();
         if( isHashLoaded === true && hashValue !== '') {
             setIsHashLoaded(false);
-            setTimeout(() => {  handleItemsLimit( htmlDecode(window.location.hash.replace('#sound-', '')) ); }, 500);
+            setTimeout(() => {  handleFilterChange( htmlDecode(window.location.hash.replace('#sound-', '')) ); }, 500);
         }
     });
 
@@ -114,21 +109,21 @@ const Soundboard = (props) => {
         let value = e.target.value;
         setSoundsCurrentPage(1)
         setFilterValue(value)
-        handleItemsLimit(value);
+        handleFilterChange(value);
     }
 
     const handleFilterValueReset = () => {
         setSoundsCurrentPage(1)
         setFilterValue('')
         window.location.hash = ''
-        handleItemsLimit('')
+        handleFilterChange('')
     }
 
     const handleRandomButtonClick = () => {
         let value = data[Math.floor(Math.random() * data.length)].title;
         setSoundsCurrentPage(1)
         setFilterValue(value)
-        handleItemsLimit(value);
+        handleFilterChange(value);
     }
 
     const handleCharacterClick = (e, character) => {
@@ -136,7 +131,7 @@ const Soundboard = (props) => {
         if (character !== filterValue) {
             setSoundsCurrentPage(1)
             setFilterValue(character)
-            handleItemsLimit(character);
+            handleFilterChange(character);
             window.location.hash = htmlDecode('#sound-'+character)
         }
     }
@@ -146,12 +141,12 @@ const Soundboard = (props) => {
         if (episode !== filterValue) {
             setSoundsCurrentPage(1)
             setFilterValue(episode)
-            handleItemsLimit(episode);
+            handleFilterChange(episode);
             window.location.hash = htmlDecode('#sound-'+episode)
         }
     }
 
-    const handleItemsLimit = (filterGivenValue) => {
+    const handleFilterChange = (filterGivenValue) => {
         let prepareFilter = data
         let filteredSounds = []
 
@@ -160,29 +155,31 @@ const Soundboard = (props) => {
             filteredSounds = data;
         } else {
             prepareFilter.forEach( (singleDataObject, index ) => {
-                // Check 'index'
+                // Check 'index'.
                 if (((singleDataObject.index)+"").includes(filterGivenValue)) { filteredSounds.push(singleDataObject); return; }
-                // Check 'character'
+                // Check 'character'.
                 (Object.values(singleDataObject)[0]).forEach( character => {
                     if (character.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(filterGivenValue.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, ""))) { filteredSounds.push(singleDataObject); return; }
                 })
-                // Check 'episode'
-                // string 'season' + 'episode'
+                // Check 'episode'.
+                // string 'season' + 'episode'.
                 let seasonEpisode = singleDataObject.season+", "+singleDataObject.episode+" - "+singleDataObject.episodeName
                 if ((seasonEpisode).toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(filterGivenValue.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, ""))) { filteredSounds.push(singleDataObject); return; }
-                // Check 'title'
+                // Check 'title'.
                 if ((Object.values(singleDataObject)[5]).toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(filterGivenValue.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, ""))) { filteredSounds.push(singleDataObject); return; }
             })
         }
-        setFilteredSounds(filteredSounds)
+        // Remove duplicates values.
+        const newFilteredSounds = [...new Set(filteredSounds)]
+        setFilteredSounds(newFilteredSounds)
     }
 
-    // Logic for displaying sounds
+    // Logic for displaying sounds.
     const indexOfLastSound = soundsCurrentPage * soundsPerPage;
     const indexOfFirstSound = indexOfLastSound - soundsPerPage;
     const currentSounds = filteredSounds.slice(indexOfFirstSound, indexOfLastSound);
 
-    // Logic for displaying page numbers
+    // Logic for displaying page numbers.
     const pageNumbers = [];
     for (let i = 1; i <= Math.ceil(filteredSounds.length / soundsPerPage); i++) {
         pageNumbers.push(i);
@@ -199,16 +196,18 @@ const Soundboard = (props) => {
         );
     });
 
-    const renderSounds = (currentSounds.length === 0) ?
-        <h3>Aucuns éléments.</h3>
+    // Logic for displaying sounds.
+    const renderSounds = (currentSounds.length === 0)
+        ?
+            <h3>Aucuns éléments.</h3>
         :
-        currentSounds.map((item, i) => {
-            return (
-                <li key={i} id={item.index}>
-                    <SoundButton data={item} />
-                </li>
-            )
-        })
+            currentSounds.map((item, i) => {
+                return (
+                    <li key={i} id={item.index}>
+                        <SoundButton data={item} />
+                    </li>
+                )
+            })
 
     return (
         <div id={'wrapper'}>
@@ -229,19 +228,16 @@ const Soundboard = (props) => {
                         </div>
                     </div>
                 </div>
-
             </header>
+
             <main id={'main'} className={'site-main'} role={'main'}>
-
                 <SoundboardFilter filterValue={filterValue} onFilterValueChange={handleFilterValueChange} />
-
                 <div id="random" className={'btn-container'}>
                     <div>
                         <SoundboardFilterResetButton onFilterValueChange={handleFilterValueReset} />
                         <RandomButton onRandomButtonClick={handleRandomButtonClick} />
                     </div>
                 </div>
-
                 <div className={'list'}>
                     {
                         <>
@@ -250,7 +246,6 @@ const Soundboard = (props) => {
                         </>
                     }
                 </div>
-
                 {
                     (pageNumbers.length >= 2)
                         ?
@@ -265,12 +260,10 @@ const Soundboard = (props) => {
                         :
                             ''
                 }
-
                 <div id="sounds" className={'list btn-container'}>
                     {(filteredSounds.length !== 0) ? ((filteredSounds.length === 1) ? <h6>1 <Trans>app_result</Trans></h6> : <h6>{filteredSounds.length} <Trans>app_results</Trans></h6>) : ''}
                     <ul>{ renderSounds }</ul>
                 </div>
-
                 {
                     (pageNumbers.length >= 2)
                         ?

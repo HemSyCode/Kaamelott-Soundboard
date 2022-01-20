@@ -1,13 +1,16 @@
 import React, {Component} from 'react'
 
 class AnchorLink extends Component {
+
     constructor(props) {
         super(props)
         this.smoothScroll = this.smoothScroll.bind(this)
     }
+
     componentDidMount() {
         require('smoothscroll-polyfill').polyfill()
     }
+
     smoothScroll(e) {
         e.preventDefault()
         let offset = () => 0
@@ -27,6 +30,7 @@ class AnchorLink extends Component {
         })
         if (this.props.onClick) {this.props.onClick(e)}
     }
+
     render() {
         const { offset, ...rest } = this.props;
         return (
