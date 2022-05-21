@@ -16,6 +16,7 @@ const Soundboard = (props) => {
     const [filteredSounds, setFilteredSounds] = useState([]);
     const [characters, setCharacters] = useState([]);
     const [episodes, setEpisodes] = useState([]);
+    const [soundsPlayer, setSoundsPlayer] = useState([]);
     const [soundsCurrentPage, setSoundsCurrentPage] = useState(1);
     const [soundsPerPage, setSoundsPerPage] = useState(100);
     const [filterValue, setFilterValue] = useState('');
@@ -38,7 +39,7 @@ const Soundboard = (props) => {
             setIsHashFirstLoaded(true);
             setIsHashLoaded(true);
             setHashValue( htmlDecode(window.location.hash) );
-            setFilterValue( htmlDecode(window.location.hash.replace('#sound-', '')) );
+            setFilterValue( htmlDecode(window.location.hash.replace('#sound-', '')) )
         }
         loadData();
         if( isHashLoaded === true && hashValue !== '') {
@@ -150,6 +151,9 @@ const Soundboard = (props) => {
     const handleFilterChange = (filterGivenValue) => {
         let prepareFilter = data
         let filteredSounds = []
+
+        // TODO: TEST
+        filterGivenValue = filterGivenValue.trim()
 
         if( data.length === 0 )
         {

@@ -1,17 +1,19 @@
-import useSound from 'use-sound';
-import React, { useEffect } from 'react'
+import React, {useEffect, useRef, useState} from 'react'
 import ReactTooltip from 'react-tooltip';
 
 const SoundButton = (props) => {
     let data = props.data
     const [isPlaying, setIsPlaying] = React.useState(false);
-    const [playSound, { stop }] = useSound(require('./../sounds/'+data.file), {
-        id: () => data.file,
-        onplay: () => setIsPlaying(true),
-        onend: () => setIsPlaying(false),
+    let audio;
+    audio = new Audio(require('./../sounds/'+data.file))
+    useEffect(() => {
+        audio.addEventListener('ended', () => setIsPlaying(false));
+        return () => {
+            audio.removeEventListener('ended', () => setIsPlaying(false));
+        };
     });
 
-    const masterPlay = () => { if( isPlaying === true ) { stop(); setIsPlaying(false) } else { playSound() } }
+    const masterPlay = () => { if( isPlaying === true ) { audio.pause(); audio.currentTime = 0; setIsPlaying(false) } else { audio.play(); setIsPlaying(true) } }
     const labelIcon = () => { return isPlaying ? 'playing' : ''; }
 
     const characters = () => {
