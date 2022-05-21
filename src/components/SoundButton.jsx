@@ -1,23 +1,23 @@
-import React, {useEffect, useRef, useState} from 'react'
-import ReactTooltip from 'react-tooltip';
+import React, {useEffect} from 'react'
+import ReactTooltip from 'react-tooltip'
 
 const SoundButton = (props) => {
     let data = props.data
-    const [isPlaying, setIsPlaying] = React.useState(false);
-    let audio;
+    const [isPlaying, setIsPlaying] = React.useState(false)
+    let audio
     audio = new Audio(require('./../sounds/'+data.file))
     useEffect(() => {
-        audio.addEventListener('ended', () => setIsPlaying(false));
+        audio.addEventListener('ended', () => setIsPlaying(false))
         return () => {
-            audio.removeEventListener('ended', () => setIsPlaying(false));
-        };
-    });
+            audio.removeEventListener('ended', () => setIsPlaying(false))
+        }
+    })
 
     const masterPlay = () => { if( isPlaying === true ) { audio.pause(); audio.currentTime = 0; setIsPlaying(false) } else { audio.play(); setIsPlaying(true) } }
-    const labelIcon = () => { return isPlaying ? 'playing' : ''; }
+    const labelIcon = () => { return isPlaying ? 'playing' : '' }
 
     const characters = () => {
-        let charactersString = '';
+        let charactersString = ''
         data.character.forEach( elem => {
             charactersString = charactersString+' — '+elem
         })
@@ -26,12 +26,12 @@ const SoundButton = (props) => {
 
     // SOURCE: https://stackoverflow.com/a/7467865/17875258
     function nl2br (str, is_xhtml) {
-        var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br ' + '/>' : '<br>';
-        return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2');
+        var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br ' + '/>' : '<br>'
+        return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2')
     }
 
     function createMarkup(str) {
-        return {__html: nl2br(str, true)};
+        return {__html: nl2br(str, true)}
     }
 
     return (
@@ -50,7 +50,7 @@ const SoundButton = (props) => {
                 </div>
             </ReactTooltip>
         </div>
-    );
+    )
 }
 
-export default SoundButton;
+export default SoundButton

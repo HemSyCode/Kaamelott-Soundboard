@@ -1,14 +1,14 @@
-import React from "react";
-import {Trans} from "react-i18next";
+import React from "react"
+import {Trans} from "react-i18next"
 
 class EpisodesBox extends React.Component {
     constructor(props) {
-        super(props);
+        super(props)
         this.state = {
             isVisible: false
         }
-        this.handleEpisodeClick = this.handleEpisodeClick.bind(this);
-        this.handleEpisodeContainerClick = this.handleEpisodeContainerClick.bind(this);
+        this.handleEpisodeClick = this.handleEpisodeClick.bind(this)
+        this.handleEpisodeContainerClick = this.handleEpisodeContainerClick.bind(this)
     }
 
     handleEpisodeClick(e, episode) {
@@ -23,7 +23,7 @@ class EpisodesBox extends React.Component {
 
     render() {
         return (
-            <div>
+            <>
                 <div className={'episodes-container'}>
                     <div className="header" onClick={() => this.handleEpisodeContainerClick()}>
                         <h3><Trans>app_episodes</Trans></h3>
@@ -41,9 +41,9 @@ class EpisodesBox extends React.Component {
                         }
                     </div>
                 </div>
-            </div>
-        );
+            </>
+        )
     }
 }
 
-export default EpisodesBox;
+export default EpisodesBox

@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 
 class AnchorLink extends Component {
-
     constructor(props) {
         super(props)
         this.smoothScroll = this.smoothScroll.bind(this)
@@ -22,8 +21,8 @@ class AnchorLink extends Component {
             }
         }
         const id = e.currentTarget.getAttribute('href').slice(1)
-        const $anchor = document.getElementById(id);
-        const offsetTop = $anchor.getBoundingClientRect().top + window.pageYOffset;
+        const $anchor = document.getElementById(id)
+        const offsetTop = $anchor.getBoundingClientRect().top + window.pageYOffset
         window.scroll({
             top: offsetTop - offset(),
             behavior: 'smooth'
@@ -32,7 +31,7 @@ class AnchorLink extends Component {
     }
 
     render() {
-        const { offset, ...rest } = this.props;
+        const { offset, ...rest } = this.props
         return (
             <a {...rest} onClick={this.smoothScroll} />
         )

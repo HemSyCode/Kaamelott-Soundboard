@@ -1,55 +1,52 @@
-import './App.scss';
-import React, {useState, useEffect} from "react";
-import sounds from './sounds/sounds.json';
-import { Trans } from 'react-i18next';
+import './App.scss'
+import React, {useState, useEffect} from "react"
+import sounds from './sounds/sounds.json'
+import { Trans } from 'react-i18next'
 import SoundButton from './components/SoundButton'
 import SoundboardFilter from './components/SoundboardFilter'
 import SoundboardFilterResetButton from './components/SoundboardFilterResetButton'
 import CharactersBox from './components/CharactersBox'
 import EpisodesBox from './components/EpisodesBox'
 import AnchorLink from './components/AnchorLink'
-import RandomButton from "./components/RandomButton";
-import LocaleSelectorButton from "./components/LocaleSelectorButton";
+import RandomButton from "./components/RandomButton"
+import LocaleSelectorButton from "./components/LocaleSelectorButton"
 
 const Soundboard = (props) => {
-    const [data, setData] = useState([]);
-    const [filteredSounds, setFilteredSounds] = useState([]);
-    const [characters, setCharacters] = useState([]);
-    const [episodes, setEpisodes] = useState([]);
-    const [soundsPlayer, setSoundsPlayer] = useState([]);
-    const [soundsCurrentPage, setSoundsCurrentPage] = useState(1);
-    const [soundsPerPage, setSoundsPerPage] = useState(100);
-    const [filterValue, setFilterValue] = useState('');
-    const [isHashFirstLoaded, setIsHashFirstLoaded] = useState(false);
-    const [isHashLoaded, setIsHashLoaded] = useState(false);
-    const [hashValue, setHashValue] = useState('');
-    const [empty, setEmpty] = useState(Math.random());
+    const [data, setData] = useState([])
+    const [filteredSounds, setFilteredSounds] = useState([])
+    const [characters, setCharacters] = useState([])
+    const [episodes, setEpisodes] = useState([])
+    const [soundsCurrentPage, setSoundsCurrentPage] = useState(1)
+    const [soundsPerPage, setSoundsPerPage] = useState(100)
+    const [filterValue, setFilterValue] = useState('')
+    const [isHashFirstLoaded, setIsHashFirstLoaded] = useState(false)
+    const [isHashLoaded, setIsHashLoaded] = useState(false)
+    const [hashValue, setHashValue] = useState('')
+    const [empty, setEmpty] = useState(Math.random())
 
     function htmlDecode(input) {
-        return decodeURI((input+"").normalize("NFD").replace(/\p{Diacritic}/gu, ""));
+        return decodeURI((input+"").normalize("NFD").replace(/\p{Diacritic}/gu, ""))
     }
 
     // Force a render with a simulated state change
-    const rerender = () => {
-        setEmpty(Math.random());
-    }
+    const rerender = () => { setEmpty(Math.random()) }
 
     useEffect(() => {
         if(isHashFirstLoaded === false && isHashLoaded === false) {
-            setIsHashFirstLoaded(true);
-            setIsHashLoaded(true);
-            setHashValue( htmlDecode(window.location.hash) );
+            setIsHashFirstLoaded(true)
+            setIsHashLoaded(true)
+            setHashValue( htmlDecode(window.location.hash) )
             setFilterValue( htmlDecode(window.location.hash.replace('#sound-', '')) )
         }
-        loadData();
+        loadData()
         if( isHashLoaded === true && hashValue !== '') {
-            setIsHashLoaded(false);
+            setIsHashLoaded(false)
             setTimeout(() => {  handleFilterChange( htmlDecode(window.location.hash.replace('#sound-', '')) ); }, 500);
         }
-    });
+    })
 
     const handlePageNumberClick = (e) => {
-        setSoundsCurrentPage(Number(e.target.id));
+        setSoundsCurrentPage(Number(e.target.id))
     }
 
     const loadData = () => {
@@ -66,24 +63,24 @@ const Soundboard = (props) => {
 
         // Load Characters.
         if ( (data.length !== 0) && (characters.length === 0) ) {
-            lookupCharacter();
+            lookupCharacter()
         }
         // Load Episodes.
         if ( (data.length !== 0) && (episodes.length === 0) ) {
-            lookupEpisode();
+            lookupEpisode()
         }
     }
 
     const lookupCharacter = () => {
-        var lookup = {};
-        var items = data;
-        var result = [];
+        var lookup = {}
+        var items = data
+        var result = []
         for (var item, i = 0; !!(item = items[i++]);) {
-            var characters = item.character;
+            var characters = item.character
             characters.forEach( character => {
                 if (!(character in lookup)) {
-                    lookup[character] = 1;
-                    result.push(character);
+                    lookup[character] = 1
+                    result.push(character)
                 }
             })
         }
@@ -91,27 +88,27 @@ const Soundboard = (props) => {
     }
 
     const lookupEpisode = () => {
-        var lookup = {};
-        var items = data;
-        var result = [];
+        var lookup = {}
+        var items = data
+        var result = []
         for (var item, i = 0; !!(item = items[i++]);) {
-            var episode = item.episodeName;
+            var episode = item.episodeName
 
             if (!(episode in lookup)) {
-                lookup[episode] = 1;
-                result.push([item.season, item.episode, item.episodeName]);
+                lookup[episode] = 1
+                result.push([item.season, item.episode, item.episodeName])
             }
         }
         setEpisodes(result.sort())
     }
 
     const handleFilterValueChange = (e) => {
-        e.preventDefault();
-        let value = e.target.value;
+        e.preventDefault()
+        let value = e.target.value
         setSoundsCurrentPage(1)
         setFilterValue(value)
         window.location.replace(htmlDecode('#sound-'+value))
-        handleFilterChange(value);
+        handleFilterChange(value)
     }
 
     const handleFilterValueReset = () => {
@@ -122,28 +119,28 @@ const Soundboard = (props) => {
     }
 
     const handleRandomButtonClick = () => {
-        let value = data[Math.floor(Math.random() * data.length)].title;
+        let value = data[Math.floor(Math.random() * data.length)].title
         setSoundsCurrentPage(1)
         setFilterValue(value)
-        handleFilterChange(value);
+        handleFilterChange(value)
     }
 
     const handleCharacterClick = (e, character) => {
-        e.preventDefault();
+        e.preventDefault()
         if (character !== filterValue) {
             setSoundsCurrentPage(1)
             setFilterValue(character)
-            handleFilterChange(character);
+            handleFilterChange(character)
             window.location.hash = htmlDecode('#sound-'+character)
         }
     }
 
     const handleEpisodeClick = (e, episode) => {
-        e.preventDefault();
+        e.preventDefault()
         if (episode !== filterValue) {
             setSoundsCurrentPage(1)
             setFilterValue(episode)
-            handleFilterChange(episode);
+            handleFilterChange(episode)
             window.location.hash = htmlDecode('#sound-'+episode)
         }
     }
@@ -152,26 +149,25 @@ const Soundboard = (props) => {
         let prepareFilter = data
         let filteredSounds = []
 
-        // TODO: TEST
         filterGivenValue = filterGivenValue.trim()
 
         if( data.length === 0 )
         {
-            filteredSounds = data;
+            filteredSounds = data
         } else {
             prepareFilter.forEach( (singleDataObject, index ) => {
                 // Check 'index'.
-                if (((singleDataObject.index)+"").includes(filterGivenValue)) { filteredSounds.push(singleDataObject); return; }
+                if (((singleDataObject.index)+"").includes(filterGivenValue)) { filteredSounds.push(singleDataObject); return }
                 // Check 'character'.
                 (Object.values(singleDataObject)[0]).forEach( character => {
-                    if (character.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(filterGivenValue.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, ""))) { filteredSounds.push(singleDataObject); return; }
+                    if (character.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(filterGivenValue.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, ""))) { filteredSounds.push(singleDataObject); return }
                 })
                 // Check 'episode'.
                 // string 'season' + 'episode'.
                 let seasonEpisode = singleDataObject.season+", "+singleDataObject.episode+" - "+singleDataObject.episodeName
-                if ((seasonEpisode).toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(filterGivenValue.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, ""))) { filteredSounds.push(singleDataObject); return; }
+                if ((seasonEpisode).toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(filterGivenValue.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, ""))) { filteredSounds.push(singleDataObject); return }
                 // Check 'title'.
-                if ((Object.values(singleDataObject)[5]).toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(filterGivenValue.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, ""))) { filteredSounds.push(singleDataObject); return; }
+                if ((Object.values(singleDataObject)[5]).toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(filterGivenValue.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, ""))) { filteredSounds.push(singleDataObject); return }
             })
         }
         // Remove duplicates values.
@@ -180,14 +176,14 @@ const Soundboard = (props) => {
     }
 
     // Logic for displaying sounds.
-    const indexOfLastSound = soundsCurrentPage * soundsPerPage;
-    const indexOfFirstSound = indexOfLastSound - soundsPerPage;
-    const currentSounds = filteredSounds.slice(indexOfFirstSound, indexOfLastSound);
+    const indexOfLastSound = soundsCurrentPage * soundsPerPage
+    const indexOfFirstSound = indexOfLastSound - soundsPerPage
+    const currentSounds = filteredSounds.slice(indexOfFirstSound, indexOfLastSound)
 
     // Logic for displaying page numbers.
-    const pageNumbers = [];
+    const pageNumbers = []
     for (let i = 1; i <= Math.ceil(filteredSounds.length / soundsPerPage); i++) {
-        pageNumbers.push(i);
+        pageNumbers.push(i)
     }
     const renderPageNumbers = pageNumbers.map(number => {
         return (
@@ -198,8 +194,8 @@ const Soundboard = (props) => {
             >
                 {number}
             </AnchorLink>
-        );
-    });
+        )
+    })
 
     // Logic for displaying sounds.
     const renderSounds = (currentSounds.length === 0)
@@ -291,4 +287,4 @@ const Soundboard = (props) => {
     )
 }
 
-export default Soundboard;
+export default Soundboard
