@@ -4,8 +4,7 @@ import ReactTooltip from 'react-tooltip'
 const SoundButton = (props) => {
     let data = props.data
     const [isPlaying, setIsPlaying] = React.useState(false)
-    let audio
-    audio = new Audio(require('./../sounds/'+data.file))
+    let audio = new Audio(require('./../sounds/'+data.file))
     useEffect(() => {
         audio.addEventListener('ended', () => setIsPlaying(false))
         return () => {
@@ -13,7 +12,7 @@ const SoundButton = (props) => {
         }
     })
 
-    const masterPlay = () => { if( isPlaying === true ) { audio.pause(); audio.currentTime = 0; setIsPlaying(false) } else { audio.play(); setIsPlaying(true) } }
+    const masterPlay = () => { if( isPlaying === true ) { /*audio.pause(); audio.currentTime = 0; setIsPlaying(false)*/ } else { audio.play(); setIsPlaying(true) } }
     const labelIcon = () => { return isPlaying ? 'playing' : '' }
 
     const characters = () => {
