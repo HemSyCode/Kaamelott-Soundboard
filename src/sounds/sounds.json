@@ -121,6 +121,17 @@
         "popularity": 2
     },
     {
+        "character": ["Dame Séli"],
+        "season": "Livre I",
+        "episode": "02",
+        "episodeName": "La Tarte aux Myrtilles",
+        "file": "01515.mp3",
+        "title": "Et alors faut un permis ?",
+        "id": 1515,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Léodagan"],
         "season": "Livre I",
         "episode": "02",
@@ -367,6 +378,16 @@
         "season": "Livre I",
         "episode": "09",
         "episodeName": "Le Maître d'Armes",
+        "file": "01441.mp3",
+        "id": 1441,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
+        "character": ["Le Maitre D'Armes"],
+        "season": "Livre I",
+        "episode": "09",
+        "episodeName": "Le Maître d'Armes",
         "file": "00034.mp3",
         "title": "En garde espèce de vieille pute dégarnie !",
         "id": 34,
@@ -429,6 +450,17 @@
         "popularity": 2
     },
     {
+        "character": ["Léodagan"],
+        "season": "Livre I",
+        "episode": "11",
+        "episodeName": "Dîner Dansant",
+        "file": "01442.mp3",
+        "title": "M'avez l'air en forme vous ce soir",
+        "id": 1442,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Arthur"],
         "season": "Livre I",
         "episode": "11",
@@ -448,6 +480,17 @@
         "title": "Oh merde, là !",
         "id": 41,
         "timestamp": "00:39:10",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "12",
+        "episodeName": "Le Sixième Sens",
+        "file": "01443.mp3",
+        "title": "VOUS ALLEZ FERMER VOS MOUILLES OUI ?",
+        "id": 1443,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -559,6 +602,17 @@
         "id": 51,
         "timestamp": "01:01:23",
         "popularity": 2
+    },
+    {
+        "character": ["Le Tavernier"],
+        "season": "Livre I",
+        "episode": "18",
+        "episodeName": "En Forme de Graal",
+        "file": "01444.mp3",
+        "title": "Eh, il est pas beau mon Graal ?",
+        "id": 1444,
+        "timestamp": "00:00:00",
+        "popularity": 3
     },
     {
         "character": ["Arthur"],
@@ -682,6 +736,17 @@
         "popularity": 2
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "25",
+        "episodeName": "Le Sacrifice",
+        "file": "01445.mp3",
+        "title": "Non mais allez boire un coup, je vous assure, ça ira mieux.",
+        "id": 1445,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
         "character": ["Karadoc"],
         "season": "Livre I",
         "episode": "28",
@@ -691,6 +756,17 @@
         "id": 63,
         "timestamp": "01:34:32",
         "popularity": 2
+    },
+    {
+        "character": ["Karadoc"],
+        "season": "Livre I",
+        "episode": "28",
+        "episodeName": "La Botte Secrète",
+        "file": "01449.mp3",
+        "title": "Ouais, c'est pas faux.",
+        "id": 1449,
+        "timestamp": "00:00:00",
+        "popularity": 3
     },
     {
         "character": ["Perceval"],
@@ -770,6 +846,28 @@
         "popularity": 2
     },
     {
+        "character": ["Demetra"],
+        "season": "Livre I",
+        "episode": "30",
+        "episodeName": "Le Trois de Coeur",
+        "file": "01450.mp3",
+        "title": "Vous déconnez !?",
+        "id": 1450,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Guenièvre"],
+        "season": "Livre I",
+        "episode": "30",
+        "episodeName": "Le Trois de Coeur",
+        "file": "01451.mp3",
+        "title": "Ça moi j'peux pas vous dire !",
+        "id": 1451,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Lancelot"],
         "season": "Livre I",
         "episode": "32",
@@ -800,6 +898,17 @@
         "title": "Ces conneries de gauche et droite ! Ça veut rien dire ces machins. Selon comment on est tourné ça change tout !",
         "id": 73,
         "timestamp": "02:00:54",
+        "popularity": 3
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre I",
+        "episode": "35",
+        "episodeName": "Ambidextrie",
+        "file": "01456.mp3",
+        "title": "Voilà, là c'est pro !",
+        "id": 1456,
+        "timestamp": "00:00:00",
         "popularity": 3
     },
     {
@@ -847,6 +956,39 @@
         "popularity": 2
     },
     {
+        "character": ["Venec"],
+        "season": "Livre I",
+        "episode": "36",
+        "episodeName": "Raison d'Argent",
+        "file": "01458.mp3",
+        "title": "Si vous êtes vendeur, j'vous fais une proposition aux oignons.",
+        "id": 1458,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "36",
+        "episodeName": "Raison d'Argent",
+        "file": "01459.mp3",
+        "title": "Bah vous la crachez votre pastille ?",
+        "id": 1459,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Bohort"],
+        "season": "Livre I",
+        "episode": "36",
+        "episodeName": "Raison d'Argent",
+        "file": "01460.mp3",
+        "title": "C'EST HONTEUX !!",
+        "id": 1460,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Léodagan"],
         "season": "Livre I",
         "episode": "36",
@@ -855,6 +997,17 @@
         "title": "C'est bien fait hein ?",
         "id": 78,
         "timestamp": "02:05:18",
+        "popularity": 3
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre I",
+        "episode": "36",
+        "episodeName": "Raison d'Argent",
+        "file": "01457.mp3",
+        "title": "Ah bah faut c'qui faut, hein !",
+        "id": 1457,
+        "timestamp": "00:00:00",
         "popularity": 3
     },
     {
@@ -1199,6 +1352,17 @@
         "popularity": 3
     },
     {
+        "character": ["Guenièvre"],
+        "season": "Livre I",
+        "episode": "59",
+        "episodeName": "La Jupe de Calogrenant",
+        "file": "01469.mp3",
+        "title": "Je vois ! Je suppose que c'est le genre d'endroit où il faut parler fort et se taper dans le dos !",
+        "id": 1469,
+        "timestamp": "00:25:51",
+        "popularity": 3
+    },
+    {
         "character": ["Yvain"],
         "season": "Livre I",
         "episode": "60",
@@ -1397,6 +1561,17 @@
         "popularity": 2
     },
     {
+        "character": ["Guenièvre"],
+        "season": "Livre I",
+        "episode": "81",
+        "episodeName": "Polymorphie",
+        "file": "01509.mp3",
+        "title": "Ah voui, c'est ça, vous avez raison hein.",
+        "id": 1509,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Merlin"],
         "season": "Livre I",
         "episode": "82",
@@ -1452,7 +1627,18 @@
         "popularity": 3
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Léodagan"],
+        "season": "Livre I",
+        "episode": "88",
+        "episodeName": "L’Escorte",
+        "file": "01508.mp3",
+        "title": "A 2-3 poils de cul.",
+        "id": 1508,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
+        "character": ["Le Tavernier"],
         "season": "Livre I",
         "episode": "89",
         "episodeName": "Tel un Chevalier",
@@ -1482,6 +1668,17 @@
         "title": "Putain la vache ! Je comprends pas un mot de ce que vous racontez.",
         "id": 135,
         "timestamp": "02:15:34",
+        "popularity": 3
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "89",
+        "episodeName": "Tel un Chevalier",
+        "file": "01512.mp3",
+        "title": "Comment ?",
+        "id": 1512,
+        "timestamp": "00:00:00",
         "popularity": 3
     },
     {
@@ -1584,7 +1781,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre I",
         "episode": "92",
         "episodeName": "Vox Populi",
@@ -1614,6 +1811,17 @@
         "title": "L'agneau était daubé du cul !",
         "id": 147,
         "timestamp": "02:41:27",
+        "popularity": 3
+    },
+    {
+        "character": ["Père Blaise"],
+        "season": "Livre I",
+        "episode": "96",
+        "episodeName": "La Quête des Deux Renards",
+        "file": "01514.mp3",
+        "title": "Je sens qu'ça va encore être épique.",
+        "id": 1514,
+        "timestamp": "00:00:00",
         "popularity": 3
     },
     {
@@ -1713,6 +1921,17 @@
         "title": "Couillère !",
         "id": 156,
         "timestamp": "00:09:02",
+        "popularity": 2
+    },
+    {
+        "character": ["Le Roi Burgonde"],
+        "season": "Livre II",
+        "episode": "03",
+        "episodeName": "Le Dialogue de Paix",
+        "file": "01483.mp3",
+        "title": "Arthour ! ARTHOUR !",
+        "id": 1483,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -1859,7 +2078,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre II",
         "episode": "11",
         "episodeName": "Le message codé",
@@ -1941,8 +2160,19 @@
         "episode": "14",
         "episodeName": "Les Classes de Bohort",
         "file": "00177.mp3",
-        "title": "MÉCRÉANT !",
+        "title": "MÉCRÉANT ! #1",
         "id": 177,
+        "timestamp": "00:50:21",
+        "popularity": 3
+    },
+    {
+        "character": ["Bohort"],
+        "season": "Livre II",
+        "episode": "14",
+        "episodeName": "Les Classes de Bohort",
+        "file": "01486.mp3",
+        "title": "MÉCRÉANT ! #2",
+        "id": 1486,
         "timestamp": "00:50:21",
         "popularity": 3
     },
@@ -2099,6 +2329,17 @@
         "id": 191,
         "timestamp": "01:22:09",
         "popularity": 4
+    },
+    {
+        "character": ["Guethenoc"],
+        "season": "Livre II",
+        "episode": "23",
+        "episodeName": "La Révolte",
+        "file": "01489.mp3",
+        "title": "Bon ben, révolte ?... REVOOOOLTE !!!",
+        "id": 1489,
+        "timestamp": "00:00:00",
+        "popularity": 3
     },
     {
         "character": ["Guenièvre"],
@@ -2299,7 +2540,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre II",
         "episode": "37",
         "episodeName": "L'Escorte II",
@@ -2706,6 +2947,28 @@
         "popularity": 5
     },
     {
+        "character": ["Kadoc"],
+        "season": "Livre II",
+        "episode": "60",
+        "episodeName": "Le Jeu du Caillou",
+        "file": "01487.mp3",
+        "title": "Tatan, elle fait des flans.",
+        "id": 1487,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
+        "character": ["Kadoc"],
+        "season": "Livre II",
+        "episode": "60",
+        "episodeName": "Le Jeu du Caillou",
+        "file": "01488.mp3",
+        "title": "Il ressemble à Tatan.",
+        "id": 1488,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
         "character": ["Karadoc"],
         "season": "Livre II",
         "episode": "60",
@@ -2714,6 +2977,17 @@
         "title": "Je sais, il est chiant. Il gagne à tous les coups.",
         "id": 247,
         "timestamp": "00:37:40",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "60",
+        "episodeName": "Le Jeu du Caillou",
+        "file": "00785.mp3",
+        "title": "Mais arrêtez de discutailler cinq minutes j'arrive pas à me concentrer !",
+        "id": 785,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -2816,6 +3090,17 @@
         "popularity": 2
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "69",
+        "episodeName": "Feue la Vache de Roparzh",
+        "file": "01492.mp3",
+        "title": "J'ai toujours été fasciné par le monde paysan.",
+        "id": 1492,
+        "timestamp": "01:07:33",
+        "popularity": 2
+    },
+    {
         "character": ["Roparzh"],
         "season": "Livre II",
         "episode": "69",
@@ -2864,6 +3149,17 @@
         "season": "Livre II",
         "episode": "70",
         "episodeName": "Les Voeux",
+        "file": "01464.mp3",
+        "title": "Mais vous savez ce que ça veux dire, au moins ?",
+        "id": 1464,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "70",
+        "episodeName": "Les Voeux",
         "file": "00261.mp3",
         "title": "Aaah ? Mais je la connais ou pas ?",
         "id": 261,
@@ -2904,7 +3200,7 @@
         "popularity": 3
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre II",
         "episode": "72",
         "episodeName": "Perceval et le contre-sirop",
@@ -3033,6 +3329,28 @@
         "title": "Oh et merde ! C'est pas vrai, il est coincé ce con-là !",
         "id": 276,
         "timestamp": "01:56:29",
+        "popularity": 2
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre II",
+        "episode": "81",
+        "episodeName": "L'Enragé",
+        "file": "01465.mp3",
+        "title": "Après vous vous démerdez, hein, je vais pas faire des aller-retours 3 fois par jour, je vous préviens !",
+        "id": 1465,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre II",
+        "episode": "81",
+        "episodeName": "L'Enragé",
+        "file": "01466.mp3",
+        "title": "Avec celui-là vous savez, ça fait un moment que j'ai arrêté les pronostics !",
+        "id": 1466,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -3784,6 +4102,17 @@
         "popularity": 3
     },
     {
+        "character": ["Guethenoc"],
+        "season": "Livre III",
+        "episode": "36",
+        "episodeName": "Feue la poule de Guethenoc",
+        "file": "01507.mp3",
+        "title": "Moi je bondis comme ça là, après je vous arrive dessus en piqué diagonal. Et là c'est l'hymne à la cruauté, attention ! Un autel dressé au culte de la barbarie.",
+        "id": 1507,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
         "character": ["Perceval"],
         "season": "Livre III",
         "episode": "37",
@@ -4312,6 +4641,17 @@
         "popularity": 3
     },
     {
+        "character": ["Dame Séli"],
+        "season": "Livre III",
+        "episode": "72",
+        "episodeName": "La Restriction II",
+        "file": "01472.mp3",
+        "title": "La bouffe est interdite en dehors des heures des repas !",
+        "id": 1472,
+        "timestamp": "01:19:36",
+        "popularity": 3
+    },
+    {
         "character": ["Karadoc"],
         "season": "Livre III",
         "episode": "72",
@@ -4723,6 +5063,17 @@
         "season": "Livre III",
         "episode": "95",
         "episodeName": "L'Etudiant",
+        "file": "01473.mp3",
+        "title": "A ROULETTES !!!",
+        "id": 1473,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre III",
+        "episode": "95",
+        "episodeName": "L'Etudiant",
         "file": "00430.mp3",
         "title": "- Donc, voici une catapulte. Comme vous pouvez le constater, et à la différence de certaines autres armes de jet, celle-ci est munie de roulettes, ce qui la classe dans la catégorie des armes...\n- … A ROULETTES !!! Oulà… je l'ai un peu trop gueulé ça, non ?",
         "id": 430,
@@ -4895,7 +5246,7 @@
         "popularity": 3
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre IV",
         "episode": "07",
         "episodeName": "Le Traître",
@@ -5343,6 +5694,28 @@
         "title": "Écoutez ça, écoutez celle-ci : on va essayer, bon, avant, avant, avant d'aller gueuler… de bien définir… pourquoi… qu'on gueule !",
         "id": 486,
         "timestamp": "01:51:26",
+        "popularity": 3
+    },
+    {
+        "character": ["Guethenoc"],
+        "season": "Livre IV",
+        "episode": "31",
+        "episodeName": "La Révolte III",
+        "file": "01479.mp3",
+        "title": "Pourquoi, hein, qu'on gueule ?",
+        "id": 1479,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
+        "character": ["Guethenoc"],
+        "season": "Livre IV",
+        "episode": "31",
+        "episodeName": "La Révolte III",
+        "file": "01480.mp3",
+        "title": "Quand on gueule sans savoir pourquoi, ça facilite pas les négociations derrière, hein, bon.",
+        "id": 1480,
+        "timestamp": "00:00:00",
         "popularity": 3
     },
     {
@@ -5874,6 +6247,39 @@
         "popularity": 3
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre IV",
+        "episode": "63",
+        "episodeName": "Le Jeu de la Guerre",
+        "file": "01440.mp3",
+        "title": "Attendez, on est bien d'accord que moi j'ai pas la moindre idée de ce que je fous, là, avec mes oeufs. J'ai jamais joué à ça, je sais même pas ce qu'il faut faire...",
+        "id": 1440,
+        "timestamp": "03:01 :00",
+        "popularity": 3
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre IV",
+        "episode": "63",
+        "episodeName": "Le Jeu de la Guerre",
+        "file": "01484.mp3",
+        "title": "Bon ! On va commencer les négociations.",
+        "id": 1484,
+        "timestamp": "03:01 :00",
+        "popularity": 3
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre IV",
+        "episode": "63",
+        "episodeName": "Le Jeu de la Guerre",
+        "file": "01485.mp3",
+        "title": "Je sais c'est trompeur parce qu'il arrive sans interprète et tout, mais il comprend jamais un broc de ce qu'on dit.",
+        "id": 1485,
+        "timestamp": "03:01 :00",
+        "popularity": 3
+    },
+    {
         "character": ["Grüdü"],
         "season": "Livre IV",
         "episode": "64",
@@ -5962,7 +6368,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre IV",
         "episode": "71",
         "episodeName": "Perceval fait Raitournelle",
@@ -5973,7 +6379,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre IV",
         "episode": "71",
         "episodeName": "Perceval fait Raitournelle",
@@ -6292,7 +6698,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre IV",
         "episode": "90",
         "episodeName": "Les Paris III",
@@ -6648,6 +7054,17 @@
         "season": "Livre V",
         "episode": "05",
         "episodeName": "La Sorcière",
+        "file": "01482.mp3",
+        "title": "Des vêtements ?!",
+        "id": 1482,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Elias de Kelliwic'h"],
+        "season": "Livre V",
+        "episode": "05",
+        "episodeName": "La Sorcière",
         "file": "00605.mp3",
         "title": "Oh oh, le boulet !",
         "id": 605,
@@ -6699,7 +7116,7 @@
         "popularity": 3
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre V",
         "episode": "06",
         "episodeName": "L’Épée des rois",
@@ -6853,7 +7270,7 @@
         "popularity": 3
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre V",
         "episode": "10",
         "episodeName": "Les Recruteurs",
@@ -7029,7 +7446,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre V",
         "episode": "14",
         "episodeName": "Vae soli !",
@@ -7117,7 +7534,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre V",
         "episode": "17",
         "episodeName": "Les Exilés",
@@ -7623,7 +8040,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre V",
         "episode": "33",
         "episodeName": "Domi nostrae",
@@ -7755,7 +8172,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre V",
         "episode": "36",
         "episodeName": "La Nourrice",
@@ -9145,6 +9562,17 @@
         "season": "Livre VI",
         "episode": "08",
         "episodeName": "Lacrimosa",
+        "file": "01491.mp3",
+        "title": "Bon ! Moi, je la suis, parce que je suis… Très amoureux !",
+        "id": 1491,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
+        "character": ["Loth"],
+        "season": "Livre VI",
+        "episode": "08",
+        "episodeName": "Lacrimosa",
         "file": "00833.mp3",
         "title": "- Demi frère !\n- Ah oui, ça, elle y tient beaucoup ! Une fois, malencontreusement, j'ai dit « votre frère », votre salope de fille m'a renversé une pleine soupière de bouillon sur toute la zone génitale. Ça m'a littéralement cuit les boules !",
         "id": 833,
@@ -9625,6 +10053,61 @@
         "popularity": 3
     },
     {
+        "character": ["Roparzh"],
+        "season": "Livre IV",
+        "episode": "31",
+        "episodeName": "La Révolte III",
+        "file": "01474.mp3",
+        "title": "Ça va encore faire des discussions à rallonge.",
+        "id": 1474,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
+        "character": ["Roparzh"],
+        "season": "Livre IV",
+        "episode": "31",
+        "episodeName": "La Révolte III",
+        "file": "01475.mp3",
+        "title": "Honnêtement, j'connais pas le mot, là, j'saurais pas vous dire.",
+        "id": 1475,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
+        "character": ["Roparzh"],
+        "season": "Livre IV",
+        "episode": "31",
+        "episodeName": "La Révolte III",
+        "file": "01476.mp3",
+        "title": "Mais faut pas déconner, ils y sont pour rien.",
+        "id": 1476,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
+        "character": ["Guethenoc"],
+        "season": "Livre IV",
+        "episode": "31",
+        "episodeName": "La Révolte III",
+        "file": "01477.mp3",
+        "title": "Dites, euh… tirez-vous.",
+        "id": 1477,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
+        "character": ["Guethenoc"],
+        "season": "Livre IV",
+        "episode": "31",
+        "episodeName": "La Révolte III",
+        "file": "01478.mp3",
+        "title": "Mais j'vous ai dit que c'était important.",
+        "id": 1478,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
         "character": ["Karadoc"],
         "season": "Livre II",
         "episode": "02",
@@ -9897,6 +10380,17 @@
         "title": "Mon petit oiseau a pris sa volée. A pris sa, à la volette ! A pris sa, à la volette ! A pris sa volée !",
         "id": 901,
         "timestamp": "01:29:45",
+        "popularity": 3
+    },
+    {
+        "character": ["Perceval "],
+        "season": "Livre I",
+        "episode": "26",
+        "episodeName": "A la Volette",
+        "file": "01446.mp3",
+        "title": "C'est vrai qu'elle reste celle-là.",
+        "id": 1446,
+        "timestamp": "00:00:00",
         "popularity": 3
     },
     {
@@ -10210,6 +10704,17 @@
     {
         "character": ["Arthur"],
         "season": "Livre I",
+        "episode": "08",
+        "episodeName": "Codes et Stratégies",
+        "file": "01501.mp3",
+        "title": "TRUUU-uuuut !",
+        "id": 1501,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
         "episode": "52",
         "episodeName": "Haunted",
         "file": "00930.mp3",
@@ -10285,6 +10790,17 @@
         "popularity": 2
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "30",
+        "episodeName": "La Garde Royale",
+        "file": "01490.mp3",
+        "title": "Bon, cassez-vous ! Cassez-vous, sans déconner, je vous défonce ! Vous vous tirez où je vous caillasse la tête !",
+        "id": 1490,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Kadoc"],
         "season": "Livre II",
         "episode": "60",
@@ -10315,6 +10831,28 @@
         "title": "C'est passé à ça de la quiquette !",
         "id": 939,
         "timestamp": "02:58:54",
+        "popularity": 2
+    },
+    {
+        "character": ["Le Roi Burgonde"],
+        "season": "Livre III",
+        "episode": "42",
+        "episodeName": "Le Dialogue de Paix II",
+        "file": "01505.mp3",
+        "title": "Fort en pommes ? #1",
+        "id": 1505,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Le Roi Burgonde"],
+        "season": "Livre III",
+        "episode": "42",
+        "episodeName": "Le Dialogue de Paix II",
+        "file": "01506.mp3",
+        "title": "Fort en pommes ? #2",
+        "id": 1506,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -10370,6 +10908,17 @@
         "title": "- Est ce que vous avez souvenir qu'il se soit passé quelque chose entre Mevanwi et moi ?\n- A quel niveau ?\n- Au niveau… du chou rouge.",
         "id": 944,
         "timestamp": "00:39:40",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre III",
+        "episode": "11",
+        "episodeName": "Ablutions",
+        "file": "01510.mp3",
+        "title": "A plus tard.",
+        "id": 1510,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -11099,7 +11648,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre V",
         "episode": "36",
         "episodeName": "La Nourrice",
@@ -11143,7 +11692,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre IV",
         "episode": "90",
         "episodeName": "Les Paris III",
@@ -11206,6 +11755,17 @@
         "title": "J'ai soudain la sensation limpide d'avoir gaspillé ma jeunesse. L'avoir vue s'échapper de mes mains comme l'anguille effrayée et m'appeler à présent sur le lierre du tombeau, où patientent depuis toujours le chant des enfants, les raisins volés…",
         "id": 1020,
         "timestamp": "01:37:30",
+        "popularity": 2
+    },
+    {
+        "character": ["Elias de Kelliwic'h"],
+        "season": "Livre V",
+        "episode": "13",
+        "episodeName": "Les Dauphins",
+        "file": "01481.mp3",
+        "title": "Dans la vie, faut bosser pour personne, et y faut faire bosser personne ! C'est le secret de la liberté.",
+        "id": 1481,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -11341,14 +11901,25 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre III",
         "episode": "67",
         "episodeName": "La Baraka",
         "file": "01033.mp3",
-        "title": "Ah mais moi je l'ai toujours dit, moi…",
+        "title": "Ah mais moi je l'ai toujours dit #1",
         "id": 1033,
         "timestamp": "01:01:33",
+        "popularity": 3
+    },
+    {
+        "character": ["Le Tavernier"],
+        "season": "Livre III",
+        "episode": "67",
+        "episodeName": "La Baraka",
+        "file": "01471.mp3",
+        "title": "Ah mais moi je l'ai toujours dit #2",
+        "id": 1471,
+        "timestamp": "00:00:00",
         "popularity": 3
     },
     {
@@ -11459,6 +12030,28 @@
         "title": "C'est marrant les petits bouts de fromage par terre ! C'est ça que vous appelez une fondue ?",
         "id": 1043,
         "timestamp": "01:30:50",
+        "popularity": 2
+    },
+    {
+        "character": ["Dame Séli"],
+        "season": "Livre II",
+        "episode": "25",
+        "episodeName": "Séli et Les Rongeurs",
+        "file": "01502.mp3",
+        "title": "Ne restez pas planté là comme un cèpe, pointez-vous !",
+        "id": 1502,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre II",
+        "episode": "25",
+        "episodeName": "Séli et Les Rongeurs",
+        "file": "01503.mp3",
+        "title": "Non mais il y a des fois, vous admettrez que vous êtes hors-norme.",
+        "id": 1503,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -11583,7 +12176,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre V",
         "episode": "35",
         "episodeName": "Les Embusqués",
@@ -11737,6 +12330,28 @@
         "popularity": 2
     },
     {
+        "character": ["Dagonet"],
+        "season": "Livre I",
+        "episode": "27",
+        "episodeName": "De Retour de Judée",
+        "file": "01447.mp3",
+        "title": "À mon avis, un bon quart d'heure et on a fait le tour.",
+        "id": 1447,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Lancelot"],
+        "season": "Livre I",
+        "episode": "27",
+        "episodeName": "De Retour de Judée",
+        "file": "01448.mp3",
+        "title": "Oh la vache !",
+        "id": 1448,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Arthur"],
         "season": "Livre I",
         "episode": "27",
@@ -11880,6 +12495,28 @@
         "popularity": 2
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "32",
+        "episodeName": "L’Imposteur",
+        "file": "01452.mp3",
+        "title": "Je vous soupçonne d'être un gros nul !",
+        "id": 1452,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Merlin"],
+        "season": "Livre I",
+        "episode": "32",
+        "episodeName": "L’Imposteur",
+        "file": "01453.mp3",
+        "title": "Nan mais faut pas toucher ça laissez-le à l'air ça va passer.",
+        "id": 1453,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Dame Séli"],
         "season": "Livre I",
         "episode": "33",
@@ -11921,6 +12558,28 @@
         "title": "Oh non, la gloire moi ça va, j'ai ce qu'il faut !",
         "id": 1085,
         "timestamp": "01:57:38",
+        "popularity": 2
+    },
+    {
+        "character": ["La Dame du Lac"],
+        "season": "Livre I",
+        "episode": "34",
+        "episodeName": "La Grotte de Padraig",
+        "file": "01454.mp3",
+        "title": "C'est... un genre de cake",
+        "id": 1454,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre I",
+        "episode": "34",
+        "episodeName": "La Grotte de Padraig",
+        "file": "01455.mp3",
+        "title": "Vous rigolez, j'espère !",
+        "id": 1455,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -11979,7 +12638,18 @@
         "popularity": 3
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Perceval"],
+        "season": "Livre I",
+        "episode": "40",
+        "episodeName": "L'adoubement",
+        "file": "01470.mp3",
+        "title": "J'vois pas le rapport avec la Bretagne.",
+        "id": 1470,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
+        "character": ["Le Tavernier"],
         "season": "Livre I",
         "episode": "20",
         "episodeName": "La Dent de Requin",
@@ -12276,7 +12946,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre I",
         "episode": "28",
         "episodeName": "La Botte Secrète",
@@ -12661,6 +13331,17 @@
         "popularity": 3
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "10",
+        "episodeName": "La Chambre",
+        "file": "01493.mp3",
+        "title": "Est-ce que vous pouvez vous barrer, maintenant ?",
+        "id": 1493,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
         "character": ["Léodagan"],
         "season": "Livre II",
         "episode": "25",
@@ -12672,7 +13353,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre II",
         "episode": "26",
         "episodeName": "Un Roi à la Taverne II",
@@ -12872,6 +13553,17 @@
     {
         "character": ["Léodagan"],
         "season": "Livre I",
+        "episode": "07",
+        "episodeName": "Des Nouvelles du Monde",
+        "file": "01513.mp3",
+        "title": "Oui, bon allez ! Enquille !",
+        "id": 1513,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre I",
         "episode": "38",
         "episodeName": "Merlin et les Loups",
         "file": "01172.mp3",
@@ -12911,6 +13603,17 @@
         "title": "Qu'est ce que je fais ? Je vais pas le dégommer à l'arbalète quand même ?",
         "id": 1175,
         "timestamp": "02:12:57",
+        "popularity": 2
+    },
+    {
+        "character": ["Merlin"],
+        "season": "Livre I",
+        "episode": "38",
+        "episodeName": "Merlin et les Loups",
+        "file": "01461.mp3",
+        "title": "Oh c'est la vacherie ça !",
+        "id": 1461,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -12969,7 +13672,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre I",
         "episode": "71",
         "episodeName": "Un Roi à la Taverne",
@@ -13189,7 +13892,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre I",
         "episode": "71",
         "episodeName": "Un Roi à la Taverne",
@@ -13244,7 +13947,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre II",
         "episode": "26",
         "episodeName": "Un Roi à la Taverne II",
@@ -14080,6 +14783,17 @@
         "popularity": 2
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "36",
+        "episodeName": "Les Exploités",
+        "file": "01494.mp3",
+        "title": "J'ai pas envie de voir vos tronches.",
+        "id": 1494,
+        "timestamp": "02:10:14",
+        "popularity": 2
+    },
+    {
         "character": ["Guenièvre"],
         "season": "Livre II",
         "episode": "37",
@@ -14124,7 +14838,7 @@
         "popularity": 3
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre II",
         "episode": "72",
         "episodeName": "Perceval et le contre-sirop",
@@ -14773,6 +15487,72 @@
         "popularity": 2
     },
     {
+        "character": ["Guenièvre"],
+        "season": "Livre II",
+        "episode": "05",
+        "episodeName": "Silbury Hill",
+        "file": "01495.mp3",
+        "title": "Ben nous on a cru que c'était là pour faire joli…",
+        "id": 1495,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "05",
+        "episodeName": "Silbury Hill",
+        "file": "01496.mp3",
+        "title": "Bon, je peux pas penser à tout, là !",
+        "id": 1496,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Guethenoc"],
+        "season": "Livre II",
+        "episode": "05",
+        "episodeName": "Silbury Hill",
+        "file": "01497.mp3",
+        "title": "C'est intéressant !",
+        "id": 1497,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Dame Séli"],
+        "season": "Livre II",
+        "episode": "05",
+        "episodeName": "Silbury Hill",
+        "file": "01498.mp3",
+        "title": "Enfin mais… Ils sortent bien de quelque part, ils sont pas tombés du ciel, si ?",
+        "id": 1498,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre II",
+        "episode": "05",
+        "episodeName": "Silbury Hill",
+        "file": "01499.mp3",
+        "title": "Mais évidemment que si !",
+        "id": 1499,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre II",
+        "episode": "05",
+        "episodeName": "Silbury Hill",
+        "file": "01500.mp3",
+        "title": "J'vais vous passer le goût du plein air, moi !",
+        "id": 1500,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Karadoc"],
         "season": "Livre II",
         "episode": "18",
@@ -14982,7 +15762,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre IV",
         "episode": "25",
         "episodeName": "L'Échelle de Perceval",
@@ -15349,10 +16129,43 @@
         "season": "Livre I",
         "episode": "39",
         "episodeName": "Le Cas Yvain",
+        "file": "01462.mp3",
+        "title": "Je refuse d'aller me battre pour soutenir une politique d'expansion territoriale dont je ne reconnais pas la légitimité.",
+        "id": 1462,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Yvain"],
+        "season": "Livre I",
+        "episode": "39",
+        "episodeName": "Le Cas Yvain",
+        "file": "01463.mp3",
+        "title": "Super, bonjour la pédagogie.",
+        "id": 1463,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Yvain"],
+        "season": "Livre I",
+        "episode": "39",
+        "episodeName": "Le Cas Yvain",
         "file": "01397.mp3",
         "title": "Je peux pas y aller, j'ai une otite !",
         "id": 1397,
         "timestamp": "02:13:37",
+        "popularity": 2
+    },
+    {
+        "character": ["Guenièvre"],
+        "season": "Livre I",
+        "episode": "39",
+        "episodeName": "Le Cas Yvain",
+        "file": "01511.mp3",
+        "title": "Vous avez de la chance hein.",
+        "id": 1511,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -15364,6 +16177,28 @@
         "title": "Ça me fait plaisir parce que je peux pas le blairer mais… ça se fait pas !",
         "id": 1398,
         "timestamp": "02:19:58",
+        "popularity": 2
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre I",
+        "episode": "41",
+        "episodeName": "Arthur et les Ténèbres",
+        "file": "01467.mp3",
+        "title": "N'empêche que c'est moi qui avait proposé.",
+        "id": 1467,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Calogrenant"],
+        "season": "Livre I",
+        "episode": "41",
+        "episodeName": "Arthur et les Ténèbres",
+        "file": "01468.mp3",
+        "title": "Ouais, Ouais… Ouais ça aussi.",
+        "id": 1468,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -15444,7 +16279,7 @@
         "popularity": 3
     },
     {
-        "character": ["Le Tavergnier"],
+        "character": ["Le Tavernier"],
         "season": "Livre I",
         "episode": "89",
         "episodeName": "Tel un Chevalier",
@@ -15814,6 +16649,17 @@
         "file": "01439.mp3",
         "title": "Alors c'est ça, la stratégie moderne ? Réunir cinq trous-de-balle en cercle et se balancer des fions ?",
         "id": 1439,
+        "timestamp": "00:20:27",
+        "popularity": 3
+    },
+    {
+        "character": ["Goustan"],
+        "season": "Livre VI",
+        "episode": "02",
+        "episodeName": "Centurio",
+        "file": "01504.mp3",
+        "title": "Et bien voilà, bataille de fions.",
+        "id": 1504,
         "timestamp": "00:20:27",
         "popularity": 3
     }
