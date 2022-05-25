@@ -281,7 +281,9 @@ const Soundboard = (props) => {
                 }
             </main>
 
-            <footer></footer>
+            <footer>
+                <a href={'https://github.com/HemSyCode/Kaamelott-Soundboard'} target={'_blank'}><img src={require('./img/github.svg').default} alt={'GitHub'} height={'40px'} width={'40px'}/></a>
+            </footer>
 
         </div>
     )
