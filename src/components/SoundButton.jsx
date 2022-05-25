@@ -1,19 +1,26 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useRef, useState} from 'react'
 import ReactTooltip from 'react-tooltip'
 
 const SoundButton = (props) => {
     let data = props.data
-    const [isPlaying, setIsPlaying] = React.useState(false)
-    let audio = new Audio(require('./../sounds/'+data.file))
-    useEffect(() => {
-        audio.addEventListener('ended', () => setIsPlaying(false))
-        return () => {
-            audio.removeEventListener('ended', () => setIsPlaying(false))
-        }
-    })
+    const [isPlaying, setIsPlaying] = useState(false)
+    const audioPlayer = useRef();
+    const [currentTime, setCurrentTime] = useState(0);
+    const [seekValue, setSeekValue] = useState(0);
 
-    const masterPlay = () => { if( isPlaying === true ) { /*audio.pause(); audio.currentTime = 0; setIsPlaying(false)*/ } else { audio.play(); setIsPlaying(true) } }
+    const play = () => { audioPlayer.current.play(); setIsPlaying(true) }
+    const pause = () => { audioPlayer.current.pause(); setIsPlaying(false) }
+    const stop = () => { audioPlayer.current.pause(); audioPlayer.current.currentTime = 0; setIsPlaying(false); }
+    const setSpeed = (speed) => { audioPlayer.current.playbackRate = speed }
+    const canPlay = () => {  }
+    const onPlaying = () => { setCurrentTime(audioPlayer.current.currentTime); setSeekValue( (audioPlayer.current.currentTime / audioPlayer.current.duration) * 100 ) }
+    const masterPlay = () => { if( isPlaying === true ) { pause() } else { play() } }
     const labelIcon = () => { return isPlaying ? 'playing' : '' }
+
+    useEffect(() => {
+        audioPlayer.current.addEventListener('ended', () => { setIsPlaying(false); setSeekValue(0) })
+        // return () => { audioPlayer.current.removeEventListener('ended', () => { setIsPlaying(false); setSeekValue(0) }) }
+    })
 
     const characters = () => {
         let charactersString = ''
@@ -35,11 +42,13 @@ const SoundButton = (props) => {
 
     return (
         <div>
-            <a className={'btn btn-play '+ labelIcon()} role={'button'} onClick={() => masterPlay()} data-tip='' data-for={data.index}>
+            <a className={'btn btn-play '+ labelIcon()} role={'button'} onClick={() => masterPlay()} data-tip='' data-for={data.index} style={{"background": "linear-gradient(to right, #017F66 "+seekValue+"%, #18ae90 0%)"}}>
                 <small>{characters()}</small>
+                {/*<input type="range" min="0" max="100" step="1" value={seekValue} onChange={(e) => { const seekto = audioPlayer.current.duration * (+e.target.value / 100); audioPlayer.current.currentTime = seekto; setSeekValue(e.target.value); }}/>*/}
                 <br/>
                 <span className={'strong'}>{data.title.slice(0, 110)}</span>
             </a>
+            <audio id={data.id} ref={audioPlayer} onTimeUpdate={onPlaying} onCanPlay={canPlay} onDurationChange={() => {setSeekValue(0); stop();}} src={require('./../sounds/' + data.file)}>Your browser does not support the <code>audio</code> element.</audio>
             <ReactTooltip id={data.index} place="top" type="dark" effect="float" className={'react-tooltip-inner'} data-html={true}>
                 <div>
                     <span style={{"fontWeight": "bold"}}>{characters()}</span><br/>
