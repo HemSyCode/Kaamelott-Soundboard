@@ -42,7 +42,8 @@ const SoundButton = (props) => {
 
     return (
         <div>
-            <a className={'btn btn-play '+ labelIcon()} role={'button'} onClick={() => masterPlay()} data-tip='' data-for={data.index} style={{"background": "linear-gradient(to right, #017F66 "+seekValue+"%, #18ae90 0%)"}}>
+            <span className={'btn-info'} data-tip='' data-for={data.index} />
+            <a className={'btn btn-play '+ labelIcon()} role={'button'} onClick={() => masterPlay()} style={{"background": "linear-gradient(to right, #017F66 "+seekValue+"%, #18ae90 0%)"}}>
                 <small>{characters()}</small>
                 {/*<input type="range" min="0" max="100" step="1" value={seekValue} onChange={(e) => { const seekto = audioPlayer.current.duration * (+e.target.value / 100); audioPlayer.current.currentTime = seekto; setSeekValue(e.target.value); }}/>*/}
                 <br/>

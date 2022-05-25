@@ -333,6 +333,24 @@ footer {
       }
     }
   }
+  .btn-info {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 30px;
+    padding-top: 5px;
+    z-index: 9;
+    &:before {
+      position: absolute;
+      content: "";
+      background: url('./img/info.svg') no-repeat center center;
+      font-size: 1em;
+      height: 20px;
+      width: 20px;
+      left: 0;
+    }
+  }
   .btn-character,
   .btn-episode,
   .btn-paginator {
