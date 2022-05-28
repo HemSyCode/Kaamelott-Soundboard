@@ -1047,6 +1047,17 @@
     {
         "character": ["Arthur"],
         "season": "Livre I",
+        "episode": "37",
+        "episodeName": "La Romance de Lancelot",
+        "file": "01546.mp3",
+        "title": "Mais qu'est-ce qui vous prend, ça va pas, vous êtes dingue !?",
+        "id": 1546,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
         "episode": "40",
         "episodeName": "L'adoubement",
         "file": "00082.mp3",
@@ -1133,6 +1144,17 @@
         "popularity": 2
     },
     {
+        "character": ["Perceval"],
+        "season": "Livre I",
+        "episode": "43",
+        "episodeName": "La Coccinelle de Madenn",
+        "file": "01541.mp3",
+        "title": "À chaque fois qu'j'vais à un baloche, j'picole, j'discute, trois mois après y'a toujours un type qui débaroule avec sa fille enceinte.",
+        "id": 1541,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
         "character": ["Guethenoc"],
         "season": "Livre I",
         "episode": "43",
@@ -1181,6 +1203,17 @@
         "season": "Livre I",
         "episode": "45",
         "episodeName": "Le Oud",
+        "file": "01548.mp3",
+        "title": "Oh et puis j’en ai marre ! EH OH, ÇA VA PAS BIENTÔT FINIR NON ?",
+        "id": 1548,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre I",
+        "episode": "45",
+        "episodeName": "Le Oud",
         "file": "00094.mp3",
         "title": "EH OH ! ÇA VA PAS BIENTÔT FINIR NON ?!",
         "id": 94,
@@ -1221,6 +1254,28 @@
         "popularity": 2
     },
     {
+        "character": ["Léodagan"],
+        "season": "Livre I",
+        "episode": "46",
+        "episodeName": "Le Code de Chevalerie",
+        "file": "01539.mp3",
+        "title": "Alors dès qu'il s'agit d'aller s'dorer les miches en Armorique pour demander aux filles si elles ont pas vu le cul de Lulu alors là, là oui y a des volontaires !",
+        "id": 1539,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Père Blaise"],
+        "season": "Livre I",
+        "episode": "46",
+        "episodeName": "Le Code de Chevalerie",
+        "file": "01551.mp3",
+        "title": "Quies… (ancien Celte)",
+        "id": 1551,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Perceval"],
         "season": "Livre I",
         "episode": "46",
@@ -1229,6 +1284,17 @@
         "title": "Excusez… C'est juste pour vous dire que je vais pas pouvoir rester aujourd'hui. Faut que je retourne à la ferme de mes vieux. Y a ma grand-mère qui a glissé sur une bouse, c'est le vrai merdier !",
         "id": 98,
         "timestamp": "02:38:44",
+        "popularity": 3
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre I",
+        "episode": "46",
+        "episodeName": "Le Code de Chevalerie",
+        "file": "01520.mp3",
+        "title": "Non non non, j'vous fais confiance.",
+        "id": 1520,
+        "timestamp": "00:00:00",
         "popularity": 3
     },
     {
@@ -1331,6 +1397,17 @@
         "popularity": 2
     },
     {
+        "character": ["Caius Camillus"],
+        "season": "Livre I",
+        "episode": "56",
+        "episodeName": "Le Dernier Empereur",
+        "file": "01556.mp3",
+        "title": "Mais si on fait marrer tout le monde avec nos chenilles à la purée de fraise, nos couilles d'oursin aux amandes, j'sais pas quelles autres saloperies là.",
+        "id": 1556,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Merlin"],
         "season": "Livre I",
         "episode": "58",
@@ -1362,6 +1439,17 @@
         "id": 1469,
         "timestamp": "00:25:51",
         "popularity": 3
+    },
+    {
+        "character": ["Calogrenant"],
+        "season": "Livre I",
+        "episode": "59",
+        "episodeName": "La Jupe de Calogrenant",
+        "file": "01557.mp3",
+        "title": "Mais une tenue officielle, vous n'avez qu'à considérer que je suis officiellement cul nu !",
+        "id": 1557,
+        "timestamp": "00:00:00",
+        "popularity": 2
     },
     {
         "character": ["Yvain"],
@@ -1397,6 +1485,17 @@
         "popularity": 2
     },
     {
+        "character": ["Guethenoc"],
+        "season": "Livre I",
+        "episode": "62",
+        "episodeName": "Feu l’Ane de Guethenoc",
+        "file": "01560.mp3",
+        "title": "Attention attention ! Il va arriver un moment il y a des granges qui vont se mettre à flamber il faudra pas demander d'où ça vient !",
+        "id": 1560,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Ygerne De Tintagel"],
         "season": "Livre I",
         "episode": "65",
@@ -1428,6 +1527,17 @@
         "id": 115,
         "timestamp": "00:55:48",
         "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "67",
+        "episodeName": "La Kleptomane",
+        "file": "01519.mp3",
+        "title": "L'intro est comaque.",
+        "id": 1519,
+        "timestamp": "00:00:00",
+        "popularity": 3
     },
     {
         "character": ["Karadoc"],
@@ -1540,6 +1650,17 @@
         "popularity": 2
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "76",
+        "episodeName": "Choc Frontal",
+        "file": "01524.mp3",
+        "title": "M'enfin, elle est quand même raide celle-là.",
+        "id": 1524,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Le Répurgateur"],
         "season": "Livre I",
         "episode": "79",
@@ -1548,6 +1669,17 @@
         "title": "Je veux brûler cette personne !",
         "id": 126,
         "timestamp": "01:39:45",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "80",
+        "episodeName": "Les Volontaires",
+        "file": "01525.mp3",
+        "title": "Non sans déconner ?",
+        "id": 1525,
+        "timestamp": "01:47:05",
         "popularity": 2
     },
     {
@@ -1635,6 +1767,17 @@
         "file": "01508.mp3",
         "title": "A 2-3 poils de cul.",
         "id": 1508,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre I",
+        "episode": "88",
+        "episodeName": "L’Escorte",
+        "file": "01516.mp3",
+        "title": "Et puis quoi encore ?",
+        "id": 1516,
         "timestamp": "00:00:00",
         "popularity": 3
     },
@@ -1804,6 +1947,17 @@
         "popularity": 4
     },
     {
+        "character": ["Perceval"],
+        "season": "Livre I",
+        "episode": "93",
+        "episodeName": "Unagi",
+        "file": "01521.mp3",
+        "title": "Là dedans par contre ça carbure.",
+        "id": 1521,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
         "character": ["Karadoc"],
         "season": "Livre I",
         "episode": "96",
@@ -1918,8 +2072,19 @@
         "season": "Livre II",
         "episode": "03",
         "episodeName": "Le Dialogue de Paix",
+        "file": "01526.mp3",
+        "title": "Couillère ! #1",
+        "id": 1526,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Le Roi Burgonde"],
+        "season": "Livre II",
+        "episode": "03",
+        "episodeName": "Le Dialogue de Paix",
         "file": "00156.mp3",
-        "title": "Couillère !",
+        "title": "Couillère ! #2",
         "id": 156,
         "timestamp": "00:09:02",
         "popularity": 2
@@ -2109,6 +2274,17 @@
         "title": "C'est… personne. C'est un… connard.",
         "id": 172,
         "timestamp": "00:41:45",
+        "popularity": 3
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "12",
+        "episodeName": "La Délégation Maure",
+        "file": "01527.mp3",
+        "title": "Si il lache une caisse ça le fait ou pas ?",
+        "id": 1527,
+        "timestamp": "00:00:00",
         "popularity": 3
     },
     {
@@ -2708,6 +2884,17 @@
     {
         "character": ["Arthur"],
         "season": "Livre II",
+        "episode": "49",
+        "episodeName": "Les Chiens de Guerre",
+        "file": "01531.mp3",
+        "title": "...Moi j’en ai marre de toujours donner des coups de pied aux poules.",
+        "id": 1531,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
         "episode": "50",
         "episodeName": "Always",
         "file": "00225.mp3",
@@ -3135,6 +3322,17 @@
         "popularity": 2
     },
     {
+        "character": ["Guethenoc"],
+        "season": "Livre II",
+        "episode": "69",
+        "episodeName": "Feue la Vache de Roparzh",
+        "file": "01528.mp3",
+        "title": "J'vous file un grand coup d'bêche dans la tête et puis on en parle plus !",
+        "id": 1528,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Galessin"],
         "season": "Livre II",
         "episode": "70",
@@ -3319,6 +3517,17 @@
         "title": "Moi, dans la vie j'avais deux ennemis : le vocabulaire et les épinards. Maintenant, j'ai la botte secrète et je bouffe plus d'épinards. Merci, de rien, au revoir messieurs-dames.",
         "id": 275,
         "timestamp": "01:49:11",
+        "popularity": 2
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre II",
+        "episode": "79",
+        "episodeName": "La Botte Secrète II",
+        "file": "01529.mp3",
+        "title": "Merci de rien, au revoir messieurs dames.",
+        "id": 1529,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -3540,6 +3749,17 @@
         "id": 293,
         "timestamp": "00:13:24",
         "popularity": 2
+    },
+    {
+        "character": ["Merlin"],
+        "season": "Livre III",
+        "episode": "04",
+        "episodeName": "Le porte-bonheur",
+        "file": "01536.mp3",
+        "title": "J'ai tout entendu et c'est honteux !",
+        "id": 1536,
+        "timestamp": "00:00:00",
+        "popularity": 3
     },
     {
         "character": ["Séfriane d'Aquitaine"],
@@ -7909,6 +8129,17 @@
         "popularity": 2
     },
     {
+        "character": ["Anna De Tintagel"],
+        "season": "Livre V",
+        "episode": "30",
+        "episodeName": "L’Avènement du Sanguinaire",
+        "file": "01534.mp3",
+        "title": "Vous êtes une gigantesque tarlouze.",
+        "id": 1534,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Lionel De Gaunes"],
         "season": "Livre V",
         "episode": "31",
@@ -9295,6 +9526,17 @@
         "popularity": 2
     },
     {
+        "character": ["Appius Manilius"],
+        "season": "Livre VI",
+        "episode": "06",
+        "episodeName": "Nuptiae",
+        "file": "01535.mp3",
+        "title": "En fait j'en ai pris deux, mais euh... j'ai cherché la merde.",
+        "id": 1535,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Merlin"],
         "season": "Livre VI",
         "episode": "06",
@@ -9878,6 +10120,17 @@
         "popularity": 2
     },
     {
+        "character": ["Yvain"],
+        "season": "Livre I",
+        "episode": "60",
+        "episodeName": "Le Prodige du Fakir",
+        "file": "01522.mp3",
+        "title": "J'vous raconte pas la gerbe.",
+        "id": 1522,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Gauvain"],
         "season": "Livre I",
         "episode": "60",
@@ -10300,6 +10553,17 @@
         "season": "Livre I",
         "episode": "21",
         "episodeName": "La Taxe Militaire",
+        "file": "01532.mp3",
+        "title": "Mais vous vous foutez de moi ! Il a au moins 95 ans, il a une jambe raide, il est tellement bigleux qu'il trouverait même pas sa bite pour pisser !",
+        "id": 1532,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
+        "character": ["Jacca"],
+        "season": "Livre I",
+        "episode": "21",
+        "episodeName": "La Taxe Militaire",
         "file": "00894.mp3",
         "title": "Ils sont cons… comme des tables !",
         "id": 894,
@@ -10531,6 +10795,17 @@
         "season": "Livre I",
         "episode": "61",
         "episodeName": "Un Bruit Dans la Nuit",
+        "file": "01559.mp3",
+        "title": "A MOI !",
+        "id": 1559,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Bohort"],
+        "season": "Livre I",
+        "episode": "61",
+        "episodeName": "Un Bruit Dans la Nuit",
         "file": "00914.mp3",
         "title": "- Des faisans c'est des oiseaux Bohort.\n- Des oiseaux de quatre pieds de long ! Je m'excuse du peu, mais je trouve ça parfaitement terrifiant !",
         "id": 914,
@@ -10645,6 +10920,17 @@
         "title": "Berger de Calédonie\nMena bêtes sous rude orage\nDût attendre bien à l'abri\nQue s'enfuient les gros nuages.\nNiah, niah, niah, niah !",
         "id": 924,
         "timestamp": "00:21:42",
+        "popularity": 2
+    },
+    {
+        "character": ["Le Barde"],
+        "season": "Livre I",
+        "episode": "07",
+        "episodeName": "Des Nouvelles du Monde",
+        "file": "01545.mp3",
+        "title": "J'l'ai perdu. J'l'ai perdu, je, j'l'ai perdu.",
+        "id": 1545,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -11473,6 +11759,17 @@
         "popularity": 2
     },
     {
+        "character": ["Léodagan"],
+        "season": "Livre I",
+        "episode": "11",
+        "episodeName": "Dîner Dansant",
+        "file": "01533.mp3",
+        "title": "Je l'ai pas dit fort.",
+        "id": 1533,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Venec"],
         "season": "Livre I",
         "episode": "13",
@@ -11869,6 +12166,17 @@
         "popularity": 3
     },
     {
+        "character": ["Perceval"],
+        "season": "Livre I",
+        "episode": "64",
+        "episodeName": "Le Chaudron Rutilant",
+        "file": "01561.mp3",
+        "title": "Il m'aura fait chier jusqu'au bout celui-là !",
+        "id": 1561,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Yvain"],
         "season": "Livre I",
         "episode": "60",
@@ -11877,6 +12185,17 @@
         "title": "Et après, il a enroulé sa quique autour du bâton !",
         "id": 1030,
         "timestamp": "00:32:43",
+        "popularity": 2
+    },
+    {
+        "character": ["Yvain"],
+        "season": "Livre I",
+        "episode": "60",
+        "episodeName": "Le Prodige du Fakir",
+        "file": "01558.mp3",
+        "title": "Il avait une touffe de cheveux comme ça, un vieux moisi tout gueze à poil dans la neige !",
+        "id": 1558,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -12232,6 +12551,17 @@
         "popularity": 3
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "15",
+        "episodeName": "Les Défis de Merlin",
+        "file": "01549.mp3",
+        "title": "Ok, on va arrêter le tir avec les défis.",
+        "id": 1549,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
         "character": ["Venec"],
         "season": "Livre I",
         "episode": "16",
@@ -12430,6 +12760,17 @@
         "popularity": 2
     },
     {
+        "character": ["Bohort"],
+        "season": "Livre I",
+        "episode": "31",
+        "episodeName": "Basidiomycètes",
+        "file": "01544.mp3",
+        "title": "J'ai pas eu le temps d'enlever mon armure.",
+        "id": 1544,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Léodagan"],
         "season": "Livre I",
         "episode": "31",
@@ -12438,6 +12779,17 @@
         "title": "Et comment ça se fait qu'ils sont pas malades les deux cons là ?!",
         "id": 1076,
         "timestamp": "01:45:46",
+        "popularity": 2
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre I",
+        "episode": "31",
+        "episodeName": "Basidiomycètes",
+        "file": "01553.mp3",
+        "title": "Un plan d'attaque minuté au poil de fion, le double d'effectif de ceux d'en face ! Manque de bol, les Seigneurs Perceval et Karadoc s'en mèlent et on rentre chez nous comme des clodos. Avec la chiasse en prime ! Qu'est-ce qu'ils sont cons !",
+        "id": 1553,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -12650,6 +13002,17 @@
         "popularity": 3
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "20",
+        "episodeName": "La Dent de Requin",
+        "file": "01538.mp3",
+        "title": "Ah non, ça c'est que nous. Parce qu'il faut être capable de passer pour des cons en un temps record. Ah non, là dessus on a une avance considérable.",
+        "id": 1538,
+        "timestamp": "01:07:13",
+        "popularity": 2
+    },
+    {
         "character": ["Le Tavernier"],
         "season": "Livre I",
         "episode": "20",
@@ -12714,6 +13077,17 @@
         "id": 1096,
         "timestamp": "01:02:15",
         "popularity": 3
+    },
+    {
+        "character": ["Guethenoc"],
+        "season": "Livre I",
+        "episode": "68",
+        "episodeName": "Le Pain",
+        "file": "01562.mp3",
+        "title": "Mais c'est une honte d'entendre des trucs comme ça !",
+        "id": 1562,
+        "timestamp": "00:00:00",
+        "popularity": 2
     },
     {
         "character": ["Le Répurgateur"],
@@ -13618,6 +13992,17 @@
         "popularity": 2
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "38",
+        "episodeName": "Merlin et les Loups",
+        "file": "01550.mp3",
+        "title": "Putain faut vraiment qu'on s'grouille !",
+        "id": 1550,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Merlin"],
         "season": "Livre I",
         "episode": "15",
@@ -13794,6 +14179,28 @@
         "popularity": 2
     },
     {
+        "character": ["Léodagan"],
+        "season": "Livre I",
+        "episode": "39",
+        "episodeName": "Le Cas Yvain",
+        "file": "01537.mp3",
+        "title": "Ah bravo ! Alors vous parlez d'un héro !",
+        "id": 1537,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre I",
+        "episode": "39",
+        "episodeName": "Le Cas Yvain",
+        "file": "01542.mp3",
+        "title": "Fier ?! J'vais l'envoyer trois mois à poil dans la forêt à bouffer des asticots et des racines, et puis j'vous garantis que quand il reviendra il fera moins de poêmes hein !",
+        "id": 1542,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Perceval"],
         "season": "Livre I",
         "episode": "43",
@@ -13836,6 +14243,17 @@
         "id": 1195,
         "timestamp": "02:43:08",
         "popularity": 3
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre I",
+        "episode": "47",
+        "episodeName": "Létal",
+        "file": "01552.mp3",
+        "title": "Sinon c'que j'peux vous proposer : on attache le condamné, et on le balance sur un nid d'frelons. C'est propre c'est sain. C'est rien qu'du naturel.",
+        "id": 1552,
+        "timestamp": "00:00:00",
+        "popularity": 2
     },
     {
         "character": ["Azénor"],
@@ -13882,6 +14300,17 @@
         "popularity": 2
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "54",
+        "episodeName": "Le Serpent Géant",
+        "file": "01554.mp3",
+        "title": "Ils se barrent en mission pendant trois mois et ils reviennent avec une anguille ?",
+        "id": 1554,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Léodagan"],
         "season": "Livre I",
         "episode": "68",
@@ -13901,6 +14330,39 @@
         "title": "Vous seriez pas de la famille du vieux Guénol ? Si, celui qui a sa jambe vérolée et puis ses deux filles qui font putes.",
         "id": 1201,
         "timestamp": "01:11:36",
+        "popularity": 2
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre I",
+        "episode": "71",
+        "episodeName": "Un Roi à la Taverne",
+        "file": "01563.mp3",
+        "title": "Dis donc machin, si t'allais voir à la table du fond si on y est ?",
+        "id": 1563,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "71",
+        "episodeName": "Un Roi à la Taverne",
+        "file": "01564.mp3",
+        "title": "Et vous bande de cons !",
+        "id": 1564,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre I",
+        "episode": "72",
+        "episodeName": "Les Fesses de Guenièvre",
+        "file": "01565.mp3",
+        "title": "Pfff ! C'est pour ça qu'j'pane rien aux livres moi, ça veut pas dire ce qu'il y a marqué.",
+        "id": 1565,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -14586,6 +15048,17 @@
         "popularity": 2
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "09",
+        "episodeName": "Le Maître d'Armes",
+        "file": "01547.mp3",
+        "title": "Moi depuis ce matin j'me fais traiter de gonzesse, j'en fais pas tout un cake !",
+        "id": 1547,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Le Maitre D'Armes"],
         "season": "Livre I",
         "episode": "09",
@@ -14616,6 +15089,17 @@
         "title": "- Vous allez passer pour des...\n- Pour des quoi ?\n- Eh bah, pour des qu'on peut pas se permettre de passer pour !",
         "id": 1266,
         "timestamp": "00:54:27",
+        "popularity": 2
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre I",
+        "episode": "16",
+        "episodeName": "Le Banquet des Chefs",
+        "file": "01540.mp3",
+        "title": "Bohort arrêtez de vous vexer sans arrêt comme une grosse dinde ! On vous dit qu'c'est politique !",
+        "id": 1540,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -14694,6 +15178,17 @@
         "id": 1273,
         "timestamp": "02:03:02",
         "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "87",
+        "episodeName": "Retour de Campagne",
+        "file": "01518.mp3",
+        "title": "Ah c'est ça !",
+        "id": 1518,
+        "timestamp": "00:00:00",
+        "popularity": 3
     },
     {
         "character": ["Arthur"],
@@ -14869,6 +15364,17 @@
         "title": "Le seigneur Karadoc, il t'emmerde !",
         "id": 1288,
         "timestamp": "02:37:07",
+        "popularity": 3
+    },
+    {
+        "character": ["Karadoc"],
+        "season": "Livre II",
+        "episode": "92",
+        "episodeName": "La Restriction",
+        "file": "01530.mp3",
+        "title": "Mais il y en pas de siège pauvre conne !",
+        "id": 1530,
+        "timestamp": "00:00:00",
         "popularity": 3
     },
     {
@@ -15578,6 +16084,17 @@
     {
         "character": ["Arthur"],
         "season": "Livre II",
+        "episode": "24",
+        "episodeName": "Sous Les Verrous",
+        "file": "01517.mp3",
+        "title": "Évidemment qu'y a quelqu'un !",
+        "id": 1517,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
         "episode": "31",
         "episodeName": "L'Ivresse",
         "file": "01347.mp3",
@@ -16126,6 +16643,17 @@
         "popularity": 2
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "25",
+        "episodeName": "Le Sacrifice",
+        "file": "01523.mp3",
+        "title": "Ptet fait une connerie moi.",
+        "id": 1523,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Yvain"],
         "season": "Livre I",
         "episode": "39",
@@ -16225,6 +16753,17 @@
         "popularity": 2
     },
     {
+        "character": ["Léodagan"],
+        "season": "Livre I",
+        "episode": "44",
+        "episodeName": "Patience dans la Plaine",
+        "file": "01543.mp3",
+        "title": "Non mais ils comprennent jamais le code.",
+        "id": 1543,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Arthur"],
         "season": "Livre I",
         "episode": "55",
@@ -16233,6 +16772,17 @@
         "title": "Ils marchent sur leur ventre… Dans le genre flippant, je sais pas ce qu'il vous faut !",
         "id": 1401,
         "timestamp": "00:16:58",
+        "popularity": 2
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre I",
+        "episode": "55",
+        "episodeName": "Guenièvre et les Oiseaux",
+        "file": "01555.mp3",
+        "title": "Bah si il n'y avait que les oiseaux elle est à moitié givrée de toute façon. On ne peut pas tout relever non plus !",
+        "id": 1555,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
