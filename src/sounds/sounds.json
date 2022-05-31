@@ -1672,6 +1672,17 @@
         "popularity": 2
     },
     {
+        "character": ["Le Répurgateur"],
+        "season": "Livre I",
+        "episode": "79",
+        "episodeName": "L’Expurgation de Merlin",
+        "file": "01570.mp3",
+        "title": "Tais toi ! Ta gueule ! Tais toi !",
+        "id": 1570,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Arthur"],
         "season": "Livre I",
         "episode": "80",
@@ -1852,11 +1863,33 @@
         "season": "Livre I",
         "episode": "89",
         "episodeName": "Tel un Chevalier",
+        "file": "01575.mp3",
+        "title": "Non mais je sens bien que vous essayer de me dire quelque chose, mais c'est de vous la phrase ou vous l'avez entendu ça ? \"colifiché\" par exemple, qu'est-ce que c'est pour vous ? comment ça, comment vous vous le représentez, \"colifiché\" ?",
+        "id": 1575,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "89",
+        "episodeName": "Tel un Chevalier",
         "file": "00138.mp3",
         "title": "Non, moi je crois qu'il faut que vous arrêtiez d'essayer de dire des trucs. Ça vous fatigue déjà. Et pour les autres vous vous rendez pas compte de ce que c'est. Moi quand vous faites ça, ça me fout une angoisse. Je pourrais vous tuer je crois. De chagrin hein… Je vous jure c'est pas bien. Il faut plus que vous parliez avec des gens !",
         "id": 138,
         "timestamp": "02:16:09",
         "popularity": 4
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "89",
+        "episodeName": "Tel un Chevalier",
+        "file": "01576.mp3",
+        "title": "Bon bah je vais voir ce que je peux faire.",
+        "id": 1576,
+        "timestamp": "00:00:00",
+        "popularity": 2
     },
     {
         "character": ["Perceval"],
@@ -1903,6 +1936,17 @@
         "popularity": 3
     },
     {
+        "character": ["Perceval"],
+        "season": "Livre I",
+        "episode": "91",
+        "episodeName": "La Fureur du Dragon",
+        "file": "01580.mp3",
+        "title": "Oui enfin... j'me comprends.",
+        "id": 1580,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Yvain"],
         "season": "Livre I",
         "episode": "91",
@@ -1936,6 +1980,17 @@
         "popularity": 2
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "92",
+        "episodeName": "Vox Populi",
+        "file": "01581.mp3",
+        "title": "Oui oh ça va, ça va, j'connais le couplet : \"On est fatigué, on est fatigué\", vous me le cancanez depuis midi.",
+        "id": 1581,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Perceval"],
         "season": "Livre I",
         "episode": "93",
@@ -1956,6 +2011,39 @@
         "id": 1521,
         "timestamp": "00:00:00",
         "popularity": 3
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre I",
+        "episode": "93",
+        "episodeName": "Unagi",
+        "file": "01582.mp3",
+        "title": "Ah ouais je l'ai fait trop fulgurant là. Ça va ?",
+        "id": 1582,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "94",
+        "episodeName": "L'Éclaireur",
+        "file": "01583.mp3",
+        "title": "Parce que là quitte à se faire repérer, on prendrait moins de risque à faire venir un orchestre.",
+        "id": 1583,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "94",
+        "episodeName": "L'Éclaireur",
+        "file": "01584.mp3",
+        "title": "J'ai fait pile comme vous avez dit, tout au feu de bois.",
+        "id": 1584,
+        "timestamp": "00:00:00",
+        "popularity": 2
     },
     {
         "character": ["Karadoc"],
@@ -2010,6 +2098,127 @@
         "title": "Tout le monde s'en branle ! Moi le premier.",
         "id": 150,
         "timestamp": "02:48:55",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "98",
+        "episodeName": "Le Tourment",
+        "file": "01585.mp3",
+        "title": "Vous allez me foutre le camp espèce de con !?",
+        "id": 1585,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "98",
+        "episodeName": "Le Tourment",
+        "file": "01586.mp3",
+        "title": "Mais qu'est-ce que vous voulez que ça me foute !",
+        "id": 1586,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "98",
+        "episodeName": "Le Tourment",
+        "file": "01587.mp3",
+        "title": "Me parler ? À c't'heure-ci ? Vous voulez mon pied au cul ?",
+        "id": 1587,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "98",
+        "episodeName": "Le Tourment",
+        "file": "01588.mp3",
+        "title": "Ah si, ah moi j'serais vous j'irai me recoucher vite fait avant de m'prendre un pain.",
+        "id": 1588,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "98",
+        "episodeName": "Le Tourment",
+        "file": "01589.mp3",
+        "title": "Bah je sais pas ? Me lâcher la grappe par exemple ?",
+        "id": 1589,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "98",
+        "episodeName": "Le Tourment",
+        "file": "01590.mp3",
+        "title": "Mais qu'est-ce que vous voulez que ça me foute vos conneries ?!",
+        "id": 1590,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "98",
+        "episodeName": "Le Tourment",
+        "file": "01591.mp3",
+        "title": "Mais mariez-vous avec qui vous voulez et allez crever !",
+        "id": 1591,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "98",
+        "episodeName": "Le Tourment",
+        "file": "01592.mp3",
+        "title": "Mais qu'est-ce que j'en ai a foutre ?! Mais vous pourriez bien vous marier avec une chèvre si ça vous chante !",
+        "id": 1592,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "98",
+        "episodeName": "Le Tourment",
+        "file": "01593.mp3",
+        "title": "Et puis alors mon petit pote si vous en tenez une qui veut vraiment se marier avec vous, rappelez-vous que c'est inespéré et sautez sur l'occasion avant qu'elle change d'avis !",
+        "id": 1593,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "98",
+        "episodeName": "Le Tourment",
+        "file": "01594.mp3",
+        "title": "J'en ai rien à foutre !",
+        "id": 1594,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "98",
+        "episodeName": "Le Tourment",
+        "file": "01595.mp3",
+        "title": "Rien à carrer !",
+        "id": 1595,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -5636,6 +5845,28 @@
         "season": "Livre IV",
         "episode": "16",
         "episodeName": "Dagonet et le Cadastre",
+        "file": "01601.mp3",
+        "title": "Et vous êtes parfaitement antipathique. D'ailleurs j'vous aime pas moi non plus, comme quoi, voyez ?",
+        "id": 1601,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Loth"],
+        "season": "Livre IV",
+        "episode": "16",
+        "episodeName": "Dagonet et le Cadastre",
+        "file": "01602.mp3",
+        "title": "C'est à dire qu'ça fait un peu une demi-journée qu'on vous attend, mais ça fait rien.",
+        "id": 1602,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Loth"],
+        "season": "Livre IV",
+        "episode": "16",
+        "episodeName": "Dagonet et le Cadastre",
         "file": "00461.mp3",
         "title": "C'est un peigne-zizi.",
         "id": 461,
@@ -8250,6 +8481,17 @@
         "popularity": 3
     },
     {
+        "character": ["Kadoc"],
+        "season": "Livre V",
+        "episode": "33",
+        "episodeName": "Domi nostrae",
+        "file": "01604.mp3",
+        "title": "Ça suffit, ça suffit, ça suffit !!",
+        "id": 1604,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Karadoc"],
         "season": "Livre V",
         "episode": "33",
@@ -9816,6 +10058,17 @@
         "season": "Livre VI",
         "episode": "08",
         "episodeName": "Lacrimosa",
+        "file": "01600.mp3",
+        "title": "Ça m'a littéralement cuit les boules !",
+        "id": 1600,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Loth"],
+        "season": "Livre VI",
+        "episode": "08",
+        "episodeName": "Lacrimosa",
         "file": "00833.mp3",
         "title": "- Demi frère !\n- Ah oui, ça, elle y tient beaucoup ! Une fois, malencontreusement, j'ai dit « votre frère », votre salope de fille m'a renversé une pleine soupière de bouillon sur toute la zone génitale. Ça m'a littéralement cuit les boules !",
         "id": 833,
@@ -9843,6 +10096,17 @@
         "id": 835,
         "timestamp": "00:11:57",
         "popularity": 3
+    },
+    {
+        "character": ["Loth"],
+        "season": "Livre VI",
+        "episode": "08",
+        "episodeName": "Lacrimosa",
+        "file": "01599.mp3",
+        "title": "J'aime assez ce petit ton décalé...",
+        "id": 1599,
+        "timestamp": "00:00:00",
+        "popularity": 2
     },
     {
         "character": ["Perceval"],
@@ -10294,6 +10558,17 @@
         "id": 875,
         "timestamp": "02:19:02",
         "popularity": 3
+    },
+    {
+        "character": ["Guenièvre"],
+        "season": "Livre I",
+        "episode": "90",
+        "episodeName": "La Pâte d’Amande",
+        "file": "01577.mp3",
+        "title": "Ca va oui, ça va, vous êtes CONTENT !",
+        "id": 1577,
+        "timestamp": "00:00:00",
+        "popularity": 2
     },
     {
         "character": ["Roparzh"],
@@ -11173,6 +11448,17 @@
         "title": "- Ah ! Seigneur Perceval, vous tombez bien !\n- Pas spécialement, non. Enfin, je me débrouille toujours pour me rattraper à quelque chose.",
         "id": 942,
         "timestamp": "01:27:05",
+        "popularity": 2
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre III",
+        "episode": "24",
+        "episodeName": "Les Suppléants",
+        "file": "01605.mp3",
+        "title": "Incandescente, c'est : qui peut accaparer des objets sans ressurgir sur autrui.",
+        "id": 1605,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -13057,6 +13343,17 @@
         "popularity": 3
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "82",
+        "episodeName": "Décibels Nocturnes",
+        "file": "01571.mp3",
+        "title": "Ah nan mais quand on est pas habitué c'est drôlement impressionnant la magie !",
+        "id": 1571,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Karadoc"],
         "season": "Livre I",
         "episode": "68",
@@ -14025,6 +14322,17 @@
         "popularity": 3
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "88",
+        "episodeName": "L’Escorte",
+        "file": "01573.mp3",
+        "title": "Bon bah aller on démarre. Et ouvrez les échauguettes, j'ai pas envie de répéter.",
+        "id": 1573,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Goustan"],
         "season": "Livre I",
         "episode": "63",
@@ -14275,6 +14583,17 @@
         "title": "Je crois qu'on s'est mal compris là. Vous avez une idée du temps qu'il me faut pour tracer une lettre avec CES PUTAINS DE PLUMES ?!",
         "id": 1197,
         "timestamp": "00:01:33",
+        "popularity": 2
+    },
+    {
+        "character": ["Galessin"],
+        "season": "Livre I",
+        "episode": "51",
+        "episodeName": "Enluminures",
+        "file": "01603.mp3",
+        "title": "Moi il me semble qu'il nous parle bien de travers, le cureton, aujourd'hui !",
+        "id": 1603,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -15004,6 +15323,28 @@
         "popularity": 2
     },
     {
+        "character": ["Belt"],
+        "season": "Livre VI",
+        "episode": "07",
+        "episodeName": "Arturus Rex",
+        "file": "01597.mp3",
+        "title": "Regardez moi ce petit navet ! A quelle heure on doit se lever nous le matin ? On nous en colle jusque là, ras la gueule ras la gueule ras la gueule ! Et un jour qu'est ce qu'il va se passer ? Patatrac !",
+        "id": 1597,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Roparzh"],
+        "season": "Livre VI",
+        "episode": "07",
+        "episodeName": "Arturus Rex",
+        "file": "01598.mp3",
+        "title": "Mais justement c'est maintenant qu'il faut se secouer les rognons, sinon ça part tout à volo.",
+        "id": 1598,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Pellinor"],
         "season": "Livre VI",
         "episode": "08",
@@ -15182,11 +15523,33 @@
     {
         "character": ["Arthur"],
         "season": "Livre I",
+        "episode": "85",
+        "episodeName": "La Blessure Mortelle",
+        "file": "01572.mp3",
+        "title": "Ah mais arrêtez d'gueuler comme un con !",
+        "id": 1572,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
         "episode": "87",
         "episodeName": "Retour de Campagne",
         "file": "01518.mp3",
         "title": "Ah c'est ça !",
         "id": 1518,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "99",
+        "episodeName": "La Retraite",
+        "file": "01596.mp3",
+        "title": "Mais qu'est-ce que vous me bavez encore !",
+        "id": 1596,
         "timestamp": "00:00:00",
         "popularity": 3
     },
@@ -15936,6 +16299,28 @@
         "title": "Non chut chut. Je préfère qu'on parle pas. Une attitude pareille moi ça me coupe le sifflet.",
         "id": 1339,
         "timestamp": "01:30:14",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "77",
+        "episodeName": "Le Forage",
+        "file": "01568.mp3",
+        "title": "Alors si j'veux bien résumer l'truc, vous allez creuser trois pieds et demi sur toute la Bretagne, jusqu'à c'que vous tombiez sur le Graal, c'est ça ?",
+        "id": 1568,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "78",
+        "episodeName": "Le Discobole",
+        "file": "01569.mp3",
+        "title": "C'est tellement facile que j'vais p'tet systématiser le processus. Parce qu'y'a pas qu'la statue qui m'emmerde.",
+        "id": 1569,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -16808,6 +17193,17 @@
         "popularity": 2
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "74",
+        "episodeName": "Guenièvre et l’Orage",
+        "file": "01566.mp3",
+        "title": "Nan mais c'est pas possible elle me foutra pas la paix !",
+        "id": 1566,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Perceval"],
         "season": "Livre I",
         "episode": "75",
@@ -16819,6 +17215,17 @@
         "popularity": 3
     },
     {
+        "character": ["Narces"],
+        "season": "Livre I",
+        "episode": "75",
+        "episodeName": "Eunuques et Chauds Lapins",
+        "file": "01567.mp3",
+        "title": "ROOO ! Bon, alors, on fait venir les poulettes ou quoi ?",
+        "id": 1567,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Perceval"],
         "season": "Livre I",
         "episode": "89",
@@ -16828,6 +17235,17 @@
         "id": 1405,
         "timestamp": "02:14:19",
         "popularity": 3
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre I",
+        "episode": "89",
+        "episodeName": "Tel un Chevalier",
+        "file": "01574.mp3",
+        "title": "Ah non moi là aujourd'hui ça passera pas.",
+        "id": 1574,
+        "timestamp": "00:00:00",
+        "popularity": 2
     },
     {
         "character": ["Le Tavernier"],
@@ -16850,6 +17268,28 @@
         "id": 1407,
         "timestamp": "02:18:11",
         "popularity": 3
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "90",
+        "episodeName": "La Pâte d’Amande",
+        "file": "01578.mp3",
+        "title": "J'crois pas qu'vous soyez le symbole de la nation bretonne.",
+        "id": 1578,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "90",
+        "episodeName": "La Pâte d’Amande",
+        "file": "01579.mp3",
+        "title": "Ah ! Ah, mais vous êtes marteau ?! Et regardez ça, ça pisse le sang !",
+        "id": 1579,
+        "timestamp": "00:00:00",
+        "popularity": 2
     },
     {
         "character": ["Merlin"],
