@@ -17,6 +17,13 @@ Les meilleures phrases cultes et citations de la série Kaamelott.
 Merci, de rien, au revoir m'sieur dame
 
 
+## Docker
+
+### `docker build -t kaamelott-soundboard .`
+
+### `docker run -it -d -p 80:80 kaamelott-soundboard`
+
+
 ## Compilation d'une App. Android ##
 
 Si le répertoire 'Android' est présent à la racine du projet, le supprimer.
