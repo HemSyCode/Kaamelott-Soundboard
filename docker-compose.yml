@@ -1,0 +1,7 @@
+version: '3'
+services:
+  hemsy-kaamelott-soundboard:
+    image: 'hemsy/kaamelott-soundboard:latest'
+    restart: unless-stopped
+    ports:
+      - '80:80'
