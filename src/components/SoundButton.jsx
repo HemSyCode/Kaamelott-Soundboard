@@ -7,13 +7,14 @@ const SoundButton = (props) => {
     const audioPlayer = useRef();
     const [currentTime, setCurrentTime] = useState(0);
     const [seekValue, setSeekValue] = useState(0);
+    const [bufferedValue, setBufferedValue] = useState(0);
 
     const play = () => { audioPlayer.current.play(); setIsPlaying(true) }
     const pause = () => { audioPlayer.current.pause(); setIsPlaying(false) }
     const stop = () => { audioPlayer.current.pause(); audioPlayer.current.currentTime = 0; setIsPlaying(false); }
     const setSpeed = (speed) => { audioPlayer.current.playbackRate = speed }
     const canPlay = () => {  }
-    const onPlaying = () => { setCurrentTime(audioPlayer.current.currentTime); setSeekValue( (audioPlayer.current.currentTime / audioPlayer.current.duration) * 100 ) }
+    const onPlaying = () => { setCurrentTime(audioPlayer.current.currentTime); setSeekValue( (audioPlayer.current.currentTime / audioPlayer.current.duration) * 100 ); setBufferedValue( (audioPlayer.current.buffered.end(audioPlayer.current.buffered.length - 1) / audioPlayer.current.duration) * 100 ) }
     const masterPlay = () => { if( isPlaying === true ) { pause() } else { play() } }
     const labelIcon = () => { return isPlaying ? 'playing' : '' }
 
@@ -49,7 +50,8 @@ const SoundButton = (props) => {
                 <br/>
                 <span className={'strong'}>{data.title.slice(0, 110)}</span>
             </a>
-            <audio id={data.id} ref={audioPlayer} onTimeUpdate={onPlaying} onCanPlay={canPlay} onDurationChange={() => {setSeekValue(0); stop();}} src={require('./../sounds/' + data.file)}>Your browser does not support the <code>audio</code> element.</audio>
+            <div className="audio-buffer" style={{"background": "linear-gradient(to right, #017F66 " + bufferedValue + "%, #18ae90 0%)"}}/>
+            <audio id={data.id} ref={audioPlayer} onTimeUpdate={onPlaying} onCanPlay={canPlay} onDurationChange={() => {setSeekValue(0); setBufferedValue(0); stop();}} src={require('./../sounds/' + data.file)}>Your browser does not support the <code>audio</code> element.</audio>
             <ReactTooltip id={data.index} place="top" type="dark" effect="float" className={'react-tooltip-inner'} data-html={true}>
                 <div>
                     <span style={{"fontWeight": "bold"}}>{characters()}</span><br/>
