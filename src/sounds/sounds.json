@@ -253,7 +253,7 @@
         "popularity": 3
     },
     {
-        "character": ["Perceval"],
+        "character": ["Père Blaise", "Perceval", "Arthur"],
         "season": "Livre I",
         "episode": "04",
         "episodeName": "Le Chevalier Mystère",
@@ -264,7 +264,7 @@
         "popularity": 3
     },
     {
-        "character": ["Perceval"],
+        "character": ["Perceval", "Bohort", "Arthur"],
         "season": "Livre I",
         "episode": "04",
         "episodeName": "Le Chevalier Mystère",
@@ -451,7 +451,7 @@
         "popularity": 3
     },
     {
-        "character": ["Arthur"],
+        "character": ["Dame Séli", "Arthur"],
         "season": "Livre I",
         "episode": "11",
         "episodeName": "Dîner Dansant",
@@ -473,7 +473,7 @@
         "popularity": 2
     },
     {
-        "character": ["Arthur"],
+        "character": ["Dame Séli", "Arthur"],
         "season": "Livre I",
         "episode": "11",
         "episodeName": "Dîner Dansant",
@@ -792,7 +792,7 @@
         "popularity": 5
     },
     {
-        "character": ["Perceval"],
+        "character": ["Lancelot", "Perceval"],
         "season": "Livre I",
         "episode": "28",
         "episodeName": "La Botte Secrète",
@@ -1188,7 +1188,7 @@
         "popularity": 4
     },
     {
-        "character": ["Guenièvre"],
+        "character": ["Guenièvre", "Arthur"],
         "season": "Livre I",
         "episode": "45",
         "episodeName": "Le Oud",
@@ -1430,7 +1430,7 @@
         "popularity": 2
     },
     {
-        "character": ["Arthur"],
+        "character": ["Merlin", "Arthur"],
         "season": "Livre I",
         "episode": "58",
         "episodeName": "Le Coup d'Epée",
@@ -1463,7 +1463,7 @@
         "popularity": 2
     },
     {
-        "character": ["Yvain"],
+        "character": ["Père Blaise", "Yvain"],
         "season": "Livre I",
         "episode": "60",
         "episodeName": "Le Prodige du Fakir",
@@ -1529,7 +1529,7 @@
         "popularity": 2
     },
     {
-        "character": ["Arthur"],
+        "character": ["Le Tavernier", "Arthur"],
         "season": "Livre I",
         "episode": "66",
         "episodeName": "Les Clandestins",
@@ -1738,7 +1738,7 @@
         "popularity": 3
     },
     {
-        "character": ["Ygerne De Tintagel"],
+        "character": ["Ygerne De Tintagel", "Arthur"],
         "season": "Livre I",
         "episode": "83",
         "episodeName": "La Fête de l'Hiver",
@@ -2332,7 +2332,7 @@
         "popularity": 3
     },
     {
-        "character": ["Le Roi Burgonde"],
+        "character": ["Le Roi Burgonde", "Arthur"],
         "season": "Livre II",
         "episode": "03",
         "episodeName": "Le Dialogue de Paix",
@@ -2629,7 +2629,7 @@
         "popularity": 2
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Karadoc", "Lancelot"],
         "season": "Livre II",
         "episode": "18",
         "episodeName": "Sept cent quarante-quatre",
@@ -2926,7 +2926,7 @@
         "popularity": 4
     },
     {
-        "character": ["Perceval"],
+        "character": ["Perceval", "Arthur"],
         "season": "Livre II",
         "episode": "36",
         "episodeName": "Les Exploités",
@@ -3212,7 +3212,7 @@
         "popularity": 2
     },
     {
-        "character": ["Hervé de Rinel"],
+        "character": ["Arthur", "Hervé de Rinel"],
         "season": "Livre II",
         "episode": "53",
         "episodeName": "L'Absent",
@@ -3223,7 +3223,7 @@
         "popularity": 3
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Bohort", "Léodagan"],
         "season": "Livre II",
         "episode": "54",
         "episodeName": "The Game",
@@ -3333,7 +3333,7 @@
         "popularity": 2
     },
     {
-        "character": ["Bohort"],
+        "character": ["Bohort", "Père Blaise"],
         "season": "Livre II",
         "episode": "59",
         "episodeName": "Le Donneur",
@@ -3564,7 +3564,7 @@
         "popularity": 2
     },
     {
-        "character": ["Galessin"],
+        "character": ["Galessin", "Arthur"],
         "season": "Livre II",
         "episode": "70",
         "episodeName": "Les Voeux",
@@ -3916,7 +3916,7 @@
         "popularity": 2
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Léodagan", "Arthur"],
         "season": "Livre III",
         "episode": "02",
         "episodeName": "Le Magnanime",
@@ -3949,7 +3949,7 @@
         "popularity": 3
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Léodagan", "Arthur"],
         "season": "Livre III",
         "episode": "03",
         "episodeName": "L'aveu de Bohort",
@@ -3971,7 +3971,7 @@
         "popularity": 2
     },
     {
-        "character": ["Perceval"],
+        "character": ["Perceval", "Karadoc"],
         "season": "Livre III",
         "episode": "04",
         "episodeName": "Le porte-bonheur",
@@ -4147,7 +4147,7 @@
         "popularity": 2
     },
     {
-        "character": ["Yvain"],
+        "character": ["Léodagan", "Yvain", "Dame Séli"],
         "season": "Livre III",
         "episode": "18",
         "episodeName": "Cryda de Tintagel",
@@ -4213,7 +4213,7 @@
         "popularity": 2
     },
     {
-        "character": ["Merlin"],
+        "character": ["Léodagan", "Merlin"],
         "season": "Livre III",
         "episode": "21",
         "episodeName": "Le Renfort Magique",
@@ -4631,7 +4631,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Roi Burgonde"],
+        "character": ["Léodagan", "Le Roi Burgonde", "Chef Viking"],
         "season": "Livre III",
         "episode": "42",
         "episodeName": "Le Dialogue de Paix II",
@@ -4708,7 +4708,7 @@
         "popularity": 2
     },
     {
-        "character": ["Yvain"],
+        "character": ["Yvain", "Gauvain"],
         "season": "Livre III",
         "episode": "48",
         "episodeName": "Haunted II",
@@ -4719,7 +4719,7 @@
         "popularity": 3
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Léodagan", "Arthur"],
         "season": "Livre III",
         "episode": "49",
         "episodeName": "La révolte II",
@@ -4785,7 +4785,7 @@
         "popularity": 4
     },
     {
-        "character": ["Dame Séli"],
+        "character": ["Dame Séli", "Léodagan"],
         "season": "Livre III",
         "episode": "52",
         "episodeName": "La Cassette II",
@@ -4818,7 +4818,7 @@
         "popularity": 2
     },
     {
-        "character": ["Perceval"],
+        "character": ["Perceval", "Arthur"],
         "season": "Livre III",
         "episode": "53",
         "episodeName": "Poltergeist",
@@ -4884,7 +4884,7 @@
         "popularity": 3
     },
     {
-        "character": ["Dame Séli"],
+        "character": ["Dame Séli", "Arthur"],
         "season": "Livre III",
         "episode": "60",
         "episodeName": "Les Festivités",
@@ -4928,7 +4928,7 @@
         "popularity": 2
     },
     {
-        "character": ["Perceval"],
+        "character": ["Karadoc", "Perceval"],
         "season": "Livre III",
         "episode": "61",
         "episodeName": "La Menace Fantôme",
@@ -4972,7 +4972,7 @@
         "popularity": 2
     },
     {
-        "character": ["Yvain"],
+        "character": ["Yvain", "Arthur"],
         "season": "Livre III",
         "episode": "66",
         "episodeName": "La Baliste",
@@ -5247,7 +5247,7 @@
         "popularity": 2
     },
     {
-        "character": ["Robyn"],
+        "character": ["Robyn", "Arthur", "Guethenoc"],
         "season": "Livre III",
         "episode": "75",
         "episodeName": "Le Justicier",
@@ -5258,7 +5258,7 @@
         "popularity": 2
     },
     {
-        "character": ["Robyn"],
+        "character": ["Robyn", "Roparzh"],
         "season": "Livre III",
         "episode": "75",
         "episodeName": "Le Justicier",
@@ -5280,7 +5280,7 @@
         "popularity": 2
     },
     {
-        "character": ["Guethenoc"],
+        "character": ["Arthur", "Guethenoc"],
         "season": "Livre III",
         "episode": "75",
         "episodeName": "Le Justicier",
@@ -5302,7 +5302,7 @@
         "popularity": 2
     },
     {
-        "character": ["Perceval"],
+        "character": ["Perceval", "Karadoc"],
         "season": "Livre III",
         "episode": "76",
         "episodeName": "La Crypte Maléfique",
@@ -5313,7 +5313,7 @@
         "popularity": 3
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Karadoc", "Arthur", "Perceval"],
         "season": "Livre III",
         "episode": "76",
         "episodeName": "La Crypte Maléfique",
@@ -5401,7 +5401,7 @@
         "popularity": 2
     },
     {
-        "character": ["Yvain"],
+        "character": ["Arthur", "Yvain"],
         "season": "Livre III",
         "episode": "86",
         "episodeName": "La Chevalerie",
@@ -5588,7 +5588,7 @@
         "popularity": 3
     },
     {
-        "character": ["Perceval"],
+        "character": ["Arthur", "Perceval"],
         "season": "Livre III",
         "episode": "95",
         "episodeName": "L'Etudiant",
@@ -5610,7 +5610,7 @@
         "popularity": 2
     },
     {
-        "character": ["Arthur"],
+        "character": ["Arthur", "Lancelot"],
         "season": "Livre III",
         "episode": "96",
         "episodeName": "Le Médiateur",
@@ -5676,10 +5676,10 @@
         "popularity": 3
     },
     {
-        "character": ["Perceval"],
+        "character": ["Perceval", "Angharad"],
         "season": "Livre IV",
         "episode": "02",
-        "episodeName": "Tous les matins du monde, 1ère partie",
+        "episodeName": "Tous les matins du monde, 2ème partie",
         "file": "00438.mp3",
         "title": "- Au printemps, j'aime bien pisser du haut des remparts au lever du soleil. Y a une belle vue.\n- Vous êtes sensible.\n- Au froid ? Ouais. Hyper. C'est pour ça que j'attends le printemps.",
         "id": 438,
@@ -5731,7 +5731,7 @@
         "popularity": 2
     },
     {
-        "character": ["Guenièvre"],
+        "character": ["Guenièvre", "Lancelot"],
         "season": "Livre IV",
         "episode": "03",
         "episodeName": "Raison et Sentiments",
@@ -5896,7 +5896,7 @@
         "popularity": 2
     },
     {
-        "character": ["Arthur"],
+        "character": ["Père Blaise", "Arthur"],
         "season": "Livre IV",
         "episode": "10",
         "episodeName": "L'Ascension du Lion",
@@ -5951,7 +5951,7 @@
         "popularity": 4
     },
     {
-        "character": ["Perceval"],
+        "character": ["Karadoc", "Perceval"],
         "season": "Livre IV",
         "episode": "15",
         "episodeName": "Les Exploités II",
@@ -5973,7 +5973,7 @@
         "popularity": 2
     },
     {
-        "character": ["Loth"],
+        "character": ["Loth", "Galessin"],
         "season": "Livre IV",
         "episode": "16",
         "episodeName": "Dagonet et le Cadastre",
@@ -6138,7 +6138,7 @@
         "popularity": 3
     },
     {
-        "character": ["Arthur"],
+        "character": ["Père Blaise", "Arthur"],
         "season": "Livre IV",
         "episode": "24",
         "episodeName": "L'Échange, 2ème Partie",
@@ -6193,7 +6193,7 @@
         "popularity": 2
     },
     {
-        "character": ["Mevanwi"],
+        "character": ["Mevanwi", "Arthur"],
         "season": "Livre IV",
         "episode": "26",
         "episodeName": "La Chambre de la Reine",
@@ -6215,7 +6215,7 @@
         "popularity": 2
     },
     {
-        "character": ["Mevanwi"],
+        "character": ["Mevanwi", "Arthur"],
         "season": "Livre IV",
         "episode": "26",
         "episodeName": "La Chambre de la Reine",
@@ -6259,7 +6259,7 @@
         "popularity": 3
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Dame Séli", "Léodagan"],
         "season": "Livre IV",
         "episode": "29",
         "episodeName": "La Baliste II",
@@ -6325,7 +6325,7 @@
         "popularity": 3
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Dame Séli", "Léodagan"],
         "season": "Livre IV",
         "episode": "33",
         "episodeName": "L'Art de la Table",
@@ -6358,7 +6358,7 @@
         "popularity": 3
     },
     {
-        "character": ["Guenièvre"],
+        "character": ["Lancelot", "Guenièvre"],
         "season": "Livre IV",
         "episode": "34",
         "episodeName": "Les Novices",
@@ -6545,7 +6545,7 @@
         "popularity": 2
     },
     {
-        "character": ["Perceval"],
+        "character": ["Perceval", "Arthur"],
         "season": "Livre IV",
         "episode": "46",
         "episodeName": "La Relève",
@@ -6633,7 +6633,7 @@
         "popularity": 3
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Karadoc", "Perceval"],
         "season": "Livre IV",
         "episode": "51",
         "episodeName": "Unagi IV",
@@ -6666,7 +6666,7 @@
         "popularity": 2
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Karadoc", "Perceval"],
         "season": "Livre IV",
         "episode": "51",
         "episodeName": "Unagi IV",
@@ -6765,7 +6765,7 @@
         "popularity": 2
     },
     {
-        "character": ["Roparzh"],
+        "character": ["Roparzh", "Guethenoc"],
         "season": "Livre IV",
         "episode": "58",
         "episodeName": "Vox Populi III",
@@ -6941,7 +6941,7 @@
         "popularity": 2
     },
     {
-        "character": ["Loth"],
+        "character": ["Loth", "Lancelot"],
         "season": "Livre IV",
         "episode": "69",
         "episodeName": "Loth et le Graal",
@@ -7007,7 +7007,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavernier"],
+        "character": ["Perceval", "Le Tavernier"],
         "season": "Livre IV",
         "episode": "71",
         "episodeName": "Perceval fait Raitournelle",
@@ -7062,7 +7062,7 @@
         "popularity": 2
     },
     {
-        "character": ["Perceval"],
+        "character": ["Perceval", "Karadoc"],
         "season": "Livre IV",
         "episode": "73",
         "episodeName": "Beaucoup de Bruit pour Rien",
@@ -7139,7 +7139,7 @@
         "popularity": 2
     },
     {
-        "character": ["Gauvain"],
+        "character": ["Gauvain", "Arthur"],
         "season": "Livre IV",
         "episode": "78",
         "episodeName": "Le Choix de Gauvain",
@@ -7216,7 +7216,7 @@
         "popularity": 2
     },
     {
-        "character": ["Galessin"],
+        "character": ["Galessin", "Lancelot"],
         "season": "Livre IV",
         "episode": "80",
         "episodeName": "Le Face-à-Face, 1ère partie",
@@ -7271,7 +7271,7 @@
         "popularity": 2
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Karadoc", "Arthur"],
         "season": "Livre IV",
         "episode": "84",
         "episodeName": "Alone In The Dark II",
@@ -7359,7 +7359,7 @@
         "popularity": 2
     },
     {
-        "character": ["Père Blaise"],
+        "character": ["Père Blaise", "Arthur"],
         "season": "Livre IV",
         "episode": "88",
         "episodeName": "Les Bien Nommés",
@@ -7370,7 +7370,7 @@
         "popularity": 2
     },
     {
-        "character": ["Père Blaise"],
+        "character": ["Père Blaise", "Arthur"],
         "season": "Livre IV",
         "episode": "88",
         "episodeName": "Les Bien Nommés",
@@ -7414,7 +7414,7 @@
         "popularity": 2
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Karadoc", "Père Blaise"],
         "season": "Livre IV",
         "episode": "92",
         "episodeName": "Le Vice de Forme",
@@ -7535,7 +7535,7 @@
         "popularity": 3
     },
     {
-        "character": ["Loth"],
+        "character": ["Loth", "Dagonet"],
         "season": "Livre V",
         "episode": "01",
         "episodeName": "Les Repentants",
@@ -7568,7 +7568,7 @@
         "popularity": 2
     },
     {
-        "character": ["Perceval"],
+        "character": ["Karadoc", "Perceval"],
         "season": "Livre V",
         "episode": "02",
         "episodeName": "Miserere nobis",
@@ -7700,7 +7700,7 @@
         "popularity": 3
     },
     {
-        "character": ["Dame Séli"],
+        "character": ["Dame Séli", "Yvain"],
         "season": "Livre V",
         "episode": "04",
         "episodeName": "Les Nouveaux Clans",
@@ -7909,7 +7909,7 @@
         "popularity": 2
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Léodagan", "Elias de Kelliwic'h", "Arthur"],
         "season": "Livre V",
         "episode": "09",
         "episodeName": "La Démission",
@@ -7920,7 +7920,7 @@
         "popularity": 3
     },
     {
-        "character": ["Yvain"],
+        "character": ["Gauvain", "Yvain"],
         "season": "Livre V",
         "episode": "09",
         "episodeName": "La Démission",
@@ -7997,7 +7997,7 @@
         "popularity": 3
     },
     {
-        "character": ["Loth"],
+        "character": ["Galessin", "Loth"],
         "season": "Livre V",
         "episode": "11",
         "episodeName": "Hurlements",
@@ -8096,7 +8096,7 @@
         "popularity": 3
     },
     {
-        "character": ["Galessin"],
+        "character": ["Galessin", "Dagonet"],
         "season": "Livre V",
         "episode": "13",
         "episodeName": "Les Dauphins",
@@ -8162,7 +8162,7 @@
         "popularity": 3
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Duchesse d'Aquitaine", "Léodagan"],
         "season": "Livre V",
         "episode": "16",
         "episodeName": "Les Fruits d'hiver",
@@ -8272,7 +8272,7 @@
         "popularity": 2
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Bohort", "Léodagan"],
         "season": "Livre V",
         "episode": "18",
         "episodeName": "Perceval de Sinope",
@@ -8294,7 +8294,7 @@
         "popularity": 2
     },
     {
-        "character": ["Arthur"],
+        "character": ["Arthur", "Guenièvre"],
         "season": "Livre V",
         "episode": "19",
         "episodeName": "Les Nocturnales",
@@ -8327,7 +8327,7 @@
         "popularity": 3
     },
     {
-        "character": ["Loth"],
+        "character": ["Loth", "Dagonet"],
         "season": "Livre V",
         "episode": "21",
         "episodeName": "Aux yeux de tous III",
@@ -8415,7 +8415,7 @@
         "popularity": 2
     },
     {
-        "character": ["Duc d'Aquitaine"],
+        "character": ["Duc d'Aquitaine", "Arthur"],
         "season": "Livre V",
         "episode": "22",
         "episodeName": "La Promesse",
@@ -8536,7 +8536,7 @@
         "popularity": 3
     },
     {
-        "character": ["Perceval"],
+        "character": ["Karadoc", "Perceval"],
         "season": "Livre V",
         "episode": "29",
         "episodeName": "Le Substitut",
@@ -8547,7 +8547,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Jurisconsulte"],
+        "character": ["Arthur", "Le Jurisconsulte"],
         "season": "Livre V",
         "episode": "29",
         "episodeName": "Le Substitut",
@@ -8558,7 +8558,7 @@
         "popularity": 3
     },
     {
-        "character": ["Le Maitre D'Armes"],
+        "character": ["Le Maitre D'Armes", "Dame Séli"],
         "season": "Livre V",
         "episode": "29",
         "episodeName": "Le Substitut",
@@ -8569,7 +8569,7 @@
         "popularity": 2
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Léodagan", "Le Jurisconsulte"],
         "season": "Livre V",
         "episode": "29",
         "episodeName": "Le Substitut",
@@ -8580,7 +8580,7 @@
         "popularity": 2
     },
     {
-        "character": ["Hervé de Rinel"],
+        "character": ["Léodagan", "Calogrenant", "Hervé de Rinel"],
         "season": "Livre V",
         "episode": "30",
         "episodeName": "L'Avènement du Sanguinaire",
@@ -8613,7 +8613,7 @@
         "popularity": 2
     },
     {
-        "character": ["Nessa"],
+        "character": ["Dame Séli", "Nessa", "Léodagan"],
         "season": "Livre V",
         "episode": "31",
         "episodeName": "Les Sentinelles",
@@ -8745,7 +8745,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Tavernier"],
+        "character": ["Arthur", "Guenièvre", "Le Tavernier"],
         "season": "Livre V",
         "episode": "33",
         "episodeName": "Domi nostrae",
@@ -8789,7 +8789,7 @@
         "popularity": 3
     },
     {
-        "character": ["Loth"],
+        "character": ["Le Tavernier", "Loth"],
         "season": "Livre V",
         "episode": "34",
         "episodeName": "La Supplique",
@@ -8943,7 +8943,7 @@
         "popularity": 2
     },
     {
-        "character": ["Gauvain"],
+        "character": ["Gauvain", "Yvain"],
         "season": "Livre V",
         "episode": "39",
         "episodeName": "Unagi V",
@@ -8954,7 +8954,7 @@
         "popularity": 2
     },
     {
-        "character": ["Yvain"],
+        "character": ["Yvain", "Merlin"],
         "season": "Livre V",
         "episode": "40",
         "episodeName": "Les Pionniers",
@@ -8976,7 +8976,7 @@
         "popularity": 2
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Maître d’Armes", "Léodagan"],
         "season": "Livre V",
         "episode": "40",
         "episodeName": "Les Pionniers",
@@ -9053,7 +9053,7 @@
         "popularity": 2
     },
     {
-        "character": ["Yvain"],
+        "character": ["Demetra", "Yvain"],
         "season": "Livre V",
         "episode": "41",
         "episodeName": "La Conspiratrice",
@@ -9097,7 +9097,7 @@
         "popularity": 3
     },
     {
-        "character": ["Perceval"],
+        "character": ["Karadoc", "Perceval"],
         "season": "Livre V",
         "episode": "42",
         "episodeName": "Le Destitué",
@@ -9108,7 +9108,7 @@
         "popularity": 2
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Karadoc", "Léodagan"],
         "season": "Livre V",
         "episode": "42",
         "episodeName": "Le Destitué",
@@ -9174,7 +9174,7 @@
         "popularity": 2
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Karadoc", "Aelis"],
         "season": "Livre V",
         "episode": "46",
         "episodeName": "Les Itinérants",
@@ -9218,7 +9218,7 @@
         "popularity": 2
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Mevanwi", "Karadoc"],
         "season": "Livre V",
         "episode": "49",
         "episodeName": "Le Retour du roi",
@@ -9262,7 +9262,7 @@
         "popularity": 2
     },
     {
-        "character": ["Marcus Oranius Lurco"],
+        "character": ["Marcus Oranius Lurco", "Publius Desticius"],
         "season": "Livre VI",
         "episode": "01",
         "episodeName": "Miles Ignotus",
@@ -9405,7 +9405,7 @@
         "popularity": 3
     },
     {
-        "character": ["Caius Camillus"],
+        "character": ["Caius Camillus", "Aulus Milonius Procyon"],
         "season": "Livre VI",
         "episode": "02",
         "episodeName": "Centurio",
@@ -9438,7 +9438,7 @@
         "popularity": 3
     },
     {
-        "character": ["Verinus"],
+        "character": ["Licinia", "Verinus"],
         "season": "Livre VI",
         "episode": "02",
         "episodeName": "Centurio",
@@ -9449,7 +9449,7 @@
         "popularity": 2
     },
     {
-        "character": ["Verinus"],
+        "character": ["Licinia", "Verinus"],
         "season": "Livre VI",
         "episode": "02",
         "episodeName": "Centurio",
@@ -9471,7 +9471,7 @@
         "popularity": 2
     },
     {
-        "character": ["Publius Servius Capito"],
+        "character": ["Publius Servius Capito", "Merlin"],
         "season": "Livre VI",
         "episode": "03",
         "episodeName": "Praeceptores",
@@ -9570,7 +9570,7 @@
         "popularity": 3
     },
     {
-        "character": ["Merlin"],
+        "character": ["Arthur", "Merlin"],
         "season": "Livre VI",
         "episode": "03",
         "episodeName": "Praeceptores",
@@ -9614,7 +9614,7 @@
         "popularity": 2
     },
     {
-        "character": ["Nonna"],
+        "character": ["Nonna", "Acheflour"],
         "season": "Livre VI",
         "episode": "03",
         "episodeName": "Praeceptores",
@@ -9768,7 +9768,7 @@
         "popularity": 2
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Karadoc", "Elane"],
         "season": "Livre VI",
         "episode": "05",
         "episodeName": "Dux Bellorum",
@@ -9790,7 +9790,7 @@
         "popularity": 2
     },
     {
-        "character": ["Verinus"],
+        "character": ["Licinia", "Verinus"],
         "season": "Livre VI",
         "episode": "05",
         "episodeName": "Dux Bellorum",
@@ -9867,7 +9867,7 @@
         "popularity": 2
     },
     {
-        "character": ["Drusilla"],
+        "character": ["Drusilla", "Aconia"],
         "season": "Livre VI",
         "episode": "06",
         "episodeName": "Nuptiae",
@@ -9878,7 +9878,7 @@
         "popularity": 2
     },
     {
-        "character": ["Loth"],
+        "character": ["Léodagan", "Loth"],
         "season": "Livre VI",
         "episode": "06",
         "episodeName": "Nuptiae",
@@ -9988,7 +9988,7 @@
         "popularity": 3
     },
     {
-        "character": ["Appius Manilius"],
+        "character": ["Le Maitre D'Armes", "Appius Manilius"],
         "season": "Livre VI",
         "episode": "06",
         "episodeName": "Nuptiae",
@@ -10153,7 +10153,7 @@
         "popularity": 2
     },
     {
-        "character": ["Appius Manilius"],
+        "character": ["Appius Manilius", "Merlin"],
         "season": "Livre VI",
         "episode": "07",
         "episodeName": "Arturus Rex",
@@ -10263,7 +10263,7 @@
         "popularity": 4
     },
     {
-        "character": ["Loth"],
+        "character": ["Galessin", "Loth"],
         "season": "Livre VI",
         "episode": "08",
         "episodeName": "Lacrimosa",
@@ -10296,7 +10296,7 @@
         "popularity": 2
     },
     {
-        "character": ["Loth"],
+        "character": ["Anna De Tintagel", "Loth"],
         "season": "Livre VI",
         "episode": "08",
         "episodeName": "Lacrimosa",
@@ -10362,7 +10362,7 @@
         "popularity": 2
     },
     {
-        "character": ["Pellinor"],
+        "character": ["Arthur", "Pellinor"],
         "season": "Livre VI",
         "episode": "08",
         "episodeName": "Lacrimosa",
@@ -10439,7 +10439,7 @@
         "popularity": 2
     },
     {
-        "character": ["Fearmac"],
+        "character": ["Lancelot", "Fearmac"],
         "season": "Livre II",
         "episode": "09",
         "episodeName": "Le Terroriste",
@@ -10450,7 +10450,7 @@
         "popularity": 3
     },
     {
-        "character": ["Fearmac"],
+        "character": ["Lancelot", "Fearmac"],
         "season": "Livre II",
         "episode": "09",
         "episodeName": "Le Terroriste",
@@ -10516,7 +10516,7 @@
         "popularity": 2
     },
     {
-        "character": ["Bohort"],
+        "character": ["Bohort", "Arthur"],
         "season": "Livre III",
         "episode": "17",
         "episodeName": "Le Fléau de Dieu II",
@@ -10582,7 +10582,7 @@
         "popularity": 2
     },
     {
-        "character": ["Attila"],
+        "character": ["Attila", "Arthur"],
         "season": "Livre I",
         "episode": "05",
         "episodeName": "Le Fléau de Dieu",
@@ -10593,7 +10593,7 @@
         "popularity": 2
     },
     {
-        "character": ["Bohort"],
+        "character": ["Attila", "Léodagan", "Bohort"],
         "season": "Livre I",
         "episode": "05",
         "episodeName": "Le Fléau de Dieu",
@@ -10604,7 +10604,7 @@
         "popularity": 3
     },
     {
-        "character": ["Yvain"],
+        "character": ["Père Blaise", "Yvain"],
         "season": "Livre I",
         "episode": "60",
         "episodeName": "Le Prodige du Fakir",
@@ -10648,7 +10648,7 @@
         "popularity": 2
     },
     {
-        "character": ["Gauvain"],
+        "character": ["Gauvain", "Yvain"],
         "season": "Livre III",
         "episode": "86",
         "episodeName": "La Chevalerie",
@@ -10714,7 +10714,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Maitre D'Armes"],
+        "character": ["Guenièvre", "Le Maitre D'Armes"],
         "season": "Livre II",
         "episode": "31",
         "episodeName": "L'Ivresse",
@@ -10758,7 +10758,7 @@
         "popularity": 2
     },
     {
-        "character": ["Dame Séli"],
+        "character": ["Dame Séli", "Arthur"],
         "season": "Livre I",
         "episode": "02",
         "episodeName": "La Tarte aux Myrtilles",
@@ -10879,7 +10879,7 @@
         "popularity": 3
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Karadoc", "Arthur", "Perceval"],
         "season": "Livre II",
         "episode": "02",
         "episodeName": "Les Alchimistes",
@@ -11011,7 +11011,7 @@
         "popularity": 2
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Léodagan", "Dame Séli"],
         "season": "Livre IV",
         "episode": "33",
         "episodeName": "L'Art de la Table",
@@ -11165,7 +11165,7 @@
         "popularity": 3
     },
     {
-        "character": ["Perceval "],
+        "character": ["Perceval"],
         "season": "Livre I",
         "episode": "26",
         "episodeName": "A la Volette",
@@ -11308,7 +11308,7 @@
         "popularity": 2
     },
     {
-        "character": ["Bohort"],
+        "character": ["Arthur", "Bohort"],
         "season": "Livre I",
         "episode": "61",
         "episodeName": "Un Bruit Dans la Nuit",
@@ -11341,7 +11341,7 @@
         "popularity": 2
     },
     {
-        "character": ["Bohort"],
+        "character": ["Arthur", "Bohort"],
         "season": "Livre I",
         "episode": "61",
         "episodeName": "Un Bruit Dans la Nuit",
@@ -11385,7 +11385,7 @@
         "popularity": 2
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Bohort", "Léodagan", "Arthur"],
         "season": "Livre I",
         "episode": "61",
         "episodeName": "Un Bruit Dans la Nuit",
@@ -11418,7 +11418,7 @@
         "popularity": 2
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Dame Séli", "Léodagan"],
         "season": "Livre I",
         "episode": "02",
         "episodeName": "La Tarte aux Myrtilles",
@@ -11429,7 +11429,7 @@
         "popularity": 3
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Dame Séli", "Léodagan"],
         "season": "Livre I",
         "episode": "02",
         "episodeName": "La Tarte aux Myrtilles",
@@ -11506,7 +11506,7 @@
         "popularity": 3
     },
     {
-        "character": ["Venec"],
+        "character": ["Arthur", "Venec"],
         "season": "Livre I",
         "episode": "16",
         "episodeName": "Le Banquet des Chefs",
@@ -11550,7 +11550,7 @@
         "popularity": 3
     },
     {
-        "character": ["Arthur"],
+        "character": ["Arthur", "Parceval"],
         "season": "Livre I",
         "episode": "98",
         "episodeName": "Le Tourment",
@@ -11561,7 +11561,7 @@
         "popularity": 2
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Karadoc", "Parceval"],
         "season": "Livre II",
         "episode": "02",
         "episodeName": "Les Alchimistes",
@@ -11704,7 +11704,7 @@
         "popularity": 2
     },
     {
-        "character": ["Perceval"],
+        "character": ["Maître D'Armes", "Perceval"],
         "season": "Livre III",
         "episode": "24",
         "episodeName": "Les Suppléants",
@@ -11726,7 +11726,7 @@
         "popularity": 2
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Mevanwi", "Karadoc"],
         "season": "Livre III",
         "episode": "11",
         "episodeName": "Ablutions",
@@ -11737,7 +11737,7 @@
         "popularity": 2
     },
     {
-        "character": ["Arthur"],
+        "character": ["Arthur", "Perceval"],
         "season": "Livre III",
         "episode": "11",
         "episodeName": "Ablutions",
@@ -11770,7 +11770,7 @@
         "popularity": 2
     },
     {
-        "character": ["Arthur"],
+        "character": ["Arthur", "Venec"],
         "season": "Livre IV",
         "episode": "20",
         "episodeName": "Au Service Secret de Sa Majesté",
@@ -11847,7 +11847,7 @@
         "popularity": 2
     },
     {
-        "character": ["Perceval"],
+        "character": ["Perceval", "Arthur"],
         "season": "Livre IV",
         "episode": "95",
         "episodeName": "L'Inspiration",
@@ -11902,7 +11902,7 @@
         "popularity": 2
     },
     {
-        "character": ["César"],
+        "character": ["César", "Arthur"],
         "season": "Livre VI",
         "episode": "06",
         "episodeName": "Nuptiae",
@@ -11935,7 +11935,7 @@
         "popularity": 2
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Arthur", "Karadoc"],
         "season": "Livre VI",
         "episode": "09",
         "episodeName": "Dies Irae",
@@ -12144,7 +12144,7 @@
         "popularity": 2
     },
     {
-        "character": ["Arthur"],
+        "character": ["Breccan", "Arthur"],
         "season": "Livre I",
         "episode": "03",
         "episodeName": "La Table de Breccan",
@@ -12408,7 +12408,7 @@
         "popularity": 2
     },
     {
-        "character": ["Venec"],
+        "character": ["Venec", "Bohort"],
         "season": "Livre I",
         "episode": "13",
         "episodeName": "Arthur et la Question",
@@ -12551,7 +12551,7 @@
         "popularity": 3
     },
     {
-        "character": ["Roparzh"],
+        "character": ["Belt", "Roparzh"],
         "season": "Livre II",
         "episode": "33",
         "episodeName": "Spiritueux",
@@ -12738,7 +12738,7 @@
         "popularity": 2
     },
     {
-        "character": ["Perceval"],
+        "character": ["Angharad", "Perceval"],
         "season": "Livre I",
         "episode": "28",
         "episodeName": "La Botte Secrète",
@@ -12771,7 +12771,7 @@
         "popularity": 3
     },
     {
-        "character": ["Perceval"],
+        "character": ["Perceval", "Le Tavernier"],
         "season": "Livre I",
         "episode": "64",
         "episodeName": "Le Chaudron Rutilant",
@@ -12936,7 +12936,7 @@
         "popularity": 3
     },
     {
-        "character": ["Gauvain"],
+        "character": ["Gauvain", "Arthur"],
         "season": "Livre III",
         "episode": "40",
         "episodeName": "La Corne d'Abondance",
@@ -13112,7 +13112,7 @@
         "popularity": 2
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Perceval", "Karadoc"],
         "season": "Livre IV",
         "episode": "06",
         "episodeName": "Les Pisteurs",
@@ -13178,7 +13178,7 @@
         "popularity": 2
     },
     {
-        "character": ["Arthur"],
+        "character": ["Arthur", "Merlin"],
         "season": "Livre I",
         "episode": "15",
         "episodeName": "Les Défis de Merlin",
@@ -13222,7 +13222,7 @@
         "popularity": 2
     },
     {
-        "character": ["Perceval"],
+        "character": ["Perceval", "Arthur"],
         "season": "Livre I",
         "episode": "18",
         "episodeName": "En Forme de Graal",
@@ -13266,7 +13266,7 @@
         "popularity": 3
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Dame Séli", "Léodagan"],
         "season": "Livre I",
         "episode": "23",
         "episodeName": "La Potion de Fécondité",
@@ -13343,7 +13343,7 @@
         "popularity": 2
     },
     {
-        "character": ["Arthur"],
+        "character": ["Arthur", "Dagonet"],
         "season": "Livre I",
         "episode": "27",
         "episodeName": "De Retour de Judée",
@@ -13365,7 +13365,7 @@
         "popularity": 3
     },
     {
-        "character": ["Arthur"],
+        "character": ["Arthur", "Demetra"],
         "season": "Livre I",
         "episode": "30",
         "episodeName": "Le Trois de Coeur",
@@ -13552,7 +13552,7 @@
         "popularity": 2
     },
     {
-        "character": ["La Dame du Lac"],
+        "character": ["La Dame Du Lac"],
         "season": "Livre I",
         "episode": "34",
         "episodeName": "La Grotte de Padraig",
@@ -13618,7 +13618,7 @@
         "popularity": 2
     },
     {
-        "character": ["Perceval"],
+        "character": ["Perceval", "Lancelot"],
         "season": "Livre I",
         "episode": "40",
         "episodeName": "L'adoubement",
@@ -13739,7 +13739,7 @@
         "popularity": 2
     },
     {
-        "character": ["Le Répurgateur"],
+        "character": ["Le Répurgateur", "Arthur"],
         "season": "Livre I",
         "episode": "79",
         "episodeName": "L'Expurgation de Merlin",
@@ -13783,7 +13783,7 @@
         "popularity": 2
     },
     {
-        "character": ["Guenièvre"],
+        "character": ["Guenièvre", "Arthur"],
         "season": "Livre I",
         "episode": "13",
         "episodeName": "Arthur et la Question",
@@ -13794,7 +13794,7 @@
         "popularity": 2
     },
     {
-        "character": ["Arthur"],
+        "character": ["Arthur", "Karadac"],
         "season": "Livre II",
         "episode": "95",
         "episodeName": "Le Plat National",
@@ -13849,7 +13849,7 @@
         "popularity": 2
     },
     {
-        "character": ["Pellinor"],
+        "character": ["Arthur", "Pellinor"],
         "season": "Livre VI",
         "episode": "08",
         "episodeName": "Lacrimosa",
@@ -13893,7 +13893,7 @@
         "popularity": 2
     },
     {
-        "character": ["Perceval"],
+        "character": ["Arthur", "Chef Maure", "Perceval"],
         "season": "Livre II",
         "episode": "12",
         "episodeName": "La Délégation Maure",
@@ -14025,7 +14025,7 @@
         "popularity": 2
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Arthur", "Léodagan"],
         "season": "Livre IV",
         "episode": "29",
         "episodeName": "La Baliste II",
@@ -14058,7 +14058,7 @@
         "popularity": 2
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Léodagan", "Dame Séli"],
         "season": "Livre V",
         "episode": "16",
         "episodeName": "Les Fruits d'hiver",
@@ -14168,7 +14168,7 @@
         "popularity": 2
     },
     {
-        "character": ["Arthur"],
+        "character": ["Guenièvre", "Arthur"],
         "season": "Livre III",
         "episode": "18",
         "episodeName": "Cryda de Tintagel",
@@ -14212,7 +14212,7 @@
         "popularity": 3
     },
     {
-        "character": ["Perceval"],
+        "character": ["Perceval", "Angharad"],
         "season": "Livre IV",
         "episode": "65",
         "episodeName": "Les Chaperons",
@@ -14234,7 +14234,7 @@
         "popularity": 2
     },
     {
-        "character": ["Titus Nipius Glaucia"],
+        "character": ["Titus Nipius Glaucia", "Arthur"],
         "season": "Livre VI",
         "episode": "01",
         "episodeName": "Miles Ignotus",
@@ -14289,7 +14289,7 @@
         "popularity": 3
     },
     {
-        "character": ["César"],
+        "character": ["César", "Arthur"],
         "season": "Livre VI",
         "episode": "04",
         "episodeName": "Arturi Inquisito",
@@ -14465,7 +14465,7 @@
         "popularity": 2
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Karadoc", "Arthur", "Guethenoc"],
         "season": "Livre II",
         "episode": "95",
         "episodeName": "Le Plat National",
@@ -14476,7 +14476,7 @@
         "popularity": 3
     },
     {
-        "character": ["Perceval"],
+        "character": ["Arthur", "Perceval"],
         "season": "Livre III",
         "episode": "28",
         "episodeName": "L'Arche de Transport",
@@ -14498,7 +14498,7 @@
         "popularity": 2
     },
     {
-        "character": ["Yvain"],
+        "character": ["Yvain", "Gauvain"],
         "season": "Livre III",
         "episode": "48",
         "episodeName": "Haunted II",
@@ -14553,7 +14553,7 @@
         "popularity": 2
     },
     {
-        "character": ["Merlin"],
+        "character": ["Merlin", "Elias de Kelliwic'h"],
         "season": "Livre III",
         "episode": "73",
         "episodeName": "Les Défis de Merlin II",
@@ -14806,7 +14806,7 @@
         "popularity": 2
     },
     {
-        "character": ["Merlin"],
+        "character": ["Merlin", "Arthur"],
         "season": "Livre I",
         "episode": "15",
         "episodeName": "Les Défis de Merlin",
@@ -14894,7 +14894,7 @@
         "popularity": 2
     },
     {
-        "character": ["Guenièvre"],
+        "character": ["Arthur", "Guenièvre"],
         "season": "Livre I",
         "episode": "47",
         "episodeName": "Létal",
@@ -15004,7 +15004,7 @@
         "popularity": 2
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Arthur", "Léodagan"],
         "season": "Livre I",
         "episode": "68",
         "episodeName": "Le Pain",
@@ -15323,7 +15323,7 @@
         "popularity": 3
     },
     {
-        "character": ["Perceval"],
+        "character": ["Perceval", "Arthur"],
         "season": "Livre III",
         "episode": "13",
         "episodeName": "La Poétique, 2ème partie",
@@ -15378,7 +15378,7 @@
         "popularity": 2
     },
     {
-        "character": ["Kadoc"],
+        "character": ["Arthur", "Kadoc"],
         "season": "Livre III",
         "episode": "82",
         "episodeName": "Witness",
@@ -15422,7 +15422,7 @@
         "popularity": 2
     },
     {
-        "character": ["Elias de Kelliwic'h"],
+        "character": ["Merlin", "Elias de Kelliwic'h"],
         "season": "Livre IV",
         "episode": "12",
         "episodeName": "Le Privilégié",
@@ -15510,7 +15510,7 @@
         "popularity": 3
     },
     {
-        "character": ["Loth"],
+        "character": ["Gauvain", "Loth"],
         "season": "Livre V",
         "episode": "02",
         "episodeName": "Miserere nobis",
@@ -15532,7 +15532,7 @@
         "popularity": 2
     },
     {
-        "character": ["Yvain"],
+        "character": ["Gauvain", "Yvain"],
         "season": "Livre V",
         "episode": "04",
         "episodeName": "Les Nouveaux Clans",
@@ -15543,7 +15543,7 @@
         "popularity": 2
     },
     {
-        "character": ["Vibius Pisentius Petrus"],
+        "character": ["Vibius Pisentius Petrus", "Publius Servius Capito"],
         "season": "Livre VI",
         "episode": "01",
         "episodeName": "Miles Ignotus",
@@ -15587,7 +15587,7 @@
         "popularity": 3
     },
     {
-        "character": ["Merlin"],
+        "character": ["Publius Servius Capito", "Merlin"],
         "season": "Livre VI",
         "episode": "02",
         "episodeName": "Centurio",
@@ -15631,7 +15631,7 @@
         "popularity": 3
     },
     {
-        "character": ["Hervé de Rinel"],
+        "character": ["Hervé de Rinel", "Perceval"],
         "season": "Livre VI",
         "episode": "04",
         "episodeName": "Arturi Inquisito",
@@ -15686,7 +15686,7 @@
         "popularity": 2
     },
     {
-        "character": ["Drusilla"],
+        "character": ["Arthur", "Père Blaise", "Drusilla"],
         "season": "Livre VI",
         "episode": "06",
         "episodeName": "Nuptiae",
@@ -15763,7 +15763,7 @@
         "popularity": 2
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Karadoc", "Bohort"],
         "season": "Livre I",
         "episode": "01",
         "episodeName": "Heat",
@@ -15829,7 +15829,7 @@
         "popularity": 2
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Léodagan", "Arthur"],
         "season": "Livre I",
         "episode": "16",
         "episodeName": "Le Banquet des Chefs",
@@ -15862,7 +15862,7 @@
         "popularity": 2
     },
     {
-        "character": ["Arthur"],
+        "character": ["Perceval", "Arthur"],
         "season": "Livre I",
         "episode": "40",
         "episodeName": "L'adoubement",
@@ -15950,7 +15950,7 @@
         "popularity": 2
     },
     {
-        "character": ["Ygerne De Tintagel"],
+        "character": ["Ygerne De Tintagel", "Arthur"],
         "season": "Livre I",
         "episode": "65",
         "episodeName": "La Visite d'Ygerne",
@@ -16060,7 +16060,7 @@
         "popularity": 3
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Karadoc", "Perceval"],
         "season": "Livre II",
         "episode": "29",
         "episodeName": "Les Mauvaises Graines",
@@ -16126,7 +16126,7 @@
         "popularity": 2
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Léodagan", "Arthur"],
         "season": "Livre II",
         "episode": "56",
         "episodeName": "La Fumée Blanche",
@@ -16247,7 +16247,7 @@
         "popularity": 2
     },
     {
-        "character": ["Yvain"],
+        "character": ["Yvain", "Gauvain"],
         "season": "Livre III",
         "episode": "48",
         "episodeName": "Haunted II",
@@ -16258,7 +16258,7 @@
         "popularity": 3
     },
     {
-        "character": ["Perceval"],
+        "character": ["Karadoc", "Perceval"],
         "season": "Livre III",
         "episode": "53",
         "episodeName": "Poltergeist",
@@ -16313,7 +16313,7 @@
         "popularity": 2
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Karadoc", "Perceval"],
         "season": "Livre V",
         "episode": "04",
         "episodeName": "Les Nouveaux Clans",
@@ -16412,7 +16412,7 @@
         "popularity": 2
     },
     {
-        "character": ["Dame Séli"],
+        "character": ["Le Jurisconsulte", "Dame Séli"],
         "season": "Livre V",
         "episode": "32",
         "episodeName": "L'Odyssée d'Arthur",
@@ -16423,7 +16423,7 @@
         "popularity": 2
     },
     {
-        "character": ["Arthur"],
+        "character": ["Arthur", "Guenièvre"],
         "season": "Livre V",
         "episode": "32",
         "episodeName": "L'Odyssée d'Arthur",
@@ -16533,7 +16533,7 @@
         "popularity": 2
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Perceval", "Arthur", "Karadoc"],
         "season": "Livre VI",
         "episode": "07",
         "episodeName": "Arturus Rex",
@@ -16599,7 +16599,7 @@
         "popularity": 2
     },
     {
-        "character": ["Arthur"],
+        "character": ["Arthur", "Perceval"],
         "season": "Livre I",
         "episode": "12",
         "episodeName": "Le Sixième Sens",
@@ -16610,7 +16610,7 @@
         "popularity": 2
     },
     {
-        "character": ["Lancelot"],
+        "character": ["Lancelot", "Arthur"],
         "season": "Livre I",
         "episode": "14",
         "episodeName": "Monogame",
@@ -16632,7 +16632,7 @@
         "popularity": 2
     },
     {
-        "character": ["Merlin"],
+        "character": ["Merlin", "Arthur"],
         "season": "Livre I",
         "episode": "15",
         "episodeName": "Les Défis de Merlin",
@@ -16643,7 +16643,7 @@
         "popularity": 3
     },
     {
-        "character": ["Elias de Kelliwic'h"],
+        "character": ["Elias de Kelliwic'h", "Merlin"],
         "season": "Livre I",
         "episode": "15",
         "episodeName": "Les Défis de Merlin",
@@ -16797,7 +16797,7 @@
         "popularity": 3
     },
     {
-        "character": ["Karadoc"],
+        "character": ["Galessin", "Léodagan", "Karadoc"],
         "season": "Livre II",
         "episode": "01",
         "episodeName": "Spangenhelm",
@@ -17017,7 +17017,7 @@
         "popularity": 3
     },
     {
-        "character": ["Perceval"],
+        "character": ["Karadoc", "Perceval"],
         "season": "Livre III",
         "episode": "02",
         "episodeName": "Le Magnanime",
@@ -17171,7 +17171,7 @@
         "popularity": 2
     },
     {
-        "character": ["Roparzh"],
+        "character": ["Roparzh", "Guethenoc"],
         "season": "Livre IV",
         "episode": "55",
         "episodeName": "Le Refuge",
@@ -17237,7 +17237,7 @@
         "popularity": 2
     },
     {
-        "character": ["Perceval"],
+        "character": ["Perceval", "Karadoc"],
         "season": "Livre V",
         "episode": "39",
         "episodeName": "Unagi V",
@@ -17248,7 +17248,7 @@
         "popularity": 2
     },
     {
-        "character": ["Hervé de Rinel"],
+        "character": ["Hervé de Rinel", "Léodagan", "Calogrenant"],
         "season": "Livre V",
         "episode": "49",
         "episodeName": "Le Retour du roi",
@@ -17446,7 +17446,7 @@
         "popularity": 2
     },
     {
-        "character": ["Léodagan"],
+        "character": ["Bohort", "Léodagan"],
         "season": "Livre I",
         "episode": "22",
         "episodeName": "La Queue du Scorpion",
@@ -17666,7 +17666,7 @@
         "popularity": 2
     },
     {
-        "character": ["Arthur"],
+        "character": ["Arthur", "Guenièvre"],
         "season": "Livre I",
         "episode": "74",
         "episodeName": "Guenièvre et l'Orage",
@@ -17710,7 +17710,7 @@
         "popularity": 2
     },
     {
-        "character": ["Perceval"],
+        "character": ["Perceval", "Karadoc"],
         "season": "Livre I",
         "episode": "89",
         "episodeName": "Tel un Chevalier",
@@ -17820,7 +17820,7 @@
         "popularity": 2
     },
     {
-        "character": ["Merlin"],
+        "character": ["Arthur", "Merlin"],
         "season": "Livre II",
         "episode": "07",
         "episodeName": "Le Rassemblement du Corbeau",
@@ -17831,7 +17831,7 @@
         "popularity": 2
     },
     {
-        "character": ["Lancelot"],
+        "character": ["Lancelot", "Perceval"],
         "season": "Livre II",
         "episode": "11",
         "episodeName": "Le message codé",
@@ -18062,7 +18062,7 @@
         "popularity": 3
     },
     {
-        "character": ["Bohort"],
+        "character": ["Bohort", "Père Blaise"],
         "season": "Livre II",
         "episode": "66",
         "episodeName": "Les Neiges Eternelles",
@@ -18183,7 +18183,7 @@
         "popularity": 3
     },
     {
-        "character": ["Loth"],
+        "character": ["Galessin", "Loth"],
         "season": "Livre V",
         "episode": "21",
         "episodeName": "Aux yeux de tous III",
