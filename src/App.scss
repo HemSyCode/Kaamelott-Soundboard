@@ -16,6 +16,7 @@ $border-dark: rgba($base-bg-color, 0.88);
 // Bootstrap parts
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/maps";
 @import "~bootstrap/scss/mixins";
 @import "~bootstrap/scss/utilities";
 
@@ -189,11 +190,14 @@ a {
       text-decoration: none;
       font-weight: bold;
       font-size: 0.8em;
+      padding: 0.25rem 1rem;
+      color: #212529;
     }
     .dropdown-item {
       &.active,
       &:active {
         background-color: #0F8AFD;
+        color: white;
       }
       &.hover,
       &:hover {

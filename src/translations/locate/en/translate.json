@@ -4,10 +4,12 @@
     "app_msg_no": "No",
     "app_reset": "Reset",
     "app_random": "Random",
-    "app_personnages": "Personnages:",
+    "app_personnages": "Characters:",
     "app_episodes": "Episode:",
     "app_page": "Page:",
     "app_result": "result",
-    "app_results": "results"
+    "app_results": "results",
+    "app_filter_sounds": "Filter sounds",
+    "app_example_short_form": "e.g.: "
   }
 }
