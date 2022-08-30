@@ -216,7 +216,9 @@ const Soundboard = (props) => {
                 <div className={"header-container"}>
                     <div className="row">
                         <div className="col-12 col-md-4">
-                            <span className={'author-link'}><a href={'http://hemsy.fr/'}>Sylvain HÉMON - HemSy.fr</a></span>
+                            <span className={'author-link'}>
+                                <a href={'https://hemsy.fr/'} title={'Sylvain HÉMON - HemSy.fr'}><img src={require('./img/hemsyLogo_white-vector.svg').default} alt={'HemSy.fr'} width={'100px'}/></a>
+                            </span>
                         </div>
                         <div className="col-12 col-md-4">
                             <span className={"title"}>Kaamelott Soundboard</span>
@@ -282,7 +284,8 @@ const Soundboard = (props) => {
             </main>
 
             <footer>
-                <a href={'https://github.com/HemSyCode/Kaamelott-Soundboard'} target={'_blank'}><img src={require('./img/github.svg').default} alt={'GitHub'} height={'40px'} width={'40px'}/></a>
+                <a href={'https://github.com/HemSyCode/Kaamelott-Soundboard'} target={'_blank'} style={{'margin-right': '50px'}}><img src={require('./img/github.svg').default} alt={'GitHub'} height={'40px'} width={'40px'}/></a>
+                <a href={'https://hemsy.fr/'}><img src={require('./img/hemsyLogoSquareIcon_white-vector.svg').default} alt={'HemSy.fr'} height={'40px'} width={'40px'}/></a>
             </footer>
 
         </div>
