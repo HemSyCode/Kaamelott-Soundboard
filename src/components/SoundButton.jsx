@@ -8,6 +8,7 @@ const SoundButton = (props) => {
     const [currentTime, setCurrentTime] = useState(0);
     const [seekValue, setSeekValue] = useState(0);
     const [bufferedValue, setBufferedValue] = useState(0);
+    const [tooltip, showTooltip] = useState(true);
 
     const play = () => { audioPlayer.current.play(); setIsPlaying(true) }
     const pause = () => { audioPlayer.current.pause(); setIsPlaying(false) }
@@ -43,7 +44,12 @@ const SoundButton = (props) => {
 
     return (
         <div>
-            <span className={'btn-info'} data-tip='' data-for={data.index} />
+            <span className={'btn-info'} data-tip='' data-for={data.index}
+                  onMouseEnter={() => showTooltip(true)}
+                  onMouseLeave={() => {
+                      showTooltip(false);
+                      setTimeout(() => showTooltip(true), 50);
+                  }} />
             <a className={'btn btn-play '+ labelIcon()} role={'button'} onClick={() => masterPlay()} style={{"background": "linear-gradient(to right, #017F66 "+seekValue+"%, #18ae90 0%)"}}>
                 <small>{characters()}</small>
                 {/*<input type="range" min="0" max="100" step="1" value={seekValue} onChange={(e) => { const seekto = audioPlayer.current.duration * (+e.target.value / 100); audioPlayer.current.currentTime = seekto; setSeekValue(e.target.value); }}/>*/}
@@ -52,14 +58,22 @@ const SoundButton = (props) => {
             </a>
             <div className="audio-buffer" style={{"background": "linear-gradient(to right, #017F66 " + bufferedValue + "%, #18ae90 0%)"}}/>
             <audio id={data.id} ref={audioPlayer} onTimeUpdate={onPlaying} onCanPlay={canPlay} onDurationChange={() => {setSeekValue(0); setBufferedValue(0); stop();}} src={require('./../sounds/' + data.file)}>Your browser does not support the <code>audio</code> element.</audio>
-            <ReactTooltip id={data.index} place="top" type="dark" effect="float" className={'react-tooltip-inner'} data-html={true}>
-                <div>
-                    <span style={{"fontWeight": "bold"}}>{characters()}</span><br/>
-                    <span style={{"fontStyle": "italic"}}>{data.season}, {data.episode} — {data.episodeName}</span><br/>
-                    <br/>
-                    <div dangerouslySetInnerHTML={createMarkup(data.title)} />
-                </div>
-            </ReactTooltip>
+            {
+                /*
+                * FIX UNTIL THE PACKAGE IS UPDATED.
+                * SOURCE: https://github.com/wwayne/react-tooltip/issues/769
+                */
+                tooltip
+                &&
+                <ReactTooltip id={data.index} place="top" type="dark" effect="float" className={'react-tooltip-inner'} data-html={true}>
+                    <div>
+                        <span style={{"fontWeight": "bold"}}>{characters()}</span><br/>
+                        <span style={{"fontStyle": "italic"}}>{data.season}, {data.episode} — {data.episodeName}</span><br/>
+                        <br/>
+                        <div dangerouslySetInnerHTML={createMarkup(data.title)} />
+                    </div>
+                </ReactTooltip>
+            }
         </div>
     )
 }
