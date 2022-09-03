@@ -1951,6 +1951,17 @@
         "season": "Livre I",
         "episode": "91",
         "episodeName": "La Fureur du Dragon",
+        "file": "01661.mp3",
+        "title": "Après eux, j'en sais rien moi ! Si ils sont équidistants en même temps que nous on peux repérer le dragon par rapport à une certaine distance. (Hésitant) Si le dragon s'éloigne on sera équidistant mais ça sera vachement moins précis et pas réciproque.",
+        "id": 1661,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre I",
+        "episode": "91",
+        "episodeName": "La Fureur du Dragon",
         "file": "01580.mp3",
         "title": "Oui enfin… j'me comprends.",
         "id": 1580,
@@ -2270,6 +2281,17 @@
         "season": "Livre II",
         "episode": "02",
         "episodeName": "Les Alchimistes",
+        "file": "01690.mp3",
+        "title": "Allez quoi, on a besoin d'une potion, on va pas la faire nous-même, si ?!",
+        "id": 1690,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre II",
+        "episode": "02",
+        "episodeName": "Les Alchimistes",
         "file": "00154.mp3",
         "title": "Arrêtez ! C'est pour déconner !",
         "id": 154,
@@ -2484,6 +2506,17 @@
         "id": 171,
         "timestamp": "00:40:56",
         "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "12",
+        "episodeName": "La Délégation Maure",
+        "file": "01679.mp3",
+        "title": "Si vous dites \"fer à cheval\", j'vous colle aux travaux forcés pendant six mois.",
+        "id": 1679,
+        "timestamp": "00:00:00",
+        "popularity": 3
     },
     {
         "character": ["Arthur"],
@@ -3093,6 +3126,17 @@
     {
         "character": ["Arthur"],
         "season": "Livre II",
+        "episode": "46",
+        "episodeName": "Le Cadeau",
+        "file": "01694.mp3",
+        "title": "La chèvre elle a bêlé cinq minutes. Vous, vous râlez depuis trois heures. Pensez-y.",
+        "id": 1694,
+        "timestamp": "02:48:56",
+        "popularity": 3
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
         "episode": "48",
         "episodeName": "La Vigilance d'Arthur",
         "file": "00224.mp3",
@@ -3132,6 +3176,17 @@
         "title": "Mais vous êtes pas mort, espèce de connard ?",
         "id": 226,
         "timestamp": "03:03:59",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "50",
+        "episodeName": "Always",
+        "file": "01693.mp3",
+        "title": "Le seigneur Perceval ne se met jamais en situation dangereuse. Pour ça, il fait preuve d’une intelligence redoutable.",
+        "id": 1693,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -3513,6 +3568,17 @@
         "season": "Livre II",
         "episode": "69",
         "episodeName": "Feue la Vache de Roparzh",
+        "file": "01662.mp3",
+        "title": "Non mais… Kaamelott c'est pas une coopérative bovine ! On a pas de vaches !",
+        "id": 1662,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "69",
+        "episodeName": "Feue la Vache de Roparzh",
         "file": "01659.mp3",
         "title": "Alors ? À qui c'est qu'elle est morte, la va-vache ?",
         "id": 1659,
@@ -3560,6 +3626,28 @@
         "file": "01528.mp3",
         "title": "J'vous file un grand coup d'bêche dans la tête et puis on en parle plus !",
         "id": 1528,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Guethenoc"],
+        "season": "Livre II",
+        "episode": "69",
+        "episodeName": "Feue la Vache de Roparzh",
+        "file": "01663.mp3",
+        "title": "Elle avait rien à foutre là déjà pour commencer.",
+        "id": 1663,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Roparzh"],
+        "season": "Livre II",
+        "episode": "69",
+        "episodeName": "Feue la Vache de Roparzh",
+        "file": "01664.mp3",
+        "title": "Et puis quand elle est revenue, elle avait chopé mais toutes les maladies qu'existent.",
+        "id": 1664,
         "timestamp": "00:00:00",
         "popularity": 2
     },
@@ -4250,6 +4338,17 @@
         "season": "Livre III",
         "episode": "23",
         "episodeName": "Le Professionnel",
+        "file": "01671.mp3",
+        "title": "Je suis Urgan, dit l’homme-goujon. Chevalier des mers au service de sa seigneurie.",
+        "id": 1671,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Urgan"],
+        "season": "Livre III",
+        "episode": "23",
+        "episodeName": "Le Professionnel",
         "file": "00317.mp3",
         "title": "Oui enfin attention. Au même titre que le bar est fermé, sauf si c'est un poisson, tout travail mérite salaire.",
         "id": 317,
@@ -4261,10 +4360,54 @@
         "season": "Livre III",
         "episode": "23",
         "episodeName": "Le Professionnel",
+        "file": "01670.mp3",
+        "title": "Sire, sachez déjà que je ne suis pas homme à me méprendre sur le gaillard d’en face, mon p’tit doigt me dit que vous êtes pas la moitié d’un.",
+        "id": 1670,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Urgan"],
+        "season": "Livre III",
+        "episode": "23",
+        "episodeName": "Le Professionnel",
+        "file": "01672.mp3",
+        "title": "Homme sans métier n’est plus apte à exercer une activité professionnelle.",
+        "id": 1672,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Urgan"],
+        "season": "Livre III",
+        "episode": "23",
+        "episodeName": "Le Professionnel",
         "file": "00318.mp3",
         "title": "Tête bien pensante est par deux fois force de décision.",
         "id": 318,
         "timestamp": "01:23:36",
+        "popularity": 2
+    },
+    {
+        "character": ["Venec"],
+        "season": "Livre III",
+        "episode": "23",
+        "episodeName": "Le Professionnel",
+        "file": "01427.mp3",
+        "title": "Rendez-vous… ce soir… à la taverne.",
+        "id": 1427,
+        "timestamp": "01:21:50",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre III",
+        "episode": "23",
+        "episodeName": "Le Professionnel",
+        "file": "01673.mp3",
+        "title": "Mais… à titre purement informatif, vous prendriez combien ?",
+        "id": 1673,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -5361,11 +5504,66 @@
         "season": "Livre III",
         "episode": "81",
         "episodeName": "Le Vulgarisateur",
+        "file": "01666.mp3",
+        "title": "Non. Quand je comprends, je réponds pas.",
+        "id": 1666,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre III",
+        "episode": "81",
+        "episodeName": "Le Vulgarisateur",
         "file": "00410.mp3",
         "title": "Essayez de faire des phrases pour vous, déjà. On verra après le reste.",
         "id": 410,
         "timestamp": "01:52:32",
         "popularity": 3
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre III",
+        "episode": "81",
+        "episodeName": "Le Vulgarisateur",
+        "file": "01667.mp3",
+        "title": "C’est chaud quand même.",
+        "id": 1667,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre III",
+        "episode": "81",
+        "episodeName": "Le Vulgarisateur",
+        "file": "01668.mp3",
+        "title": "Ah ben ouais mais après il faut un peu de technique.",
+        "id": 1668,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre III",
+        "episode": "81",
+        "episodeName": "Le Vulgarisateur",
+        "file": "01430.mp3",
+        "title": "Bah c'est toujours un peu délicat de parler d'amour aux cons.",
+        "id": 1430,
+        "timestamp": "01:55:30",
+        "popularity": 3
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre III",
+        "episode": "81",
+        "episodeName": "Le Vulgarisateur",
+        "file": "01669.mp3",
+        "title": "Heu, c’est plutôt des cons.",
+        "id": 1669,
+        "timestamp": "00:00:00",
+        "popularity": 2
     },
     {
         "character": ["La Dame Du Lac"],
@@ -6443,6 +6641,50 @@
         "title": "Je vous rappelle que sur deux trous ducs, y en a quand même qu'un seul qui est à nous. Non parce que moi je veux bien être gentil mais je compte pas forcément adopter les débiles des autres sous prétexte qu'ils s'entendent bien avec le mien.",
         "id": 497,
         "timestamp": "02:19:10",
+        "popularity": 2
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre IV",
+        "episode": "39",
+        "episodeName": "Le Grand Départ",
+        "file": "01674.mp3",
+        "title": "Soyez souple un peu !",
+        "id": 1674,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Séli"],
+        "season": "Livre IV",
+        "episode": "39",
+        "episodeName": "Le Grand Départ",
+        "file": "01676.mp3",
+        "title": "Ils se sont pas l’vés ! #1",
+        "id": 1676,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Séli"],
+        "season": "Livre IV",
+        "episode": "39",
+        "episodeName": "Le Grand Départ",
+        "file": "01677.mp3",
+        "title": "Ils se sont pas l’vés ! #2",
+        "id": 1677,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Séli"],
+        "season": "Livre IV",
+        "episode": "39",
+        "episodeName": "Le Grand Départ",
+        "file": "01678.mp3",
+        "title": "Et ils se sont pas levés ! #3",
+        "id": 1678,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -8162,6 +8404,17 @@
         "popularity": 3
     },
     {
+        "character": ["Duchesse d'Aquitaine"],
+        "season": "Livre V",
+        "episode": "16",
+        "episodeName": "Les Fruits d'hiver",
+        "file": "01680.mp3",
+        "title": "Ca fait une heure que vous admirez des bibelots en souriant comme un mongole. Vous êtes dans la salle à manger du roi pour un déjeuner protocolaire. Vous visitez pas le Parthénon!",
+        "id": 1680,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Duchesse d'Aquitaine", "Léodagan"],
         "season": "Livre V",
         "episode": "16",
@@ -8193,6 +8446,17 @@
         "id": 645,
         "timestamp": "02:00:48",
         "popularity": 3
+    },
+    {
+        "character": ["Duchesse d'Aquitain"],
+        "season": "Livre V",
+        "episode": "16",
+        "episodeName": "Les Fruits d'hiver",
+        "file": "01681.mp3",
+        "title": "Je viens de me faire quicher la tête, il me semble que vous étiez là, ça vous inspire là ou y a rien qui vient ?",
+        "id": 1681,
+        "timestamp": "00:00:00",
+        "popularity": 2
     },
     {
         "character": ["Duchesse d'Aquitaine"],
@@ -8327,6 +8591,17 @@
         "popularity": 3
     },
     {
+        "character": ["Duc d'Aquitaine"],
+        "season": "Livre V",
+        "episode": "19",
+        "episodeName": "Les Nocturnales",
+        "file": "01685.mp3",
+        "title": "Si c’est ma tête qui vous revient pas, vous pouvez toujours aller roupiller dans le couloir.",
+        "id": 1685,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Loth", "Dagonet"],
         "season": "Livre V",
         "episode": "21",
@@ -8417,8 +8692,8 @@
     {
         "character": ["Duc d'Aquitaine", "Arthur"],
         "season": "Livre V",
-        "episode": "22",
-        "episodeName": "La Promesse",
+        "episode": "23",
+        "episodeName": "Le Forfait",
         "file": "00666.mp3",
         "title": "- Non, mais on peut adapter.\n- Tout à fait, bien sûr.\n- On peut dire… Bon je dis…\n- Allez-y.\n- Avec votre dégaine…\n- Oui, oui, oui, oui !\n- Avec votre dégaine de crevette, faites gaffe à pas vous faire bouffer par un mérou !\n- Exactement.",
         "id": 666,
@@ -10679,6 +10954,17 @@
         "id": 865,
         "timestamp": "02:20:58",
         "popularity": 3
+    },
+    {
+        "character": ["Yvain"],
+        "season": "Livre IV",
+        "episode": "39",
+        "episodeName": "Le Grand Départ",
+        "file": "01675.mp3",
+        "title": "On pourrait pas plutôt dire \"les petits pédestres, dont un au Lion ?\"",
+        "id": 1675,
+        "timestamp": "00:00:00",
+        "popularity": 2
     },
     {
         "character": ["Gauvain"],
@@ -13928,6 +14214,17 @@
     {
         "character": ["Arthur"],
         "season": "Livre II",
+        "episode": "45",
+        "episodeName": "Amen",
+        "file": "01695.mp3",
+        "title": "Tu ne tueras point, comment on fait nous derrière ? Non c’est comme ça. C’est, voilà, c’est un peu, tu ne tueras point, voilà. Bon allez on y va.",
+        "id": 1695,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
         "episode": "04",
         "episodeName": "Le Portrait",
         "file": "01113.mp3",
@@ -15136,6 +15433,50 @@
         "popularity": 2
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "43",
+        "episodeName": "La Voix Céleste",
+        "file": "01700.mp3",
+        "title": "Mais vous guidez que dalle alors, vous êtes encore plus paumée que moi, venez pas me la jouer !",
+        "id": 1700,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "43",
+        "episodeName": "La Voix Céleste",
+        "file": "01699.mp3",
+        "title": "Merde, là. Ça vous va ça ?",
+        "id": 1699,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "43",
+        "episodeName": "La Voix Céleste",
+        "file": "01698.mp3",
+        "title": "Ah non vous allez pas bouder !",
+        "id": 1698,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "43",
+        "episodeName": "La Voix Céleste",
+        "file": "01697.mp3",
+        "title": "Eh bah tu peux te la garder !",
+        "id": 1697,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Bohort"],
         "season": "Livre II",
         "episode": "44",
@@ -15144,6 +15485,17 @@
         "title": "Braves gens… Notre enchanteur m'informe que d'habitude il y arrive très bien mais que là, visiblement, ça marche pas !",
         "id": 1209,
         "timestamp": "02:42:09",
+        "popularity": 2
+    },
+    {
+        "character": ["Merlin"],
+        "season": "Livre II",
+        "episode": "44",
+        "episodeName": "L'Invincible",
+        "file": "01696.mp3",
+        "title": "Remarquez, j’ai un pote poissonnier qui sait boire du lait à la paille par les trous de nez.",
+        "id": 1696,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -15873,6 +16225,17 @@
         "popularity": 2
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre I",
+        "episode": "40",
+        "episodeName": "L'adoubement",
+        "file": "01665.mp3",
+        "title": "Non mais on s'en fout de ça c'est pas une question d'armure ou d'épée, vous pourriez vous balader avec une cuillère à soupe ça changerait rien, l'adoubement c'est une condition pour être chevalier !",
+        "id": 1665,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Perceval"],
         "season": "Livre I",
         "episode": "40",
@@ -16401,6 +16764,39 @@
         "popularity": 3
     },
     {
+        "character": ["Duc d'Aquitaine"],
+        "season": "Livre V",
+        "episode": "19",
+        "episodeName": "Les Nocturnales",
+        "file": "01682.mp3",
+        "title": "Ah oui oui oui, c’est à dire que là nous sommes avec une personne qui ne va pas hésiter, si vous voulez à aller piocher dans un lexique très intuitif, donc, on va être sur du blaireau, sur du peigne-cu, sur de la tarlouze… Voilà c’est pour ça que je vous demande heu, qu’est ce que vous dites vous à votre épouse pour désamorcer, quoi, le conflit ?",
+        "id": 1682,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Duchesse d'Aquitaine"],
+        "season": "Livre V",
+        "episode": "19",
+        "episodeName": "Les Nocturnales",
+        "file": "01683.mp3",
+        "title": "Alors je vous explique sire, si on lui met là, une chaise dans le coin là-bas, ou non mieux ici, on l’assoit là pendant qu’on fait les pires trucs, il demandera pas réparation. C’est un style voyez.",
+        "id": 1683,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Duchesse d'Aquitaine"],
+        "season": "Livre V",
+        "episode": "19",
+        "episodeName": "Les Nocturnales",
+        "file": "01684.mp3",
+        "title": "Ce que vous allez faire c’est que vous allez plus trop parler vers ici.",
+        "id": 1684,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Perceval"],
         "season": "Livre V",
         "episode": "27",
@@ -16805,6 +17201,28 @@
         "title": "- Si y a l'autre là…\n- Lequel ?\n- Celui avec une tête de con, toujours en train de bouffer.\n- Bah non je suis là moi.",
         "id": 1341,
         "timestamp": "00:00:47",
+        "popularity": 3
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "01",
+        "episodeName": "Spangenhelm",
+        "file": "01692.mp3",
+        "title": "Bon de toutes façons on vous demande de prier, vous priez, vous discutaillez pas des plombes du pourquoi du comment ! Commence à me gonfler léger ça aussi !",
+        "id": 1692,
+        "timestamp": "00:00:00",
+        "popularity": 3
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "01",
+        "episodeName": "Spangenhelm",
+        "file": "01691.mp3",
+        "title": "Y'a rien à prier... on se souvient pas des mecs de toute façon !",
+        "id": 1691,
+        "timestamp": "00:00:00",
         "popularity": 3
     },
     {
@@ -18095,6 +18513,17 @@
         "popularity": 2
     },
     {
+        "character": ["Perceval"],
+        "season": "Livre II",
+        "episode": "97",
+        "episodeName": "La Conscience d'Arthur",
+        "file": "01689.mp3",
+        "title": "Vous êtes un gros nul ! D’accord ? Un vrai gros naze !",
+        "id": 1689,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Ankou"],
         "season": "Livre III",
         "episode": "10",
@@ -18104,17 +18533,6 @@
         "id": 1426,
         "timestamp": "00:36:41",
         "popularity": 3
-    },
-    {
-        "character": ["Venec"],
-        "season": "Livre III",
-        "episode": "23",
-        "episodeName": "Le Professionnel",
-        "file": "01427.mp3",
-        "title": "Rendez-vous… ce soir… à la taverne.",
-        "id": 1427,
-        "timestamp": "01:21:50",
-        "popularity": 2
     },
     {
         "character": ["Père Blaise"],
@@ -18137,17 +18555,6 @@
         "id": 1429,
         "timestamp": "01:27:57",
         "popularity": 2
-    },
-    {
-        "character": ["Arthur"],
-        "season": "Livre III",
-        "episode": "81",
-        "episodeName": "Le Vulgarisateur",
-        "file": "01430.mp3",
-        "title": "Bah c'est toujours un peu délicat de parler d'amour aux cons.",
-        "id": 1430,
-        "timestamp": "01:55:30",
-        "popularity": 3
     },
     {
         "character": ["Arthur"],
@@ -18202,6 +18609,39 @@
         "title": "Non non mais voilà. C'est bon, quand on sait pas, on dit rien, c'est tout !",
         "id": 1435,
         "timestamp": "00:34:40",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre V",
+        "episode": "23",
+        "episodeName": "Le Forfait",
+        "file": "01686.mp3",
+        "title": "Vous lui dites ok d’accord, vous partez quand vous voulez. Et dans un second temps quand elle se demande ce qui se passe, heu, vous enchaînez, seulement comme c’est moi qui prend le bateau vous rentrez à la nage.",
+        "id": 1686,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Duc d'Aquitaine"],
+        "season": "Livre V",
+        "episode": "23",
+        "episodeName": "Le Forfait",
+        "file": "01687.mp3",
+        "title": "Demain c’est demain, si j’ai besoin de votre avis je vous le demande.",
+        "id": 1687,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre V",
+        "episode": "23",
+        "episodeName": "Le Forfait",
+        "file": "01688.mp3",
+        "title": "Comme ça ça vous fera un peu perdre le gras que vous avez sur le cul.",
+        "id": 1688,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
