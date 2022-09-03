@@ -1,7 +1,7 @@
 import i18n from 'i18next'
 import LanguageDetector from "i18next-browser-languagedetector"
 import {initReactI18next} from 'react-i18next'
-import XHR from 'i18next-xhr-backend'
+import XHR from 'i18next-http-backend'
 import languageEN from './locate/en/translate.json'
 import languageFR from './locate/fr/translate.json'
 
