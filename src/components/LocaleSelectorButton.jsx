@@ -18,7 +18,7 @@ class LocaleSelectorButton extends React.Component {
         return (
             <>
                 <a className={"dropdown-item"+isActive} onClick={ () => {this.changeLang(this.props.locale)} }>
-                    <i className={"flag-icon flag-icon-"+this.props.localeIcon+" mr-2"} />
+                    <i className={"fi fi-"+this.props.localeIcon+" mr-2"} />
                     &nbsp;&nbsp;
                     {this.props.localeName}
                 </a>

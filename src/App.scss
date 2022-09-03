@@ -10,8 +10,8 @@ $border-dark: rgba($base-bg-color, 0.88);
 * INCLUDES
 * -----------------------------------------------------------------------------
 */
-// flag-icon-css
-@import '~flag-icon-css/sass/flag-icons';
+// flag-icons
+@import '~flag-icons/sass/flag-icons';
 
 // Bootstrap parts
 @import "~bootstrap/scss/functions";
