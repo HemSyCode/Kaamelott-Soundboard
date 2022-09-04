@@ -49,7 +49,7 @@ const SoundButton = (props) => {
     return (
         <div>
             { autoPlayAction() }
-            <span className={'btn-info'} data-tip='' data-for={data.index}
+            <span className={'btn-info'} data-tip='' data-for={'tooltip-'+((data.id+"").padStart(5, "0"))}
                   onMouseEnter={() => showTooltip(true)}
                   onMouseLeave={() => {
                       showTooltip(false);
@@ -62,7 +62,7 @@ const SoundButton = (props) => {
                 <span className={'strong'}>{data.title.slice(0, 110)}</span>
             </a>
             <div className="audio-buffer" style={{"background": "linear-gradient(to right, #017F66 " + bufferedValue + "%, #18ae90 0%)"}}/>
-            <audio id={data.id} ref={audioPlayer} onTimeUpdate={onPlaying} onCanPlay={canPlay} onDurationChange={() => {setSeekValue(0); setBufferedValue(0); stop(); setIsPlayed(false)}} src={require('./../sounds/' + data.file)}>Your browser does not support the <code>audio</code> element.</audio>
+            <audio id={'audio-'+((data.id+"").padStart(5, "0"))} ref={audioPlayer} onTimeUpdate={onPlaying} onCanPlay={canPlay} onDurationChange={() => {setSeekValue(0); setBufferedValue(0); stop(); setIsPlayed(false)}} src={require('./../sounds/' + data.file)}>Your browser does not support the <code>audio</code> element.</audio>
             {
                 /*
                 * FIX UNTIL THE PACKAGE IS UPDATED.
@@ -70,7 +70,7 @@ const SoundButton = (props) => {
                 */
                 tooltip
                 &&
-                <ReactTooltip id={data.index} place="top" type="dark" effect="float" className={'react-tooltip-inner'} data-html={true}>
+                <ReactTooltip id={'tooltip-'+((data.id+"").padStart(5, "0"))} place="top" type="dark" effect="float" className={'react-tooltip-inner'} data-html={true}>
                     <div>
                         <span style={{"fontWeight": "bold"}}>{characters()}</span><br/>
                         <span style={{"fontStyle": "italic"}}>{data.season}, {data.episode} — {data.episodeName}</span><br/>

@@ -124,7 +124,7 @@ const Soundboard = (props) => {
     }
 
     const handleRandomButtonClick = () => {
-        let value = data[Math.floor(Math.random() * data.length)].title
+        let value = ((data[Math.floor(Math.random() * data.length)].id+"").padStart(5, "0"));
         setSoundsCurrentPage(1)
         setFilterValue(value)
         window.location.hash = 'sound-'+value
@@ -175,7 +175,7 @@ const Soundboard = (props) => {
         } else {
             prepareFilter.forEach( (singleDataObject, index ) => {
                 // Check 'index'.
-                if (((singleDataObject.index)+"").includes(filterGivenValue)) { filteredSounds.push(singleDataObject); return }
+                if (((singleDataObject.id+"").padStart(5, "0")).includes(filterGivenValue)) { filteredSounds.push(singleDataObject); return }
                 // Check 'character'.
                 (Object.values(singleDataObject)[0]).forEach( character => {
                     if (character.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").includes(filterGivenValue.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, ""))) { filteredSounds.push(singleDataObject); return }
@@ -222,7 +222,7 @@ const Soundboard = (props) => {
         :
             currentSounds.map((item, i) => {
                 return (
-                    <li key={i} id={item.index}>
+                    <li key={i} id={(item.id+"").padStart(5, "0")}>
                         <SoundButton data={item} autoPlay={ (currentSounds.length === 1 && isAutoPlaySound) ? true : false } />
                     </li>
                 )
