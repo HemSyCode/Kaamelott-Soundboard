@@ -5,7 +5,7 @@ class EpisodesBox extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            isVisible: false
+            isVisible: (this.props.isVisible === true) ? true : false
         }
         this.handleEpisodeClick = this.handleEpisodeClick.bind(this)
         this.handleEpisodeContainerClick = this.handleEpisodeContainerClick.bind(this)
@@ -16,9 +16,7 @@ class EpisodesBox extends React.Component {
     }
 
     handleEpisodeContainerClick() {
-        this.setState({
-            isVisible: !this.state.isVisible
-        })
+        this.props.onEpisodesBoxVisibleChange(((this.props.isVisible === true) ? false : true))
     }
 
     render() {
@@ -28,7 +26,7 @@ class EpisodesBox extends React.Component {
                     <div className="header" onClick={() => this.handleEpisodeContainerClick()}>
                         <h3><Trans>app_episodes</Trans></h3>
                     </div>
-                    <div className={'content' + (this.state.isVisible ? ' visible' : ' hidden')}>
+                    <div className={'content' + (  ((this.props.isVisible === true) ? true : false)   ? ' visible' : ' hidden')}>
                         {
                             (this.props.episodes.length === 0) ?
                                 <h3>Aucuns éléments.</h3>

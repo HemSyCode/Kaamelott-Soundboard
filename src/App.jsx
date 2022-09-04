@@ -24,6 +24,8 @@ const Soundboard = (props) => {
     const [hashValue, setHashValue] = useState('')
     const [empty, setEmpty] = useState(Math.random())
     const [isAutoPlaySound, setIsAutoPlaySound] = useState(false)
+    const [isCharactersBoxVisible, setIsCharactersBoxVisible] = useState(true)
+    const [isEpisodesBoxVisible, setIsEpisodesBoxVisible] = useState(false)
 
     function htmlDecode(input) {
         return decodeURI((input+"").normalize("NFD").replace(/\p{Diacritic}/gu, ""))
@@ -117,6 +119,8 @@ const Soundboard = (props) => {
         setFilterValue('')
         window.location.hash = ''
         handleFilterChange('')
+        setIsCharactersBoxVisible(true)
+        setIsEpisodesBoxVisible(false)
     }
 
     const handleRandomButtonClick = () => {
@@ -127,6 +131,8 @@ const Soundboard = (props) => {
         setIsAutoPlaySound(true)
         setTimeout(() => {  setIsAutoPlaySound(false) }, 500);
         handleFilterChange(value)
+        setIsCharactersBoxVisible(false)
+        setIsEpisodesBoxVisible(false)
     }
 
     const handleCharacterClick = (e, character) => {
@@ -139,6 +145,10 @@ const Soundboard = (props) => {
         }
     }
 
+    const handleCharactersBoxVisibleChange = (isVisible) => {
+        setIsCharactersBoxVisible(isVisible)
+    }
+
     const handleEpisodeClick = (e, episode) => {
         e.preventDefault()
         if (episode !== filterValue) {
@@ -147,6 +157,10 @@ const Soundboard = (props) => {
             handleFilterChange(episode)
             window.location.hash = htmlDecode('#sound-'+episode)
         }
+    }
+
+    const handleEpisodesBoxVisibleChange = (isVisible) => {
+        setIsCharactersBoxVisible(isVisible)
     }
 
     const handleFilterChange = (filterGivenValue) => {
@@ -248,8 +262,8 @@ const Soundboard = (props) => {
                 <div className={'list'}>
                     {
                         <>
-                            <CharactersBox characters={characters} filterValue={filterValue} onCharacterClick={handleCharacterClick} />
-                            <EpisodesBox episodes={episodes} filterValue={filterValue} onEpisodeClick={handleEpisodeClick} />
+                            <CharactersBox characters={characters} filterValue={filterValue} onCharacterClick={handleCharacterClick} isVisible={isCharactersBoxVisible} onCharactersBoxVisibleChange={handleCharactersBoxVisibleChange}/>
+                            <EpisodesBox episodes={episodes} filterValue={filterValue} onEpisodeClick={handleEpisodeClick} isVisible={isEpisodesBoxVisible} onEpisodesBoxVisibleChange={handleEpisodesBoxVisibleChange}/>
                         </>
                     }
                 </div>

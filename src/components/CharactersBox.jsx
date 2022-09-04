@@ -5,7 +5,7 @@ class CharactersBox extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            isVisible: true
+            isVisible: (this.props.isVisible === true) ? true : false
         }
         this.handleCharacterClick = this.handleCharacterClick.bind(this)
         this.handleCharacterContainerClick = this.handleCharacterContainerClick.bind(this)
@@ -16,9 +16,7 @@ class CharactersBox extends React.Component {
     }
 
     handleCharacterContainerClick() {
-        this.setState({
-            isVisible: !this.state.isVisible
-        })
+        this.props.onCharactersBoxVisibleChange(((this.props.isVisible === true) ? false : true))
     }
 
     render() {
@@ -28,7 +26,7 @@ class CharactersBox extends React.Component {
                     <div className="header" onClick={() => this.handleCharacterContainerClick()}>
                         <h3><Trans>app_personnages</Trans></h3>
                     </div>
-                    <div className={'content' + (this.state.isVisible ? ' visible' : ' hidden')}>
+                    <div className={'content' + (  ((this.props.isVisible === true) ? true : false)   ? ' visible' : ' hidden')}>
                         {
                             (this.props.characters.length === 0) ?
                                 <h3>Aucuns éléments.</h3>
