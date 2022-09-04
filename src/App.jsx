@@ -160,7 +160,7 @@ const Soundboard = (props) => {
     }
 
     const handleEpisodesBoxVisibleChange = (isVisible) => {
-        setIsCharactersBoxVisible(isVisible)
+        setIsEpisodesBoxVisible(isVisible)
     }
 
     const handleFilterChange = (filterGivenValue) => {
