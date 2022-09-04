@@ -23,6 +23,7 @@ const Soundboard = (props) => {
     const [isHashLoaded, setIsHashLoaded] = useState(false)
     const [hashValue, setHashValue] = useState('')
     const [empty, setEmpty] = useState(Math.random())
+    const [isAutoPlaySound, setIsAutoPlaySound] = useState(false)
 
     function htmlDecode(input) {
         return decodeURI((input+"").normalize("NFD").replace(/\p{Diacritic}/gu, ""))
@@ -122,6 +123,9 @@ const Soundboard = (props) => {
         let value = data[Math.floor(Math.random() * data.length)].title
         setSoundsCurrentPage(1)
         setFilterValue(value)
+        window.location.hash = 'sound-'+value
+        setIsAutoPlaySound(true)
+        setTimeout(() => {  setIsAutoPlaySound(false) }, 500);
         handleFilterChange(value)
     }
 
@@ -205,7 +209,7 @@ const Soundboard = (props) => {
             currentSounds.map((item, i) => {
                 return (
                     <li key={i} id={item.index}>
-                        <SoundButton data={item} />
+                        <SoundButton data={item} autoPlay={ (currentSounds.length === 1 && isAutoPlaySound) ? true : false } />
                     </li>
                 )
             })

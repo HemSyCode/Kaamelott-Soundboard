@@ -3,7 +3,10 @@ import ReactTooltip from 'react-tooltip'
 
 const SoundButton = (props) => {
     let data = props.data
+    let autoPlayVal = (props.autoPlay === true)
+
     const [isPlaying, setIsPlaying] = useState(false)
+    const [isPlayed, setIsPlayed] = useState(false)
     const audioPlayer = useRef();
     const [currentTime, setCurrentTime] = useState(0);
     const [seekValue, setSeekValue] = useState(0);
@@ -17,10 +20,11 @@ const SoundButton = (props) => {
     const canPlay = () => {  }
     const onPlaying = () => { setCurrentTime(audioPlayer.current.currentTime); setSeekValue( (audioPlayer.current.currentTime / audioPlayer.current.duration) * 100 ); setBufferedValue( (audioPlayer.current.buffered.end(audioPlayer.current.buffered.length - 1) / audioPlayer.current.duration) * 100 ) }
     const masterPlay = () => { if( isPlaying === true ) { pause() } else { play() } }
+    const autoPlayAction = () => { if( (isPlaying === false) && autoPlayVal === true && (isPlayed === false) ) { masterPlay(); } else {  } }
     const labelIcon = () => { return isPlaying ? 'playing' : '' }
 
     useEffect(() => {
-        audioPlayer.current.addEventListener('ended', () => { setIsPlaying(false); setSeekValue(0) })
+        audioPlayer.current.addEventListener('ended', () => { setIsPlaying(false); setSeekValue(0); setIsPlayed(true) })
         // return () => { audioPlayer.current.removeEventListener('ended', () => { setIsPlaying(false); setSeekValue(0) }) }
     })
 
@@ -44,6 +48,7 @@ const SoundButton = (props) => {
 
     return (
         <div>
+            { autoPlayAction() }
             <span className={'btn-info'} data-tip='' data-for={data.index}
                   onMouseEnter={() => showTooltip(true)}
                   onMouseLeave={() => {
@@ -57,7 +62,7 @@ const SoundButton = (props) => {
                 <span className={'strong'}>{data.title.slice(0, 110)}</span>
             </a>
             <div className="audio-buffer" style={{"background": "linear-gradient(to right, #017F66 " + bufferedValue + "%, #18ae90 0%)"}}/>
-            <audio id={data.id} ref={audioPlayer} onTimeUpdate={onPlaying} onCanPlay={canPlay} onDurationChange={() => {setSeekValue(0); setBufferedValue(0); stop();}} src={require('./../sounds/' + data.file)}>Your browser does not support the <code>audio</code> element.</audio>
+            <audio id={data.id} ref={audioPlayer} onTimeUpdate={onPlaying} onCanPlay={canPlay} onDurationChange={() => {setSeekValue(0); setBufferedValue(0); stop(); setIsPlayed(false)}} src={require('./../sounds/' + data.file)}>Your browser does not support the <code>audio</code> element.</audio>
             {
                 /*
                 * FIX UNTIL THE PACKAGE IS UPDATED.
