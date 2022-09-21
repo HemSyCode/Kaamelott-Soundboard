@@ -2,7 +2,7 @@
   "name": "kaamelott-soundboard",
   "version": "0.2.11",
   "private": false,
-  "homepage": "/",
+  "homepage": ".",
   "dependencies": {
     "audio-player": "^1.1",
     "bootstrap": "^5.2",
