@@ -2739,6 +2739,17 @@
         "popularity": 2
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "19",
+        "episodeName": "L'absolution",
+        "file": "01749.mp3",
+        "title": "Que je ne me suis jamais quoi ? J’ai pas compris.",
+        "id": 1749,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Guenièvre"],
         "season": "Livre II",
         "episode": "20",
@@ -2747,6 +2758,39 @@
         "title": "Oh vous êtes la personne LA PLUS COMPLIQUÉE QUE JE CONNAISSE !",
         "id": 190,
         "timestamp": "01:12:29",
+        "popularity": 2
+    },
+    {
+        "character": ["Merlin"],
+        "season": "Livre II",
+        "episode": "20",
+        "episodeName": "Les Misanthropes",
+        "file": "01747.mp3",
+        "title": "Franchement, une potion pour faire pisser bleu, ça pressait à la minute, là ?",
+        "id": 1747,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Guenièvre"],
+        "season": "Livre II",
+        "episode": "20",
+        "episodeName": "Les Misanthropes",
+        "file": "01746.mp3",
+        "title": "Ah non, mais nous, on n’est pas fixé ! On propose ça, c’qui compte c’est que ce soit un peu marrant, quoi ! Et pis pour vous, ça va vous faire rigoler un peu ! C’est pas bon d’rester enfermé dans votre cagibi à glander toute la journée.",
+        "id": 1746,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Séli"],
+        "season": "Livre II",
+        "episode": "20",
+        "episodeName": "Les Misanthropes",
+        "file": "01748.mp3",
+        "title": "Y’a pas d’équivoque ! Vous êtes un franchement un bourrin en toutes circonstances !",
+        "id": 1748,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -2772,6 +2816,50 @@
         "popularity": 3
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "27",
+        "episodeName": "L'Ancien Temps",
+        "file": "01733.mp3",
+        "title": "Bon alors, combien il faut qu'je casque, pour la fête aux pécores ?",
+        "id": 1733,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "27",
+        "episodeName": "L'Ancien Temps",
+        "file": "01735.mp3",
+        "title": "Ah ouais vous m'adressez carrément plus la parole en fait.",
+        "id": 1735,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "27",
+        "episodeName": "L'Ancien Temps",
+        "file": "01734.mp3",
+        "title": "Mais non, qu'est-ce que j'en ai à carrer...",
+        "id": 1734,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "27",
+        "episodeName": "L'Ancien Temps",
+        "file": "01736.mp3",
+        "title": "Elle me fixe avec ses yeux de serpents là...",
+        "id": 1736,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Guenièvre"],
         "season": "Livre II",
         "episode": "27",
@@ -2781,6 +2869,17 @@
         "id": 192,
         "timestamp": "01:35:58",
         "popularity": 3
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "27",
+        "episodeName": "L'Ancien Temps",
+        "file": "01732.mp3",
+        "title": "Enfin, quand c'est d'mandé gentiment...",
+        "id": 1732,
+        "timestamp": "00:00:00",
+        "popularity": 2
     },
     {
         "character": ["Yvain"],
@@ -2802,6 +2901,17 @@
         "title": "Et lui, je crois qu'il a pas de prénom. Tout le monde l'appelle connard.",
         "id": 194,
         "timestamp": "01:47:33",
+        "popularity": 3
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre II",
+        "episode": "30",
+        "episodeName": "La Garde Royale",
+        "file": "01728.mp3",
+        "title": "Non mais par contre, y sont supers cons !",
+        "id": 1728,
+        "timestamp": "00:00:00",
         "popularity": 3
     },
     {
@@ -2860,6 +2970,17 @@
         "popularity": 3
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "31",
+        "episodeName": "L'Ivresse",
+        "file": "01725.mp3",
+        "title": "LES CHEVALIERS D’MES DEUX !",
+        "id": 1725,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Perceval"],
         "season": "Livre II",
         "episode": "31",
@@ -2915,6 +3036,28 @@
         "popularity": 3
     },
     {
+        "character": ["Perceval"],
+        "season": "Livre II",
+        "episode": "35",
+        "episodeName": "Merlin l'Archaïque",
+        "file": "01418.mp3",
+        "title": "Permettez-moi de vous souhaitez un joyeux anniversaire !",
+        "id": 1418,
+        "timestamp": "02:04:34",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "35",
+        "episodeName": "Merlin l'Archaïque",
+        "file": "01717.mp3",
+        "title": "Rien, ça fait rien, cassez-vous !",
+        "id": 1717,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Arthur"],
         "season": "Livre II",
         "episode": "35",
@@ -2923,6 +3066,28 @@
         "title": "C'est pas du tout mon anniversaire.",
         "id": 205,
         "timestamp": "02:04:42",
+        "popularity": 2
+    },
+    {
+        "character": ["Guenièvre"],
+        "season": "Livre II",
+        "episode": "35",
+        "episodeName": "Merlin l'Archaïque",
+        "file": "01716.mp3",
+        "title": "Je m’occupe de tout ! Dites \"oui\", dites \"oui\", dites \"oui\", dites \"oui\", dites \"oui\" !",
+        "id": 1716,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "35",
+        "episodeName": "Merlin l'Archaïque",
+        "file": "01715.mp3",
+        "title": "Ben alors 884 charrettes de bouse.",
+        "id": 1715,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -2946,6 +3111,39 @@
         "id": 207,
         "timestamp": "02:09:26",
         "popularity": 5
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre II",
+        "episode": "36",
+        "episodeName": "Les Exploités",
+        "file": "01713.mp3",
+        "title": "Maintenant il faut nous écouter parce que là on en a gros.",
+        "id": 1713,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre II",
+        "episode": "36",
+        "episodeName": "Les Exploités",
+        "file": "01714.mp3",
+        "title": "Faites pas le con Sire, ouvrez !",
+        "id": 1714,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre II",
+        "episode": "36",
+        "episodeName": "Les Exploités",
+        "file": "01712.mp3",
+        "title": "La tournure est plus graduelle.",
+        "id": 1712,
+        "timestamp": "00:00:00",
+        "popularity": 2
     },
     {
         "character": ["Karadoc"],
@@ -2981,6 +3179,17 @@
         "popularity": 2
     },
     {
+        "character": ["Le Tavernier"],
+        "season": "Livre II",
+        "episode": "37",
+        "episodeName": "L'Escorte II",
+        "file": "01711.mp3",
+        "title": "Entre l'Roi Arthur qu'est incapable de dénicher son Graal et la Reine qu'est con comme une chaise...!",
+        "id": 1711,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Guenièvre"],
         "season": "Livre II",
         "episode": "37",
@@ -3003,6 +3212,17 @@
         "popularity": 2
     },
     {
+        "character": ["Bohort"],
+        "season": "Livre II",
+        "episode": "38",
+        "episodeName": "Le Larcin",
+        "file": "01710.mp3",
+        "title": "Quoi ? Mais c’est un scandale ?",
+        "id": 1710,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Ygerne De Tintagel"],
         "season": "Livre II",
         "episode": "39",
@@ -3014,6 +3234,17 @@
         "popularity": 2
     },
     {
+        "character": ["Léodagan"],
+        "season": "Livre II",
+        "episode": "40",
+        "episodeName": "Les Pigeons",
+        "file": "01706.mp3",
+        "title": "\"Vous pouvez aller vous gratter\". C'est signé... ah non mais c'est moi ça !",
+        "id": 1706,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Arthur"],
         "season": "Livre II",
         "episode": "41",
@@ -3022,6 +3253,28 @@
         "title": "C'est pas possible ce qu'elle daube cette saloperie !",
         "id": 214,
         "timestamp": "02:27:27",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "41",
+        "episodeName": "O'Brother",
+        "file": "01704.mp3",
+        "title": "Quoi ?! Bah mon cochon, vous ne manquez pas de cran.",
+        "id": 1704,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre II",
+        "episode": "41",
+        "episodeName": "O'Brother",
+        "file": "01705.mp3",
+        "title": "Bah, Karadoc c’est le gars brillant, quoi… le frère à côté c’est sûr, euh… c’est vraiment un gros con.",
+        "id": 1705,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -3055,6 +3308,17 @@
         "title": "Pour savoir s'il va y a voir du vent, faut mettre son doigt dans le cul du coq.",
         "id": 217,
         "timestamp": "02:30:19",
+        "popularity": 3
+    },
+    {
+        "character": ["Kadoc"],
+        "season": "Livre II",
+        "episode": "41",
+        "episodeName": "O'Brother",
+        "file": "01703.mp3",
+        "title": "Comme la mare aux canards ?",
+        "id": 1703,
+        "timestamp": "00:00:00",
         "popularity": 3
     },
     {
@@ -11913,6 +12177,28 @@
         "popularity": 2
     },
     {
+        "character": ["Lancelot"],
+        "season": "Livre II",
+        "episode": "30",
+        "episodeName": "La Garde Royale",
+        "file": "01726.mp3",
+        "title": "Mais qu’est-ce que vous voulez qu’on en foute de vos peigne-culs !",
+        "id": 1726,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Père Blaise"],
+        "season": "Livre II",
+        "episode": "30",
+        "episodeName": "La Garde Royale",
+        "file": "01727.mp3",
+        "title": "Donc vous allez faire une troupe d’élite avec vos cousins débiles ?",
+        "id": 1727,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Kadoc"],
         "season": "Livre II",
         "episode": "60",
@@ -12826,6 +13112,17 @@
         "popularity": 2
     },
     {
+        "character": ["Léodagan"],
+        "season": "Livre II",
+        "episode": "42",
+        "episodeName": "La Fête du Printemps",
+        "file": "01701.mp3",
+        "title": "Vous me dites il faut quelque chose de festif.",
+        "id": 1701,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Belt"],
         "season": "Livre II",
         "episode": "33",
@@ -13329,6 +13626,17 @@
         "title": "Après-demain, à partir d'aujourd'hui ?",
         "id": 1046,
         "timestamp": "01:05:28",
+        "popularity": 2
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre II",
+        "episode": "18",
+        "episodeName": "Sept cent quarante-quatre",
+        "file": "01751.mp3",
+        "title": "De toutes façons les réunions de la table ronde, c’est deux fois par mois ! Donc si le mec il dit : après-demain, à partir de dans deux jours, suivant s’il le dit à la fin du mois ça l’reporte.",
+        "id": 1751,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -14201,6 +14509,39 @@
         "popularity": 3
     },
     {
+        "character": ["Léodagan"],
+        "season": "Livre II",
+        "episode": "16",
+        "episodeName": "Les Tuteurs",
+        "file": "01757.mp3",
+        "title": "Des bêtes sauvages, que je vais récupérer. Des machines à tuer.",
+        "id": 1757,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre II",
+        "episode": "16",
+        "episodeName": "Les Tuteurs",
+        "file": "01756.mp3",
+        "title": "Peut-être même qu'il faut que je mette une armure. Ils sont capables de pas me reconnaître et d'essayer de me buter !",
+        "id": 1756,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Yvain"],
+        "season": "Livre II",
+        "episode": "16",
+        "episodeName": "Les Tuteurs",
+        "file": "01758.mp3",
+        "title": "Et moi, je me suis fait dérober de la nourriture tout le long du voyage ! Une véritable dérobade !",
+        "id": 1758,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Père Blaise"],
         "season": "Livre II",
         "episode": "45",
@@ -14253,6 +14594,17 @@
         "title": "J'ai le droit d'être quatre jours pas chez moi et après chez moi mais il y a du voyage qui se prépare et pour soigner les bêtes, y a pas que ma tante, y a moi aussi.",
         "id": 1115,
         "timestamp": "02:28:28",
+        "popularity": 2
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre II",
+        "episode": "41",
+        "episodeName": "O'Brother",
+        "file": "01702.mp3",
+        "title": "Pas moyen de piger un broc de ce qu'il dit.",
+        "id": 1702,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -14696,6 +15048,39 @@
         "popularity": 2
     },
     {
+        "character": ["Léodagan"],
+        "season": "Livre II",
+        "episode": "25",
+        "episodeName": "Séli et Les Rongeurs",
+        "file": "01737.mp3",
+        "title": "Vous pouvez bien la distraire avec un numéro de jonglage, vous la toucherez pas avec ça. Point.",
+        "id": 1737,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre II",
+        "episode": "25",
+        "episodeName": "Séli et Les Rongeurs",
+        "file": "01738.mp3",
+        "title": "Non mais bien sûr ! Donc vous, vous dégommez les souris au maillet...",
+        "id": 1738,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Séli"],
+        "season": "Livre II",
+        "episode": "25",
+        "episodeName": "Séli et Les Rongeurs",
+        "file": "01739.mp3",
+        "title": "Celle-là, j'irai pas me coucher tant que je l'aurai pas bousillée !",
+        "id": 1739,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Le Tavernier"],
         "season": "Livre II",
         "episode": "26",
@@ -14737,6 +15122,28 @@
         "title": "Tu paieras pour cet affront !",
         "id": 1157,
         "timestamp": "00:54:01",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "15",
+        "episodeName": "Le Monde d'Arthur",
+        "file": "01759.mp3",
+        "title": "Pfiou Pfiou Pfiou",
+        "id": 1759,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "15",
+        "episodeName": "Le Monde d'Arthur",
+        "file": "01760.mp3",
+        "title": "Boule de feu ! Boule de feu !",
+        "id": 1760,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -15430,6 +15837,39 @@
         "title": "Parce que mine de rien la guerre, ça occupe !",
         "id": 1208,
         "timestamp": "02:23:22",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "39",
+        "episodeName": "La Rencontre",
+        "file": "01708.mp3",
+        "title": "Là c'est sûr que vu les tronches que vous tirez ça donne pas tellement envie d'faire la fiesta !",
+        "id": 1708,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Séli"],
+        "season": "Livre II",
+        "episode": "39",
+        "episodeName": "La Rencontre",
+        "file": "01709.mp3",
+        "title": "Ah non mais y a vraiment des jours où vous déconnez sec !",
+        "id": 1709,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Séli","Ygerne De Tintagel"],
+        "season": "Livre II",
+        "episode": "39",
+        "episodeName": "La Rencontre",
+        "file": "01707.mp3",
+        "title": "Oisifs, obèses... Autant dire des gros cons !",
+        "id": 1707,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -16423,6 +16863,28 @@
         "popularity": 3
     },
     {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "28",
+        "episodeName": "Le Passage Secret",
+        "file": "01730.mp3",
+        "title": "Nan, on a fait trois bornes ! S’il vous plaît, venez pas me parler de bout du monde !",
+        "id": 1730,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Léodagan"],
+        "season": "Livre II",
+        "episode": "28",
+        "episodeName": "Le Passage Secret",
+        "file": "01731.mp3",
+        "title": "Vous savez, c’est pas parce qu’un vieux moisi vient vous baver dans les étagères que ça vaut forcément quelque chose !",
+        "id": 1731,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
         "character": ["Karadoc", "Perceval"],
         "season": "Livre II",
         "episode": "29",
@@ -16431,6 +16893,17 @@
         "title": "- Ah les mômes maintenant, je les vois mal barrés. Stabilité familiale, éducation.\n- Ils commencent par apprendre à lire. Comme ils savent pas s'arrêter, ils craquent : ils apprennent à écrire et voilà.\n- La pente fatale.",
         "id": 1279,
         "timestamp": "01:46:12",
+        "popularity": 2
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre II",
+        "episode": "29",
+        "episodeName": "Les Mauvaises Graines",
+        "file": "01729.mp3",
+        "title": "Insoupçonnables !",
+        "id": 1729,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -17329,11 +17802,66 @@
         "season": "Livre II",
         "episode": "18",
         "episodeName": "Sept cent quarante-quatre",
+        "file": "01755.mp3",
+        "title": "Il est fort le salaud !",
+        "id": 1755,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Karadoc"],
+        "season": "Livre II",
+        "episode": "18",
+        "episodeName": "Sept cent quarante-quatre",
         "file": "01345.mp3",
         "title": "Je vous ai toujours dit… Ce que vous faites avec les chiffres, même moi j'arrive pas à le faire.",
         "id": 1345,
         "timestamp": "01:04:13",
         "popularity": 3
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "18",
+        "episodeName": "Sept cent quarante-quatre",
+        "file": "01750.mp3",
+        "title": "Non c’est n’importe quoi.",
+        "id": 1750,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "18",
+        "episodeName": "Sept cent quarante-quatre",
+        "file": "01752.mp3",
+        "title": "C’est pour voir si vous avez un don, ou si vous êtes définitivement un nullos.",
+        "id": 1752,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "18",
+        "episodeName": "Sept cent quarante-quatre",
+        "file": "01754.mp3",
+        "title": "Qu’est-ce que j’suis en train de faire avec mon doigt, là ?",
+        "id": 1754,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Perceval"],
+        "season": "Livre II",
+        "episode": "18",
+        "episodeName": "Sept cent quarante-quatre",
+        "file": "01753.mp3",
+        "title": "Non, non, mais en vrai, par sur la carte, j’comprends rien aux cartes !",
+        "id": 1753,
+        "timestamp": "00:00:00",
+        "popularity": 2
     },
     {
         "character": ["Arthur"],
@@ -17360,6 +17888,61 @@
     {
         "character": ["Arthur"],
         "season": "Livre II",
+        "episode": "24",
+        "episodeName": "Sous Les Verrous",
+        "file": "01740.mp3",
+        "title": "Mais pas du tout !",
+        "id": 1740,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "24",
+        "episodeName": "Sous Les Verrous",
+        "file": "01741.mp3",
+        "title": "Mais je le sais bien que vous avez pas les clés, andouille ! Allez me chercher le geôlier !",
+        "id": 1741,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "24",
+        "episodeName": "Sous Les Verrous",
+        "file": "01742.mp3",
+        "title": "V’nez m’ouvrir !!!",
+        "id": 1742,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "24",
+        "episodeName": "Sous Les Verrous",
+        "file": "01743.mp3",
+        "title": "Allez, bon dieu, mais magnez-vous, ça pue là-dedans !",
+        "id": 1743,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "24",
+        "episodeName": "Sous Les Verrous",
+        "file": "01744.mp3",
+        "title": "Parce que vous êtes en train de faire une connerie, là quand même ! Moi je serais vous j’y penserais !",
+        "id": 1744,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
         "episode": "31",
         "episodeName": "L'Ivresse",
         "file": "01347.mp3",
@@ -17373,10 +17956,76 @@
         "season": "Livre II",
         "episode": "33",
         "episodeName": "Spiritueux",
+        "file": "01719.mp3",
+        "title": "Nous on… on froule le fuit ave… avec nos po… por…propres pieds.",
+        "id": 1719,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Belt"],
+        "season": "Livre II",
+        "episode": "33",
+        "episodeName": "Spiritueux",
         "file": "01348.mp3",
         "title": "Le vôtre, on l'a déjà goûté trois fois, on a failli dégobiller-iller.",
         "id": 1348,
         "timestamp": "01:58:03",
+        "popularity": 2
+    },
+    {
+        "character": ["Karadoc"],
+        "season": "Livre II",
+        "episode": "33",
+        "episodeName": "Spiritueux",
+        "file": "01720.mp3",
+        "title": "Le vôtre aussi c’est d’la merde.",
+        "id": 1720,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Karadoc"],
+        "season": "Livre II",
+        "episode": "33",
+        "episodeName": "Spiritueux",
+        "file": "01721.mp3",
+        "title": "C’est d’la merde.",
+        "id": 1721,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "33",
+        "episodeName": "Spiritueux",
+        "file": "01722.mp3",
+        "title": "Non. Il est dégueulasse c’ui là.",
+        "id": 1722,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Belt"],
+        "season": "Livre II",
+        "episode": "33",
+        "episodeName": "Spiritueux",
+        "file": "01723.mp3",
+        "title": "Mais c’est d’l… d’la merde ! Enfin euh… Sire, est-ce qu’on est obligés de perdre du temps avec tous les pignoufs d’la région qui s’prennent pour des exploitants ?",
+        "id": 1723,
+        "timestamp": "00:00:00",
+        "popularity": 2
+    },
+    {
+        "character": ["Belt"],
+        "season": "Livre II",
+        "episode": "33",
+        "episodeName": "Spiritueux",
+        "file": "01724.mp3",
+        "title": "Vous avez pas pris l’temps d’vous habituez aux fruits.",
+        "id": 1724,
+        "timestamp": "00:00:00",
         "popularity": 2
     },
     {
@@ -17399,6 +18048,17 @@
         "title": "Est-ce que vous allez finir par fermer vos gueules ?!",
         "id": 1350,
         "timestamp": "02:03:11",
+        "popularity": 3
+    },
+    {
+        "character": ["Arthur"],
+        "season": "Livre II",
+        "episode": "34",
+        "episodeName": "La Ronde",
+        "file": "01718.mp3",
+        "title": "A la Reine ? Pourquoi je penserais à la Reine ? Je suis déjà à moitié crevé, j’ai déjà assez de soucis comme ça !",
+        "id": 1718,
+        "timestamp": "00:00:00",
         "popularity": 3
     },
     {
@@ -18326,15 +18986,15 @@
         "popularity": 3
     },
     {
-        "character": ["Perceval"],
+        "character": ["Léodagan"],
         "season": "Livre II",
-        "episode": "35",
-        "episodeName": "Merlin l'Archaïque",
-        "file": "01418.mp3",
-        "title": "Permettez-moi de vous souhaitez un joyeux anniversaire !",
-        "id": 1418,
-        "timestamp": "02:04:34",
-        "popularity": 2
+        "episode": "21",
+        "episodeName": "La Cassette",
+        "file": "01745.mp3",
+        "title": "Ah ben c’est sûr, on s’marre !",
+        "id": 1745,
+        "timestamp": "00:00:00",
+        "popularity": 3
     },
     {
         "character": ["Perceval"],
